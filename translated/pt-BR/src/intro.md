@@ -20,3 +20,7 @@ template\('MindTouch/IDF3/Views/Category'\);
 
 Nova cadeia de caracteres.
 
+String
+
+Novamente string
+
