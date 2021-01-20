@@ -15,3 +15,5 @@ template('MindTouch/IDF3/Views/Category');
 </pre>
 
 New string. 
+
+String
