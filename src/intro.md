@@ -17,3 +17,5 @@ template('MindTouch/IDF3/Views/Category');
 New string. 
 
 String
+
+Again string
