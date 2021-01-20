@@ -13,3 +13,5 @@ Find below some valuable resources to take your OutSystems expertise to the next
 <pre class="script">
 template('MindTouch/IDF3/Views/Category');
 </pre>
+
+New string. 
