@@ -1,0 +1,1489 @@
+# UK English translation for Rails
+
+"en":
+  number:
+    # Used in number_with_delimiter()
+    # These are also the defaults for 'currency', 'percentage', 'precision', and 'human'
+    format:
+      # Sets the separator between the units, for more precision (e.g. 1.0 / 2.0 == 0.5)
+      separator: "."
+      # Delimets thousands (e.g. 1,000,000 is a million) (always in groups of three)
+      delimiter: ","
+      # Number of decimals, behind the separator (the number 1 with a precision of 2 gives: 1.00)
+      precision: 3
+
+    # Used in number_to_currency()
+    currency:
+      format:
+        # Where is the currency sign? %u is the currency unit, %n the number (default: $5.00)
+        format: "%u%n"
+        unit: "£"
+        # These three are to override number.format and are optional
+        separator: "."
+        delimiter: ","
+        precision: 2
+
+    # Used in number_to_percentage()
+    percentage:
+      format:
+        # These three are to override number.format and are optional
+        # separator:
+        delimiter: ""
+        # precision:
+
+    # Used in number_to_precision()
+    precision:
+      format:
+        # These three are to override number.format and are optional
+        # separator:
+        delimiter: ""
+        # precision:
+
+    # Used in number_to_human_size()
+    human:
+      format:
+        # These three are to override number.format and are optional
+        # separator:
+        delimiter: ""
+        precision: 1
+      storage_units:
+        # Storage units output formatting.
+        # %u is the storage unit, %n is the number (default: 2 MB)
+        format: "%n %u"
+        units:
+          byte:
+            one:   "Byte"
+            other: "Bytes"
+          kb: "KB"
+          mb: "MB"
+          gb: "GB"
+          tb: "TB"
+
+  # Used in distance_of_time_in_words(), distance_of_time_in_words_to_now(), time_ago_in_words()
+  datetime:
+    distance_in_words:
+      half_a_minute: "half a minute"
+      less_than_x_seconds:
+        one:   "less than 1 second"
+        other: "less than %{count} seconds"
+      x_seconds:
+        one:   "1 second"
+        other: "%{count} seconds"
+      less_than_x_minutes:
+        one:   "less than a minute"
+        other: "less than %{count} minutes"
+      x_minutes:
+        one:   "1 minute"
+        other: "%{count} minutes"
+      about_x_hours:
+        one:   "about 1 hour"
+        other: "about %{count} hours"
+      x_days:
+        one:   "1 day"
+        other: "%{count} days"
+      about_x_months:
+        one:   "about 1 month"
+        other: "about %{count} months"
+      x_months:
+        one:   "1 month"
+        other: "%{count} months"
+      about_x_years:
+        one:   "about 1 year"
+        other: "about %{count} years"
+      over_x_years:
+        one:   "over 1 year"
+        other: "over %{count} years"
+      almost_x_years:
+        one:   "almost 1 year"
+        other: "almost %{count} years"
+    prompts:
+      year:   "Year"
+      month:  "Month"
+      day:    "Day"
+      hour:   "Hour"
+      minute: "Minute"
+      second: "Seconds"
+
+  activemodel:
+    errors:
+      template:
+        header:
+          one:    "1 error prohibited this %{model} from being saved"
+          other:  "%{count} errors prohibited this %{model} from being saved"
+        # The variable :count is also available
+        body: "There were problems with the following fields:"
+
+  support:
+    select:
+      # default value for :prompt => true in FormOptionsHelper
+      prompt: "Please select"
+
+  activerecord:
+    errors:
+      # The values :model, :attribute and :value are always available for interpolation
+      # The value :count is available when applicable. Can be used for pluralization.
+      messages:
+        inclusion: "is not included in the list"
+        exclusion: "is reserved"
+        invalid: "is invalid"
+        confirmation: "doesn't match confirmation"
+        accepted: "must be accepted"
+        empty: "can't be empty"
+        blank: "can't be blank"
+        too_long: "is too long (maximum is %{count} characters)"
+        too_short: "is too short (minimum is %{count} characters)"
+        wrong_length: "is the wrong length (should be %{count} characters)"
+        taken: "has already been taken"
+        not_a_number: "is not a number"
+        not_an_integer: "must be an integer"
+        greater_than: "must be greater than %{count}"
+        greater_than_or_equal_to: "must be greater than or equal to %{count}"
+        equal_to: "must be equal to %{count}"
+        less_than: "must be less than %{count}"
+        less_than_or_equal_to: "must be less than or equal to %{count}"
+        odd: "must be odd"
+        even: "must be even"
+        record_invalid: "Validation failed: %{errors}"
+        # Append your own errors here or at the model/attributes scope.
+
+      # You can define own errors for models or model attributes.
+      # The values :model, :attribute and :value are always available for interpolation.
+      #
+      # For example,
+      #   models:
+      #     user:
+      #       blank: "This is a custom blank message for %{model}: %{attribute}"
+      #       attributes:
+      #         login:
+      #           blank: "This is a custom blank message for User login"
+      # Will define custom blank validation message for User model and
+      # custom blank validation message for login attribute of User model.
+      models:
+        session:
+          attributes:
+            person_id:
+              busy_error: "%{model_name} - %{blocked_by} at %{time}, %{date}"
+              not_available_error: "%{model_name} - not available at %{time}, %{date}"
+            resource_id:
+              busy_error: "%{model_name} - %{blocked_by} at %{time}, %{date}"
+              not_available_error: "%{model_name} - not available at %{time}, %{date}"
+
+    # Translate model names. Used in Model.human_name().
+    #models:
+      # For example,
+      #   user: "Dude"
+      # will translate User model name to "Dude"
+
+    # Translate model attribute names. Used in Model.human_attribute_name(attribute).
+    #attributes:
+      # For example,
+      #   user:
+      #     login: "Handle"
+      # will translate User attribute "login" as "Handle"
+
+  date:
+    formats:
+      # Use the strftime parameters for formats.
+      # When no format has been given, it uses default.
+      # You can provide other formats here if you like!
+      default: "%d-%m-%Y"
+      short: "%d %b"
+      long: "%d %B, %Y"
+      full_date: "%A %d %B %Y"
+      mid_date: "%a %d %b"
+      mid_date_year: "%a %d %b, %y"
+      short_day: "%a %d"
+
+    day_names: [Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday]
+    abbr_day_names: [Sun, Mon, Tue, Wed, Thu, Fri, Sat]
+
+    # Don't forget the nil at the beginning; there's no such thing as a 0th month
+    month_names: [~, January, February, March, April, May, June, July, August, September, October, November, December]
+    abbr_month_names: [~, Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
+    # Used in date_select and datime_select.
+    order:
+      - :day
+      - :month
+      - :year
+
+  time:
+    formats:
+      default: "%a, %d %b %Y %H:%M:%S %z"
+      short: "%d %b %H:%M"
+      long: "%d %B, %Y %H:%M"
+      short_tz: "%d %b %H:%M %Z"
+      long_tz: "%d %B, %Y %H:%M %Z"
+      time: "%H:%M"
+      time_am: "%H:%Mam"
+      time_pm: "%H:%Mpm"
+      full_date: "%A %d %B %Y"
+      mid_date: "%a %d %b"
+      mid_date_year: "%a %d %b, %y"
+
+    am: "am"
+    pm: "pm"
+
+# Used in array.to_sentence.
+  support:
+    array:
+      words_connector: ", "
+      two_words_connector: " and "
+      last_word_connector: ", and "
+
+
+  first_name: "First Name"
+  last_name: "Last Name"
+  email: "Email"
+  confirm_email: "Confirm Email"
+  phone: "Phone"
+  mobile: "Mobile phone"
+  password: "Password"
+  re_enter_password: "Re-enter Password"
+  next: "NEXT"
+  existing_members: "Existing members"
+  new_members: "New members"
+  required_fields: "required fields"
+  t_and_c: "Terms and Conditions"
+  and: "and"
+  pp: "Privacy Policy"
+  waist_size: "My waist size is"
+  confirm: "Confirm"
+  back: "BACK"
+  free_fitting: "Get a FREE custom fitting at your local Levi's<sup>&reg;</sup> Store by one of our Levi's<sup>&reg;</sup> Curve ID specialists."
+  get_started: "GET STARTED:"
+  call_store: "Call your local store for same-day appointments, changes, or cancelations."
+  you_can: "You can also"
+  visit: "visit the store nearest you"
+  selected_store: "YOUR SELECTED STORE IS:"
+  click_below: "Click below to schedule a date and time for your custom fitting, then click \"NEXT\" to book it. If your desired time slot is not available, please"
+  call_drop: "call or drop in"
+  to_the: "to the Levi's<sup>&reg;</sup> near you."
+  red: "Red"
+  boxes_time: "boxes = time unavailable"
+  where: "WHERE:"
+  when: "WHEN:"
+  your_levis: "YOUR LEVI'S<sup>&reg;</sup> CURVE ID"
+  custom: "CUSTOM FITTING WILL"
+  be_scheduled: "BE SCHEDULED FOR:"
+  click_next: "Click next to continue"
+  admin_mode: "Admin Mode"
+  tell_us_how: "TELL US HOW TO REACH YOU"
+  once_we_have: "Once we have booked your custom fitting, we'll send you a confirmation email and reminder with all of the details."
+  regretfully: "Regretfully we do not offer Plus & Petite<br/>fittings at this time"
+  required: "* Required Fields"
+  i_would_like: "I would like to be informed by email, telephone or SMS about products, sales or exclusive events."
+  thank_you: "Thank you!"
+  your_levis_has: "Your Levi's<sup>&reg;</sup> Curve ID Custom fitting has been scheduled."
+  below_are: "Below are your appointment details:"
+  we_will: "We'll email you a copy of your appointment details for your records"
+  please_call: "Please call the store directly if you need to change or update your appointment. For a list of stores"
+  click_here: "click here"
+  continue: "Continue Shopping"
+  step: "Step"
+  of: "of"
+  select_country: "Select your country"
+  select_city: "Select your city"
+  select_store: "Select your store"
+  sign_in_to_your_account: "Sign in to your Account"
+  forgotten_password: "Forgotten Password?"
+  req_address: "This service also requires your address"
+  set_pass: "Optional Password to Save Information"
+  social_connect: "Connect via a social network"
+  error: "Error"
+  logout: "Logout"
+  current_user: "Current User"
+  date_string: "Date"
+  price: "Price"
+  paid: "Paid"
+  booking: "Booking"
+  not_yet_paid: "Not Yet Paid"
+  package: "Package"
+  details: "Details"
+  deposit_due: "Deposit Due"
+  booking_status: "Booking Status"
+  time_string: "Time"
+  duration: "Duration"
+  booking_repeat: "Booking Repeat"
+  multiple_bookings: "Mutliple Bookings"
+  prepaid_bookings: "Pre-paid Bookings"
+  tickets: "Tickets"
+  reservation_failed: "Reservation Failed"
+  reservation_failed2: "I'm sorry for some reason we failed to make this reservation"
+  reservation_failed3: "This could either be because that availability has now gone - or that you attempted to book twice"
+  enter_words: "Enter the words you see above then click \"CONFIRM\" button."
+  close: "Close"
+  booking_timeout: "Booking Timeout"
+  booking_timeout2: "I'm sorry your session has timed out and is no longer valid"
+  booking_timeout3: "You must close this window or go back and make the booking again."
+  invalid_captcha: "I'm sorry the code entered is not correct - please try again"
+  not_valid_email: "Please enter valid email address"
+  missing_first_name: "Missing first name"
+  missing_last_name: "Missing last name"
+  missing_email: "Missing email"
+
+
+
+  images:
+    sched_title: "sched_title_en"
+
+  sorry: "Sorry you can't make it"
+  been_cancelled: "Your Levis<sup>&reg;</sup> Curve ID Custom fitting has been cancelled"
+  reschedule: "To reschedule for a later date"
+  a_customer_has_booked: "A customer has booked a CurveID appointment"
+  a_customer_has_cancelled: "A customer has cancelled a CurveID appointment"
+  has_requested: "has requested"
+  has_cancelled: "has cancelled"
+  click_to_login_and_manage: "Click to login an manage this appointment"
+
+
+
+  deal_group: "Deal Group"
+  deal: "Deal"
+  code: "Voucher Code"
+  security_code: "Security Code"
+
+  company:
+    bookingbug_manages: "JRNI lets you manage complicated company structure from simple single businesses offering basic services, all of the way up to groups and chains managing multiple locations with each location offering multiple departments"
+    business_offers_multiple_services: "If your business offers multiple services, or manage multiple staff or resources that are managed separately from each other, you can set up <b>sections</b> to allow each one to manage with a simpler interface. You can then control individual administrative access to sections if you wish."
+    complicated_business_structure: "If you have a complicated business structure, you can set at which level your memberships hare handled, and at which level payment is configured"
+    company_child_or_sub_sections: "This company does not currently have any child or sub sections set up. You can set one up now quickly and simply. This will change your business into a multi-department, business"
+
+  advice:
+    main_menu_you_will_use: "This is the main menu you will use everyday, from here you can manage your time, add, move, cancel, search, and review past and upcoming appointments in a simple calendar view that fits to your business needs."
+    in_publish: "In Publish you will find all the information you need to get your new JRNI calendar widget in front of your customers. You will also be able to decide how and where your calendar appears."
+
+  # company_template controller
+  company_template:
+    test_companies:
+       name_1: "Time based Slots Demo"
+       description_1: "For business that take multiple appointments a day, JRNI can manage simple or complicated time based services. This simple demo with show you a Tennis Coach taking 1Hr bookings at a fixed price. You change it to offer multiple services as different prices, or change the price based on day or time of day. You could take payments, or manage it so that only pre existing member with pre-paid numbers of bookings could make appointments - you get to run your business your way."
+       example_1: "Squash courts, Golf lessons, Hairdressing appointments, Fitness Instructors, Room or desk booking"
+
+  package:
+    packages_let_you_group: "Packages let you group multiple services of different types together for a fixed price and offfer them on your booking widget. These packages can be services that you have to book immediately, or in certain order, such as for a hair salon, or they could be for events, bulk purchases or activites that can be booked and used at a later date"
+
+  #grid controller
+  grid:
+    this_is_where_you_can_configure: "This is where you can configure how you allow bookings to be taken"
+    here_you_can_specify: "Here you can specify which services are offered by which people. Or which Resource is capable of supporting which service, or any combination thereof"
+
+  sessions:
+    types:
+      you_can_make_any_class: "You can make any class, course or event into a template. This saves this session for later, and lets you re-run it at any time. You can then quickly create new events or classes just by setting the new date and other other changed information."
+
+  activemodel:
+    errors:
+      template:
+        header:
+          one:    "1 error prohibited this %{model} from being saved"
+          other:  "%{count} errors prohibited this %{model} from being saved"
+        # The variable :count is also available
+        body: "There were problems with the following fields:"
+  activerecord:
+    errors:
+      # The values :model, :attribute and :value are always available for interpolation
+      # The value :count is available when applicable. Can be used for pluralization.
+      messages:
+        inclusion: "is not included in the list"
+        exclusion: "is reserved"
+        invalid: "is invalid"
+        confirmation: "doesn't match confirmation"
+        accepted: "must be accepted"
+        empty: "can't be empty"
+        blank: "can't be blank"
+        too_long: "is too long (maximum is %{count} characters)"
+        too_short: "is too short (minimum is %{count} characters)"
+        wrong_length: "is the wrong length (should be %{count} characters)"
+        taken: "has already been taken"
+        not_a_number: "is not a number"
+        not_an_integer: "must be an integer"
+        greater_than: "must be greater than %{count}"
+        greater_than_or_equal_to: "must be greater than or equal to %{count}"
+        equal_to: "must be equal to %{count}"
+        less_than: "must be less than %{count}"
+        less_than_or_equal_to: "must be less than or equal to %{count}"
+        odd: "must be odd"
+        even: "must be even"
+        record_invalid: "Validation failed: %{errors}"
+        does_not_match: "does not match"
+    # Translate model names. Used in Model.human_name().
+    #models:
+      # For example,
+      #   user: "Dude"
+      # will translate User model name to "Dude"
+    models:
+      session:
+        attributes:
+          person_id:
+            busy_error: "%{model_name} - %{blocked_by} at %{time}, %{date}"
+            not_available_error: "%{model_name} - not available at %{time}, %{date}"
+          resource_id:
+            busy_error: "%{model_name} - %{blocked_by} at %{time}, %{date}"
+            not_available_error: "%{model_name} - not available at %{time}, %{date}"
+  address:
+    address_num: "Address %{num}"
+    address: "Address"
+    country: "Country"
+    county: "County"
+    email: "Email"
+    map_link: "Map Link"
+    map_url_description: "The map link used in booking confirmations and reminders. Leave blank to automatically use address"
+    phone: "Phone"
+    postcode: "Postcode"
+    save: "Save"
+    town: "Town"
+    zipcode: "Zipcode"
+    errors:
+      first_set_up_your_business: "You cannot set up addresses until you have set up your business"
+      still_in_use: "You cannot delete this address as it is still in use, you must delete the resources that use this address or reassign them first"
+      business_address_cannot_be_deleted: "This is the businesses home address and cannot be deleted"
+      used_in_event: "This address has been used in an event/class and cannot be deleted"
+  admin_client:
+    additional_details: "Additional Details"
+    address: "Address"
+    basic_details: "Basic Details"
+    consent: "Consent"
+    contact: "Contact"
+    country: "Country"
+    county: "County"
+    customer_type: "Customer Type"
+    email: "Email"
+    extra_info: "Extra info"
+    first_name: "First Name"
+    join_date: "Join Date"
+    language_preference: "Language preference"
+    last_name: "Last Name"
+    member: "Member"
+    mobile_number_invalid: "Mobile number is invalid"
+    mobile_phone: "Mobile Phone"
+    other_phone: "Other Phone"
+    phone_number_invalid: "Phone number is invalid"
+    postcode: "Postcode"
+    reference: "Reference"
+    save: "Save"
+    time_zone_description: "We will use this when communicating with the customer"
+    time_zone: "Time Zone"
+    town: "Town"
+    consent:
+      description: "I have read and accept the <a href=\"%{ url }\">privacy policy</a>"
+      validationMessage: "You must agree to the Privacy Policy"
+  admin_company:
+    additional_details: "Additional details"
+    basic: "Basic"
+    save: "Save"
+    time_zone: "Time Zone"
+  administrator:
+    administrator: "Administrator"
+    call_centre: "Call Centre"
+    company_admins: "Company Admins"
+    owner: "Owner"
+    re_type_password: "Please re-type the password"
+    save: "Save"
+    user: "User"
+    users_email: "The users email"
+  advice:
+    help_popups: "Help Popups"
+  app_config:
+    app_config: "AppConfig"
+    app_configuration: "App Configuration"
+  attendee:
+    select_space_to_move: "I'm sorry, you must select a space to move"
+  authentication:
+    save: "Save"
+  block:
+    also_limit_to: "Also limit to"
+    anything: "Anything"
+    block: "Block"
+    date_and_time: "Date and Time"
+    date: "Date"
+    duration: "Duration"
+    limit_to: "Limit to"
+    person: "Person"
+    private_note: "Private Note"
+    resource: "Resource"
+  book:
+    any: "Any"
+    book_pre_purchased_deal: "Book a pre-purchased deal"
+    book: "Book"
+    buy_gift_voucher: "Buy a Gift Voucher"
+    change: "Change"
+    choose_from_range_of_goods: "Choose from our range of goods for sale"
+    gift_voucher_for_yourself_or_gift: "Do you wish to purchase a Gift Voucher for yourself or as a Gift"
+    members_can_make_booking_type: " (members can make %{booking_type})"
+    more: "More.."
+    pre_purchased_voucher: "Do you have a pre-purchased voucher code ? Click to enter it here"
+    prices_vary: "prices vary"
+    products: "Products"
+    redeem: "Redeem"
+    select_to_make_booking_type: "Select to make %{booking_type}"
+    select_to_move_booking_at_company: "Select to move your booking at %{company}"
+    select_to_move_booking: "Select to move your booking"
+    service_availability: "Service Availability "
+    show: "Show"
+    top_up_your_wallet: "Top up your wallet"
+  booking:
+    a_package: " a package"
+    add_admin_booking_for: "Add Admin Booking for"
+    add_booking: "Add Booking"
+    add_waitlist_booking_for: "Add a Waitlist Booking for"
+    back: "Back"
+    blocked: "Blocked"
+    booked: "Booked"
+    booking_confirmation_for: "Booking Confirmation for"
+    booking_details: "Booking Details"
+    booking_status: "Booking Status"
+    booking: "Booking"
+    cancelled: "Cancelled"
+    choose_booking: "Choose Booking"
+    client_email: "Client_email"
+    client_name: "Client_name"
+    client_type: "Client Type"
+    confirm_your_booking: "Confirm your Booking"
+    confirm_your_enquiry: "Confirm your Enquiry"
+    confirm_your_order: "Confirm Your Order"
+    confirm_your_reservation: "Confirm your Reservation"
+    confirm_your_waitlist_request: "Confirm your Waitlist Request"
+    confirmation: "Confirmation"
+    contact: "Contact"
+    created_externally: "Created Externally"
+    customer_details: "Customer Details"
+    customer_email: "Customer Email"
+    customer_name: "Customer Name"
+    customer: "Customer"
+    date_and_time: "Date & Time"
+    date_time: "Date and Time"
+    date: "Date"
+    datetime: "Datetime"
+    discounts_available_for_multiple_bookings: "One off (discounts available for multiple bookings)"
+    duration: "Duration"
+    email: "Email"
+    enquired: "Enquired"
+    enquiry_confirmation_for: "Enquiry Confirmation for"
+    enquiry: "Enquiry"
+    first_name: "First Name"
+    has_been_cancelled: "This booking has been CANCELLED"
+    last_name: "Last Name"
+    make_booking_for: "Make a Booking for"
+    make_enquiry_for: "Make an Enquiry for"
+    member: "Member"
+    multiple_vouchers: " - Multiple Vouchers - "
+    num_pre_paid_bookings: "%{num} pre-paid bookings"
+    on_waitlist: " (on wait list)"
+    outcomes: "Outcomes"
+    payment: "Payment"
+    person: "Person"
+    phone: "Phone"
+    please_select: "- please select -"
+    prepaid_booking_for: "prepaid booking for"
+    private_note: "Private Note"
+    questions: "Questions"
+    recipient_details: "Recipient Details"
+    request_quote_for: "Request a Quote for"
+    request_repeat_booking: "One off (you can request a repeating booking)"
+    request_reservation_for: "Request a Reservation for"
+    reservation_confirmation_for: "Reservation Confirmation for"
+    reserved: "Reserved"
+    resource: "Resource"
+    save: "Save"
+    select_items: "Select Items"
+    select_vouchers: "Select Vouchers"
+    send_email_and_sms_notification: "Send email and sms notification"
+    service: "Service"
+    staff: "Staff"
+    status: "Status"
+    time: "Time"
+    wait: "Wait"
+    waitlist_booking_confirmation_for: "Waitlist Booking Confirmation for"
+    waitlist: "Waitlist"
+    your_details: "Your Details"
+  category:
+    category: "Category"
+    save: "Save"
+  chart:
+    all_bookings: "All Bookings"
+    bookings: "Bookings"
+    enquiries: "Enquiries"
+    reservations: "Reservations"
+    revenue_paid: "Revenue (Paid)"
+    revenue_price: "Revenue (Price)"
+    waitlist_bookings: "Wait List Bookings"
+  client_queue:
+    client_queue: "Client Queue"
+    disabled: "Disabled"
+    name: "Name"
+    priority: "Priority"
+    public_name: "Public name"
+    save: "Save"
+    services: "Services"
+    staff: "Staff"
+  client:
+    contact: "Contact"
+    member: "Member"
+  company_settings:
+    booking_type_member: "Booking type member"
+    booking_type_public: "Booking type public"
+    company_settings: "CompanySettings"
+    save: "Save"
+    set_state_of_booking_when_made_for_member: "Used to set the state of a booking when it is made for a member"
+    set_state_of_booking_when_made: "Used to set the state of a booking when it is made"
+  custom_object:
+    custom_object: "Custom Object"
+  dashboard:
+    pre_paid_bookings: "%{num} pre-paid bookings"
+  date:
+    formats:
+      # Use the strftime parameters for formats.
+      # When no format has been given, it uses default.
+      # You can provide other formats here if you like!
+      default: "%d-%m-%Y"
+      short: "%d %b"
+      long: "%d %B, %Y"
+      full_date: "%A %d %B %Y"
+      mid_date: "%a %d %b"
+      mid_date_year: "%a %d %b, %y"
+      short_day: "%a %d"
+    day_names: [Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday]
+    abbr_day_names: [Sun, Mon, Tue, Wed, Thu, Fri, Sat]
+    # Don't forget the nil at the beginning; there's no such thing as a 0th month
+    month_names: [~, January, February, March, April, May, June, July, August, September, October, November, December]
+    abbr_month_names: [~, Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
+    # Used in date_select and datime_select.
+    order:
+      - :day
+      - :month
+      - :year
+  datetime:
+    distance_in_words:
+      half_a_minute: "half a minute"
+      less_than_x_seconds:
+        one:   "less than 1 second"
+        other: "less than %{count} seconds"
+      x_seconds:
+        one:   "1 second"
+        other: "%{count} seconds"
+      less_than_x_minutes:
+        one:   "less than a minute"
+        other: "less than %{count} minutes"
+      x_minutes:
+        one:   "1 minute"
+        other: "%{count} minutes"
+      about_x_hours:
+        one:   "about 1 hour"
+        other: "about %{count} hours"
+      x_days:
+        one:   "1 day"
+        other: "%{count} days"
+      about_x_months:
+        one:   "about 1 month"
+        other: "about %{count} months"
+      x_months:
+        one:   "1 month"
+        other: "%{count} months"
+      about_x_years:
+        one:   "about 1 year"
+        other: "about %{count} years"
+      over_x_years:
+        one:   "over 1 year"
+        other: "over %{count} years"
+      almost_x_years:
+        one:   "almost 1 year"
+        other: "almost %{count} years"
+    prompts:
+      year:   "Year"
+      month:  "Month"
+      months: "Months"
+      week: "Week"
+      weeks: "Weeks"
+      day:    "Day"
+      days: "Days"
+      hour:   "Hour"
+      hours: "Hours"
+      minute: "Minute"
+      minutes: "Minutes"
+      second: "Seconds"
+      hour_minute: "Hour/Minute"
+      hour_minute_variable: "Hour/Minute (Variable)"
+  display_board:
+    client_queues: "Client Queues"
+    display_board: "Display Board"
+    name: "Name"
+    save: "Save"
+    settings: "Settings"
+  edit:
+    edit_days: "Edit Days"
+    edit_hours: "Edit Hours"
+    edit: "Edit"
+  email_test:
+    description: "Description *"
+    email_title: "Email *"
+    email: "Email"
+    event: "Event"
+    role: "Role"
+    save: "Save"
+    schema_form: "Test Email schema form"
+    test: "Test"
+  email:
+    click_here: "Click Here"
+    coupons_used_with_purchase: "Coupons used with this purchase"
+    go_to_url: "go to %{url}"
+    list_of_coupons_used_with_purchase: "List of coupons used with this purchase"
+    tickets_included_as_pdf_attachment: "Your tickets should be included in this email as a PDF attachment, if they are not, you can download and print them from"
+    to_cancel_or_amend_go_to: "To cancel or amend this please go to %{url}"
+    to_print_tickets_need_adobe_reader: "To open and print the tickets, you will need Adobe Acrobat Reader. If you do not have this installed on your computer, you can download and install it from <a href='http://get.adobe.com/reader/'>http://get.adobe.com/reader/</a>"
+    to_print_vouchers_need_adobe_reader: "To open and print the vouchers, you will need Adobe Acrobat Reader. If you do not have this installed on your computer, you can download and install it from <a href='http://get.adobe.com/reader/'>http://get.adobe.com/reader/</a>"
+    view_your_booking: "View your booking"
+    vouchers_included_as_pdf_attachment: "Your vouchers should be included in this email as a PDF attachment, if they are not, you can download and print them from"
+    vouchers_redeemed_with_purchase: "These vouchers have been redeemed with this purchase"
+  event_chain:
+    address: "Address"
+    booking_question_group: "Booking question group"
+    date_and_time: "Date and Time"
+    date_time: "Date Time"
+    description: "Description"
+    disabled: "Disabled"
+    duration_minutes: "Duration (minutes)"
+    event_chain: "Event Chain"
+    event_group: "Event Group"
+    events: "Events"
+    generic: "Generic"
+    long_description: "Long Description"
+    name: "Name"
+    new_event: "New Event"
+    price: "Price"
+    questions_per_ticket: "Questions Per Ticket"
+    repeat_type: "Repeat Type"
+    save: "Save"
+    save: "Save"
+    spaces: "Spaces"
+    ticket_type: "Ticket Type"
+  event_group:
+    event_group: "Event Group"
+    save: "Save"
+  event:
+    admin: "Admin"
+    edit_bulk_prices: "Edit Bulk Prices"
+    event_person: " with %{person_name}"
+    generic_only_care_number_of_tickets: "Generic (Only care about the number of tickets sold)"
+    owner: "Owner"
+    questions_per_ticket_only_per_ticket: "Questions Per Ticket (Ask questions only per ticket)"
+    tickets_assign_to_individual_members_email_optional: "Tickets assign to individual members (email address optional for each)"
+    tickets_assign_to_individual_members_email_required: "Tickets assign to individual members (email address required for each)"
+    user: "User"
+  extra_question:
+    can_only_contain_numbers_letters_and_underscores: "can only contain numbers, letters and underscores"
+  group:
+    group: "Group"
+    save: "Save"
+  implementation:
+    implementation_form: "%{implementation} Implementation Form"
+    save: "Save"
+  invoice:
+    end_date: "End Date"
+    join_date: "Join Date"
+    show_calendar: "Show calendar"
+  location:
+    postcode: "Postcode"
+    zipcode: "Zipcode"
+  login:
+    about_your_business: "About Your Business"
+    access_denied_incorrect_user_permissions: "Access denied due to incorrect user permissions. Please contact your system administrator"
+    already_got_jrni_account_please_login: "It looks like we're already got a JRNI Account. Please login"
+    business_name: "Business Name"
+    change_my_password: "Change my password"
+    change_password: "Change Password"
+    change_your_password: "Change your password"
+    choose_one: "Choose one"
+    company: "Company"
+    confirm_password: "Confirm Password"
+    connected_to_google_account_successfully: "You've been connected to your Google account successfully."
+    create_new_password_to_access_your_account: "Create a new password to access your account"
+    create_your_jrni_business_account: "Create your JRNI business account"
+    current_password: "Current Password"
+    currently_waiting_confirmation_for: "Currently waiting confirmation for: "
+    email_address: "Email Address"
+    email_sent: "An e-mail has been sent if the login information is valid."
+    email: "Email"
+    enter_other: "Enter other"
+    enter_your_email: "Enter your email address"
+    event: "Event"
+    existing_account_login: "Existing account Login"
+    forgot_password: "forgot password?"
+    forgot_password: "Forgot Password"
+    free_for_14_days: "Free for 14 days!"
+    have_not_received_confirmation_instructions: "Have not received your confirmation instructions?"
+    how_did_you_hear_about_us: "How did you hear about us"
+    if_you_have_not_received_confirmation_instructions_enter_email: "If you haven’t received your confirmation instructions, enter your email and click 'Resend instructions'."
+    invalid_saml_response: "Invalid saml response"
+    keep_me_logged_in: "Keep me logged in"
+    let_us_know_business_website: "Let us know your business website if you have one"
+    login_to_jrni_account: "Login to your JRNI Account"
+    login_to_view_account: "Login to view your account"
+    login_not_valid_or_does_not_match_existing_user: "Login not valid, or does not match existing user"
+    login: "Login"
+    logout: "Logout"
+    name: "Name"
+    need_to_agree_to_terms_and_conditions: "You need to agree to the Terms and Conditions"
+    need_your_current_password_to_confirm_changes: "we need your current password to confirm changes"
+    new_password: "New Password"
+    not_valid_account_or_password: "Not a valid account or password"
+    online_advert: "Online advert"
+    online_article: "Online article"
+    online_review: "Online review / listing"
+    other_search_engine: "Other search engine"
+    other: "Other"
+    password: "Password"
+    per_month: "per/month"
+    personal_recommendation: "Personal recommendation"
+    phone_no: "Phone No."
+    print_advert: "Print advert"
+    print_article: "Print article"
+    required_fields: "* required fields"
+    referral_code_not_recognised: "Sorry, the referral code was not recognised."
+    resend_confirmation_instructions: "Resend confirmation instructions"
+    resend_instructions: "Resend instructions"
+    reset_password: "Reset Password"
+    return_to_jrni_studio: "Return to JRNI Studio"
+    role: "Role"
+    set_new_password: "Set New Password"
+    setup_your_business: "Set up your Business"
+    sign_in: "Sign in"
+    signed_out: "Signed out!"
+    switch: "Switch"
+    update: "Update"
+    users_and_admins: "Users & Admins"
+    valid_member_details_not_found: "Valid member details not found"
+    web_developer: "Web developer"
+    website: "Website"
+    your_name: "Your Name"
+  mailer:
+    cancellation: "Cancellation"
+  member_booking:
+    booking: "Booking"
+    save: "Save"
+  member:
+    address: "Address"
+    agree_to_privacy_policy: "You must agree to the Privacy Policy"
+    consent: "Consent"
+    county: "County"
+    email: "Email"
+    first_name: "First Name"
+    have_read_and_accepted_privacy_policy: "I have read and accept the <a href=\"%{ url }\">privacy policy</a>"
+    last_name: "Last Name"
+    map_by_address: "Map by Address"
+    map_by_lat_long: "Map by Lat/Long"
+    mobile: "Mobile"
+    phone: "Phone"
+    post_code: "Post Code"
+    required: "Required"
+    town: "Town"
+  number:
+    # Used in number_with_delimiter()
+    # These are also the defaults for 'currency', 'percentage', 'precision', and 'human'
+    format:
+      # Sets the separator between the units, for more precision (e.g. 1.0 / 2.0 == 0.5)
+      separator: "."
+      # Delimets thousands (e.g. 1,000,000 is a million) (always in groups of three)
+      delimiter: ","
+      # Number of decimals, behind the separator (the number 1 with a precision of 2 gives: 1.00)
+      precision: 3
+
+    # Used in number_to_currency()
+    currency:
+      format:
+        # Where is the currency sign? %u is the currency unit, %n the number (default: $5.00)
+        format: "%u%n"
+        unit: "£"
+        # These three are to override number.format and are optional
+        separator: "."
+        delimiter: ","
+        precision: 2
+
+    # Used in number_to_percentage()
+    percentage:
+      format:
+        # These three are to override number.format and are optional
+        # separator:
+        delimiter: ""
+        # precision:
+
+    # Used in number_to_precision()
+    precision:
+      format:
+        # These three are to override number.format and are optional
+        # separator:
+        delimiter: ""
+        # precision:
+
+    # Used in number_to_human_size()
+    human:
+      format:
+        # These three are to override number.format and are optional
+        # separator:
+        delimiter: ""
+        precision: 1
+      storage_units:
+        # Storage units output formatting.
+        # %u is the storage unit, %n is the number (default: 2 MB)
+        format: "%n %u"
+        units:
+          byte:
+            one:   "Byte"
+            other: "Bytes"
+          kb: "KB"
+          mb: "MB"
+          gb: "GB"
+          tb: "TB"
+  payment:
+    configure_sftp_settings: "Configure SFTP Settings"
+  person:
+    calendar_overlay_link: "Calendar Overlay Link"
+    companies: "Companies"
+    confirm_delete_schedule: "Are you sure you wish to delete this schedule? There is no undo."
+    create_availability_day_schedule: "Create Availability Day Schedule"
+    create_availability_multi_schedule: "Create Availability Multi Schedule"
+    create_availability_time_schedule: "Create Availability Time Schedule"
+    create_availability_week_schedule_fri: "Create Availability Week Schedule (Fri)"
+    create_availability_week_schedule_mon: "Create Availability Week Schedule (Mon)"
+    create_availability_week_schedule_sat: "Create Availability Week Schedule (Sat)"
+    create_availability_week_schedule_sun: "Create Availability Week Schedule (Sun)"
+    create_availability_week_schedule: "Create Availability Week Schedule"
+    create_price_day_schedule: "Create Price Day Schedule"
+    create_price_multi_schedule: "Create Price Multi Schedule"
+    create_price_time_schedule: "Create Price Time Schedule"
+    create_price_week_schedule_fri: "Create Price Week Schedule (Fri)"
+    create_price_week_schedule_mon: "Create Price Week Schedule (Mon)"
+    create_price_week_schedule_sat: "Create Price Week Schedule (Sat)"
+    create_price_week_schedule_sun: "Create Price Week Schedule (Sun)"
+    create_price_week_schedule: "Create Price Week Schedule"
+    do_not_mark_staff_as_busy_even_if_bookings_made: "Do not mark this staff member as busy even if bookings are made with them"
+    edit_bulk_prices: "Edit Bulk Prices"
+    edit_days: "Edit Days"
+    edit_hours: "Edit Hours"
+    edit_schedule: "Edit Schedule"
+    email_address_to_send_booking_notifications_to: "An email address to send booking/cancellation notifications to for this staff member"
+    email_invalid: "Invalid email address"
+    external_ref: "External Ref"
+    group: "Group"
+    invalid_url: "Invalid URL"
+    mobile_number_invalid: "Mobile number is invalid"
+    never_marked_as_booked: "Never Mark as Booked"
+    no_deposit: "No Deposit"
+    per_booking_fixed_deposit: "Per Booking Fixed Deposit"
+    per_occurrence_fixed_deposit: "Per Occurrence Fixed Deposit"
+    percentage_deposit: "Percentage Deposit"
+    phone_number_to_send_booking_notifications_to: "A phone number to send booking notifications to for this staff member"
+    queuing_disabled: "Queuing disabled"
+    save: "Save"
+    searchable_external_reference_for_resource: "A searchable external reference for the resource"
+  question_group:
+    questions: "Questions"
+  queuer:
+    email: "Email"
+    first_name: "First Name"
+    last_name: "Last Name"
+    mobile: "Mobile"
+    queuer: "Queuer"
+    save: "Save"
+    service: "Service"
+  reason:
+    reason: "Reason"
+    save: "Save"
+  reset_password:
+    confirm_new_password: "Confirm new password"
+    new_password: "New password"
+    password_validation: "Password must be at least 7 characters and contain at least one letter and one number."
+    reset_password: "Reset Password"
+  resource:
+    cannot_delete_resource_upcoming_bookings: "You cannot delete this resource as there's still upcoming bookings - you must cancel these first"
+    create_availability_day_schedule: "Create Availability Day Schedule"
+    create_availability_multi_schedule: "Create Availability Multi Schedule"
+    create_availability_time_schedule: "Create Availability Time Schedule"
+    create_availability_week_schedule_fri: "Create Availability Week Schedule (Fri)"
+    create_availability_week_schedule_mon: "Create Availability Week Schedule (Mon)"
+    create_availability_week_schedule_sat: "Create Availability Week Schedule (Sat)"
+    create_availability_week_schedule_sun: "Create Availability Week Schedule (Sun)"
+    create_availability_week_schedule: "Create Availability Week Schedule"
+    create_price_day_schedule: "Create Price Day Schedule"
+    create_price_multi_schedule: "Create Price Multi Schedule"
+    create_price_time_schedule: "Create Price Time Schedule"
+    create_price_week_schedule_fri: "Create Price Week Schedule (Fri)"
+    create_price_week_schedule_mon: "Create Price Week Schedule (Mon)"
+    create_price_week_schedule_sat: "Create Price Week Schedule (Sat)"
+    create_price_week_schedule_sun: "Create Price Week Schedule (Sun)"
+    create_price_week_schedule: "Create Price Week Schedule"
+    edit_bulk_prices: "Edit Bulk Prices"
+    edit_days: "Edit Days"
+    edit_hours: "Edit Hours"
+    edit_schedule: "Edit Schedule"
+    ical_link: "iCal link"
+    invalid_url: "Invalid URL"
+    never_mark_as_booked: "Never mark as booked"
+    never_mark_resource_as_busy: "Never mark the resource as busy, even if bookings are made"
+    no_deposit: "No Deposit"
+    optional_address_to_send_emails_to_when_resource_booked: "An optional address to send emails to when this resource is booked"
+    per_booking_fixed_deposit: "Per Booking Fixed Deposit"
+    per_occurrence_fixed_deposit: "Per Occurrence Fixed Deposit"
+    percentage_deposit: "Percentage Deposit"
+    record_disabled: "%{record_name} (disabled)"
+    reference: "Reference"
+    reference: "Reference"
+    resource: "Resource"
+    save: "Save"
+  rule:
+    disabled: "Disabled"
+    function: "Function *"
+    notes: "Notes"
+    rule: "Rule"
+    save: "Save"
+  rules_group:
+    disabled: "Disabled"
+    name: "Name *"
+    notes: "Notes"
+    rules_group: "Rules Group"
+    save: "Save"
+  sales_page:
+    2_simple_form: "2-Simple Form"
+    3_single_block: "3-Single Block"
+    4_page_widget: "4-Page with widget"
+    5_open: "5-open"
+    6_open: "6-open"
+  schedule:
+    name: "Name"
+    rules: "Rules *"
+    save: "Save"
+    schedule: "Schedule"
+  scheduling:
+    change: "Change"
+    class_course: "Class/Course"
+    click_to_change: "Click to change"
+    click_to_set: "Click to set"
+    course: "Course"
+    create_availability_day_schedule: "Create Availability Day Schedule"
+    create_availability_multi_schedule: "Create Availability Multi Schedule"
+    create_availability_time_schedule: "Create Availability Time Schedule"
+    create_availability_week_schedule_fri: "Create Availability Week Schedule (Fri)"
+    create_availability_week_schedule_mon: "Create Availability Week Schedule (Mon)"
+    create_availability_week_schedule_sat: "Create Availability Week Schedule (Sat)"
+    create_availability_week_schedule_sun: "Create Availability Week Schedule (Sun)"
+    create_availability_week_schedule: "Create Availability Week Schedule"
+    create_price_day_schedule: "Create Price Day Schedule"
+    create_price_multi_schedule: "Create Price Multi Schedule"
+    create_price_time_schedule: "Create Price Time Schedule"
+    create_price_week_schedule_fri: "Create Price Week Schedule (Fri)"
+    create_price_week_schedule_mon: "Create Price Week Schedule (Mon)"
+    create_price_week_schedule_sat: "Create Price Week Schedule (Sat)"
+    create_price_week_schedule_sun: "Create Price Week Schedule (Sun)"
+    create_price_week_schedule: "Create Price Week Schedule"
+    daily: "Daily"
+    delete_schedule_confirmation: "Are you sure you wish to delete this schedule? There is no undo."
+    delete_schedule: "Delete Schedule"
+    disabled: "Disabled"
+    edit_bulk_prices: "Edit Bulk Prices"
+    edit_schedule: "Edit Schedule"
+    email_this_note_to_booker: "Email this note to the booker ?"
+    email_this_note: "Email this note"
+    every_quarter: "Every Quarter (repeat by day)"
+    every_six_weeks: "Every Six Weeks"
+    every_two_months: "Every Two Months (repeat by day)"
+    everyday: "Every Day"
+    fixed_deposit: "Fixed Deposit"
+    fortnight: "Fortnight"
+    generic_only_care_about_number_tickets_sold: "Generic (Only care about the number of tickets sold)"
+    in_advance: "in advance"
+    monthly_repeat_day: "Monthly (repeat by day)"
+    monthly_repeat_week_day: "Monthly (repeat by week day)"
+    multi_day_course: "Multi-Day Course"
+    new_classification: "New Classification"
+    no_deposit: "No Deposit"
+    no_people_currently_enabled_for_this_type: "No People currently enabled for this Type"
+    no_resources_currently_enabled_for_this_type: "No Resources currently enabled for this Type"
+    once_a_fortnight: "Once a Fortnight"
+    once_a_week: "Once a Week"
+    once: "Once"
+    per_booking_fixed_deposit: "Per Booking Fixed Deposit"
+    per_occurrence_ticket_fixed_deposit: "Per Occurrence/Ticket Fixed Deposit"
+    per_occurrent_fixed_deposit: "Per Occurrence Fixed Deposit"
+    percentage_deposit: "Percentage Deposit"
+    price_for_each_lesson: "This is the price for each class/lesson"
+    price_for_entire_course: "This is the price for the entire course"
+    questions_per_ticket: "Questions Per Ticket (Ask questions only per ticket)"
+    recurring_event: "Recurring Event"
+    repeating_event: "Repeating Event"
+    set_category_to_aid_searching_group: "Set a Category to aid searching of this group"
+    set_category: "Set a category"
+    single_event_class: "Single Event/Class"
+    single_event: "Single Event"
+    single: "Single"
+    six_weekly: "Six Weekly"
+    specific_days_same_times: "Specific Days (same times each day)"
+    specific_days_variable_times: "Specific Days (variable time slots)"
+    specific_days: "Specific Days"
+    specific_days: "Specific Days"
+    tickets_assign_to_individual_members_email_optional: "Tickets assign to individual members (email address optional for each)"
+    tickets_assign_to_individual_members_email_required: "Tickets assign to individual members (email address required for each)"
+    twice_a_year: "Twice a Year (repeat by day)"
+    weekdays_only: "Weekdays Only"
+    weekdays: "Weekdays"
+    weekends_only: "Weekends Only"
+    weekends: "Weekends"
+    weekly: "Weekly"
+    yearly: "Yearly (repeat by day)"
+  schema:
+    enter_valid_date: "Please enter a valid date"
+    enter_valid_email: "Please enter a valid"
+  service:
+    actual_duration_interval_of_a_slot: "The actual duration/time interval of a slot of this service"
+    additional_details: "Additional details"
+    advanced: "Advanced"
+    all_customers: "All Customers"
+    all_of_following_resources: "All of the Following Resources"
+    any_1_of_following_resources: "Any 1 of the following Resources"
+    automatically_assign_staff_and_resource: "Automatically assign staff and resource when the customer makes a booking?"
+    availability_only: "Availability Only"
+    availability: "Availability"
+    available_at_all_times_scheduled: "Available at all times scheduled"
+    basic: "Basic"
+    booking_for: "Booking for %{service_name}"
+    booking: "a Booking"
+    bookings: "Bookings"
+    by_person: "By Person"
+    by_resource: "By Resource"
+    by_service: "By Service"
+    cannot_book_less_than: "cannot book less than"
+    cannot_book_less_than: "cannot book less than"
+    cannot_book_more_than: "cannot book more than"
+    cannot_book_more_than: "cannot book more than"
+    cannot_cancel_less_than: "cannot cancel less than"
+    cannot_cancel_less_than: "cannot cancel less than"
+    course: "Course"
+    daily: "Daily"
+    day_based: "Day Based"
+    day: "Day"
+    disabled: "disabled"
+    durations: "Durations"
+    edit_bulk_prices: "Edit Bulk Prices"
+    edit_days: "Edit Days"
+    edit_hours: "Edit Hours"
+    email_this_note_to_booker: "Email this note to the booker ?"
+    email_this_note: "Email this note"
+    enquiries: "Enquiries"
+    enquiry_for: "Enquiry for %{service_name}"
+    enquiry: "an Enquiry"
+    everyday: "Every Day"
+    extra_time_to_block_after_appointment: "Extra time to block out after any appointment"
+    extra_time_to_block_before_appointment: "Extra time to block out before any appointments"
+    fixed_time: "Fixed Time"
+    fortnight: "Fortnight"
+    general: "General"
+    hour_minute_based: "Hour/Minute Based"
+    hour_minute_variable: "Hour/Minute (Variable)"
+    how_long_to_tell_the_customer_booking_lasts: "How long do you tell the customer the booking lasts. For example, the duration might be 45 minutes, however, you want to display the duration as 60 minutes on your widget"
+    if_no_customers_will_be_able_to_pick_staff_and_resource: "If set to ‘No’, customers will be able to pick a specific staff and resource for their booking"
+    in_advance: "in advance"
+    level_of_bookings_can_be_made_by_members: "What level of bookings can be made by members"
+    level_of_bookings_can_be_made_by_the_public: "What level of bookings can be made by the public"
+    max_advance: "Maximum advance"
+    maximum_length: "Maximum length"
+    maximum_number_of_service_interval_in_row_customer_can_book: "The maximum number of %{service_interval} in a row the customer can book"
+    members_booking: "Members Booking"
+    min_advance: "Minimum advance"
+    min_cancel: "Minimum cancel"
+    minimum_length: "Minimum length"
+    minimum_number_of_service_interval_in_row_customer_can_book: "The minimum number of %{service_interval} in a row the customer can book"
+    monthly_repeat_day: "Monthly (repeat by day)"
+    monthly_repeat_week_day: "Monthly (repeat by week day)"
+    new_customers: "New Customers"
+    no_deposit: "No Deposit"
+    no_repeat_bookings: "No Repeat Bookings"
+    no: "No"
+    non_members_booking: "Non-Members Booking"
+    non_members: "Non-members"
+    none: "- none -"
+    once_a_fortnight: "Once a Fortnight"
+    once_a_week: "Once a Week"
+    once: "Once"
+    per_booking_fixed_deposit: "Per Booking Fixed Deposit"
+    per_occurrence_fixed_deposit: "Per Occurrence Fixed Deposit"
+    percentage_deposit: "Percentage Deposit"
+    person: "Person"
+    price_for_each_class_lesson: "This is the price for each class/lesson"
+    price_for_entire_course: "This is the price for the entire course"
+    price: "Price"
+    pricing: "Pricing"
+    question_set_to_ask_for_this_service: "Which question set do you which to ask for this service"
+    questions_from_affiliate: "Questions from %{affiliate}"
+    repeat_bookings_allowed: "Repeat Bookings Allowed"
+    reservation_for: "Reservation for %{service_name}"
+    reservation: "a Reservation"
+    reservations: "Reservations"
+    resource: "Resource"
+    same_as_duration_name: "<Same as duration>"
+    same_as_duration: "Same as duration"
+    save: "Save"
+    service: "Service"
+    session_lesson_based: "Session/Lesson based"
+    set_category_for_service: "Set a Category for this Service"
+    set_date_from_when_service_disabled_from_being_booked: "Set a date from when this service will be disabled from being booked"
+    set_date_in_future_in_which_price_changes: "Set a date in future in which the price changes"
+    set_date_to_have_service_disabled_until_specific_date: "Set a date to have this service disabled until a specific date"
+    set_price_which_only_takes_effect_at_future_date: "Set a price which only takes effect at future date"
+    sets_how_many_customers_can_be_served_simultaneously: "Sets how many customers can be served simultaneously by the same combination of staff and resources"
+    single_event: "Single Event"
+    single: "Single"
+    take_bookings: "Take Bookings"
+    take_enquiries: "Take Enquiries"
+    take_reservations: "Take Reservations"
+    time_settings: "Time settings"
+    time_step_in_which_service_is_bookable_by_customers: "The time step in which this service is bookable by customers"
+    variable_flex_time: "Variable Flex Time"
+    waitlist_booking_for: "Waitlist booking for %{service_name}"
+    week_based: "Week Based"
+    weekdays_only: "Weekdays Only"
+    weekdays: "Weekdays"
+    weekends_only: "Weekends Only"
+    weekends: "Weekends"
+    weekly: "Weekly"
+    yes: "Yes"
+  session:
+    blocked_by: "Blocked by %{service_or_session_name}"
+    booking_for: "Booking for %{session_name}"
+    capacity_remaining: "%{left} of %{num_spaces} spaces left"
+    capacity: "Total - %{num_spaces}"
+    enquiry_for: "Enquiry for %{session_name}"
+    none_configured: "None configured"
+    remaining: "%{left} left"
+    reservation_for: "Reservation for %{session_name}"
+    waitlist_booking_for: "Waitlist booking for %{session_name}"
+  setting:
+    dont_send: "Don't send"
+    never: "Never"
+  shift_pattern_condition:
+    colour: "Colour"
+    condition_i: "Condition %{i}"
+    locations: "Locations"
+    save: "Save"
+    schedule_rule: "Schedule Rule"
+  shift_pattern:
+    condition: "Condition"
+    daily: "Daily"
+    default: "Default"
+    end_date: "End Date"
+    end_time: "End Time"
+    interval: "Interval"
+    occurs_on: "Occurs On"
+    repeat_count: "Repeat Count"
+    repeat_on: "Repeat On"
+    repeats: "Repeats"
+    save: "Save"
+    shift_pattern: "Shift Pattern"
+    sporadically: "Sporadically"
+    start_date: "Start Date"
+    start_time: "Start Time"
+    weekly: "Weekly"
+  shift:
+    shift: "Shift"
+  simple_report:
+    csm:
+      event_id: "Event id"
+      harrods_qid: "Harrods QID"
+      customer_name: "Customer name"
+  slot:
+    person: "Person - %{person_name}"
+    resource: "Resource - %{resource_name}"
+    spaces_blocked: "%{count} blocked "
+    spaces_booked: "%{count} booked "
+    spaces_enquired: "%{count} enquiries "
+    spaces_reserved: "%{count} reserved "
+  space:
+    email_this_note_to_booker: "Email this note to the booker ?"
+    email_this_note: "Email this note"
+  ## TODO CAMILLA: change to singular
+  spaces:
+    remaining: "%{remaining} of %{spaces} spaces left"
+    taken_and_waiting: "%{spaces_taken} taken (%{wait_taken} waiting)"
+    taken_of_available_and_waiting: "%{spaces_taken} of %{num_spaces} taken (%{wait_taken} waiting)"
+    taken_of_available: "%{spaces_taken} of %{num_spaces} taken"
+    taken: "%{spaces_taken} taken"
+  # Used in array.to_sentence.
+  support:
+    select:
+      # default value for :prompt => true in FormOptionsHelper
+      prompt: "Please select"
+    array:
+      words_connector: ", "
+      two_words_connector: " and "
+      last_word_connector: ", and "
+    view_on_map: "View on map"
+  time:
+    formats:
+      default: "%a, %d %b %Y %H:%M:%S %z"
+      short: "%d %b %H:%M"
+      long: "%d %B, %Y %H:%M"
+      short_tz: "%d %b %H:%M %Z"
+      long_tz: "%d %B, %Y %H:%M %Z"
+      time: "%H:%M"
+      time_am: "%H:%Mam"
+      time_pm: "%H:%Mpm"
+      full_date: "%A %d %B %Y"
+      mid_date: "%a %d %b"
+      mid_date_year: "%a %d %b, %y"
+    am: "am"
+    pm: "pm"
+    n_mins: "%{n} mins"
+    mins: "mins"
+    hr: "hr"
+    hrs: "hrs"
+  trigger:
+    flags: "Flags"
+    group: "Group"
+    save: "Save"
+
+
+  a_customer_has_booked: "A customer has booked a CurveID appointment"
+  a_customer_has_cancelled: "A customer has cancelled a CurveID appointment"
+  arrived: "Arrived"
+  attended: "Attended"
+  admin_mode: "Admin Mode"
+  and: "and"
+  alert: "Alert"
+  available: "Available"
+  back: "BACK"
+  be_scheduled: "BE SCHEDULED FOR:"
+  been_cancelled: "Your Levis<sup>&reg;</sup> Curve ID Custom fitting has been cancelled"
+  being_seen: "Being seen"
+  below_are: "Below are your appointment details:"
+  blocked: "Blocked"
+  blocked_external_booking: "Blocked - External Booking"
+  blocked_externally: "Blocked Externally"
+  booking_repeat: "Booking Repeat"
+  booking_status: "Booking Status"
+  booking_timeout: "Booking Timeout"
+  booking_timeout2: "I'm sorry your session has timed out and is no longer valid"
+  booking_timeout3: "You must close this window or go back and make the booking again."
+  booking: "Booking"
+  boxes_time: "boxes = time unavailable"
+  calendar: "Calendar"
+  calendar_link: "Web link to an iCalendar feed"
+  cancelled: "Cancelled"
+  cancelled_booking: "Cancelled Booking"
+  call_drop: "call or drop in"
+  call_store: "Call your local store for same-day appointments, changes, or cancelations."
+  checked_in: "Checked in"
+  client_errors: "Client Errors"
+  click_below: "Click below to schedule a date and time for your custom fitting, then click \"NEXT\" to book it. If your desired time slot is not available, please"
+  click_here: "click here"
+  click_next: "Click next to continue"
+  click_to_login_and_manage: "Click to login an manage this appointment"
+  close: "Close"
+  code: "Voucher Code"
+  confirm_email: "Confirm Email"
+  confirm: "Confirm"
+  complete: "Complete"
+  completed: "Completed"
+  continue: "Continue Shopping"
+  county: "County"
+  current_user: "Current User"
+  custom: "CUSTOM FITTING WILL"
+  date_string: "Date"
+  deal_group: "Deal Group"
+  deal: "Deal"
+  default: "Default"
+  deposit_due: "Deposit Due"
+  details: "Details"
+  disabled: "Disabled"
+  duration: "Duration"
+  email: "Email"
+  enter_words: "Enter the words you see above then click \"CONFIRM\" button."
+  enquiry: "Enquiry"
+  error: "Error"
+  existing_members: "Existing members"
+  first_name: "First Name"
+  follow_up: "Follow Up"
+  forgotten_password: "Forgotten Password?"
+  free_fitting: "Get a FREE custom fitting at your local Levi's<sup>&reg;</sup> Store by one of our Levi's<sup>&reg;</sup> Curve ID specialists."
+  get_started: "GET STARTED:"
+  has_cancelled: "has cancelled"
+  has_requested: "has requested"
+  held: "Held"
+  i_would_like: "I would like to be informed by email, telephone or SMS about products, sales or exclusive events."
+  item: "Item"
+  invalid_captcha: "I'm sorry the code entered is not correct - please try again"
+  last_name: "Last Name"
+  left: "Left"
+  logout: "Logout"
+  missing_email: "Missing email"
+  missing_first_name: "Missing first name"
+  missing_last_name: "Missing last name"
+  mobile: "Mobile phone"
+  multiple_bookings: "Mutliple Bookings"
+  must_accept_privacy_policy: "You must agree to the Privacy Policy"
+  new_members: "New members"
+  next: "NEXT"
+  no: "No"
+  none: "none"
+  no_availability: "No Availability"
+  not_live: "Not Live"
+  no_show: "No Show"
+  not_valid_email: "Please enter valid email address"
+  not_yet_paid: "Not Yet Paid"
+  of: "of"
+  once_we_have: "Once we have booked your custom fitting, we'll send you a confirmation email and reminder with all of the details."
+  openinghours: "OpeningHours"
+  package: "Package"
+  paid: "Paid"
+  partially_complete: "Partially Complete"
+  password: "Password"
+  phone: "Phone"
+  please_call: "Please call the store directly if you need to change or update your appointment. For a list of stores"
+  pp: "Privacy Policy"
+  prepaid_bookings: "Pre-paid Bookings"
+  price: "Price"
+  question: "Question"
+  queue: "Queue"
+  re_enter_password: "Re-enter Password"
+  read_and_accepted_privacy_policy: "I have read and accept the privacy policy"
+  red: "Red"
+  reorder_and_delete_category_labels: "Re-order and Delete Category Labels"
+  regretfully: "Regretfully we do not offer Plus & Petite<br/>fittings at this time"
+  req_address: "This service also requires your address"
+  required_fields: "required fields"
+  required: "* Required Fields"
+  reschedule: "To reschedule for a later date"
+  reservation: "Reservation"
+  reservation_failed: "Reservation Failed"
+  reservation_failed2: "I'm sorry for some reason we failed to make this reservation"
+  reservation_failed3: "This could either be because that availability has now gone - or that you attempted to book twice"
+  security_code: "Security Code"
+  served: "Served"
+  select_city: "Select your city"
+  select_country: "Select your country"
+  select_store: "Select your store"
+  selected: "Selected"
+  selected_store: "YOUR SELECTED STORE IS:"
+  set_pass: "Optional Password to Save Information"
+  sign_in_to_your_account: "Sign in to your Account"
+  social_connect: "Connect via a social network"
+  sorry: "Sorry you can't make it"
+  step: "Step"
+  success: "Success"
+  t_and_c: "Terms and Conditions"
+  tell_us_how: "TELL US HOW TO REACH YOU"
+  thank_you: "Thank you!"
+  tickets: "Tickets"
+  time_string: "Time"
+  to: "to"
+  to_the: "to the Levi's<sup>&reg;</sup> near you."
+  unavailable: "Unavailable"
+  unknown: "Unknown"
+  visit: "visit the store nearest you"
+  waist_size: "My waist size is"
+  waitlist: "Waitlist"
+  we_will: "We'll email you a copy of your appointment details for your records"
+  when: "WHEN:"
+  where: "WHERE:"
+  yes: "Yes"
+  you_can: "You can also"
+  your_levis_has: "Your Levi's<sup>&reg;</sup> Curve ID Custom fitting has been scheduled."
+  your_levis: "YOUR LEVI'S<sup>&reg;</sup> CURVE ID"
+  images:
+    sched_title: "sched_title_en"
