@@ -16,7 +16,7 @@
             format: 
         # Where is the currency sign? %u is the currency unit, %n the number (default: $5.00)
                 format: "%u%n"
-                unit: "£"
+                unit: "€"
         # These three are to override number.format and are optional
                 separator: "."
                 delimiter: ","
@@ -942,7 +942,7 @@
             format: 
         # Where is the currency sign? %u is the currency unit, %n the number (default: $5.00)
                 format: "%u%n"
-                unit: "£"
+                unit: "€"
         # These three are to override number.format and are optional
                 separator: "."
                 delimiter: ","
