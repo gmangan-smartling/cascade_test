@@ -191,7 +191,8 @@
             "DATE_TIME_LBL": "Date and time",
             "TIME_LBL": "@:COMMON.TERMINOLOGY.TIME",
             "PRICE_LBL": "@:COMMON.TERMINOLOGY.PRICE",
-            "CLOSE_BTN": "@:COMMON.BTN.CLOSE"
+            "CLOSE_BTN": "@:COMMON.BTN.CLOSE",
+            "NEW_KEY": "Some text."
         },
         "MODAL": {
             "CLOSE_BTN": "@:COMMON.BTN.CLOSE",
