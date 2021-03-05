@@ -124,6 +124,7 @@
       # The value :count is available when applicable. Can be used for pluralization.
       messages:
         inclusion: "is not included in the list"
+        extra_string: "string is not included in the list"
         exclusion: "is reserved"
         invalid: "is invalid"
         confirmation: "doesn't match confirmation"
