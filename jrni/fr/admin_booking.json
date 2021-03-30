@@ -3,7 +3,7 @@
     "ASSETS" : {
       "RESOURCES_GROUP_LABEL" : "@:COMMON.TERMINOLOGY.RESOURCES",
       "STAFF_GROUP_LABEL" : "@:COMMON.TERMINOLOGY.STAFF",
-      "LOCATIONS_GROUP_LABEL" : "Sites"
+      "LOCATIONS_GROUP_LABEL" : "Emplacement"
     },
     "CALENDAR" : {
       "TIME_SLOT_IN_PAST" : "Le créneau horaire sélectionné est dans le passé. En tant qu'administrateur, vous pouvez toujours le réserver.",
