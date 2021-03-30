@@ -90,7 +90,7 @@
       "LAST_NAME_LBL" : "@:COMMON.TERMINOLOGY.LAST_NAME",
       "MOBILE_LBL" : "@:COMMON.TERMINOLOGY.MOBILE",
       "NO_RESULTS_FOUND" : "Keine Ergebnisse gefunden",
-      "NUM_CUSTOMERS" : "{KUNDENNUMMER_NUMMER, Plural, =0{keine Kunden} =1{ein Kunde} andere{{CUSTOMERS_NUMBER} customers}} gefunden",
+      "NUM_CUSTOMERS" : "{CUSTOMERS_NUMBER, plural, =0 {keine Kunden gefunden} one {{CUSTOMERS_NUMBER} Kunden gefunden} other {{CUSTOMERS_NUMBER} Kunden gefunden}}",
       "SEARCH_BY_PLACEHOLDER" : "Suche nach E-Mail oder Name",
       "SEARCH_FOR_CUSTOMER_PLACEHOLDER" : "Suche nach einem bestehenden Kunden...",
       "SELECT_ATTENDEES" : "Teilnehmer auswählen",
