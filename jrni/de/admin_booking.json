@@ -3,7 +3,7 @@
     "ASSETS" : {
       "RESOURCES_GROUP_LABEL" : "@:COMMON.TERMINOLOGY.RESOURCES",
       "STAFF_GROUP_LABEL" : "@:COMMON.TERMINOLOGY.STAFF",
-      "LOCATIONS_GROUP_LABEL" : "Standorte"
+      "LOCATIONS_GROUP_LABEL" : "Standortes"
     },
     "CALENDAR" : {
       "TIME_SLOT_IN_PAST" : "Das gewählte Zeitfenster liegt in der Vergangenheit. Als Administrator können Sie diesen noch buchen.",
