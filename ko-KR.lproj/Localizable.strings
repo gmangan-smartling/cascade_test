@@ -1,0 +1,2206 @@
+/* Device language. Used as a unique key. */
+"Device language" = "ko";
+
+/* Time in seconds, e.g. 0.50s which means half a second (the s is abbreviation for seconds). The %.2f should remain in the translated string */
+"%.2fs" = "%.2f초";
+
+/* Description that appears when undoing/redoing a step that moves a widget, for example \"Text: Move\" or \"Mask: Move\". The %@ should remain in the translated string, and will be replaced by the localized title of the widget */
+"%@: Move" = "%@: 이동";
+
+/* Label on a button for purchasing subscription that renews every one month */
+"Month" = "개월";
+
+/* Label on a button for purchasing subscription that renews every x months */
+"Months" = "개월";
+
+/* Label on a button for purchasing the product at a single one-time price, instead of a renewable subscription plan */
+"One-Time\nPurchase" = "일회성\n구매";
+
+/* Label on a button for purchasing subscription that renews every 12 months */
+"ANNUAL" = "연간";
+
+/* Label on a button for purchasing subscription that renews every month, in capital letters */
+"MONTHLY" = "월간";
+
+/* Label on a button for purchasing the product at a single one-time price, instead of a renewable subscription plan */
+"ONE-TIME\nPURCHASE" = "일회성\n구매";
+
+/* Abbreviation of the word month, representing per-month suffix of a price, as in $5/mo - $5 per month. The '/' should remain in the localized version */
+"/mo" = "/월";
+
+/* Label on a button for purchasing subscription that renews every month. Text shown when 1 month of free trial is offered for new subscribers */
+"1 Month" = "1개월";
+
+/* Button appearing in the subscription screen, notifying users that by pressing this button they are choosing an anual subscription plan - 12 months */
+"12 Months" = "12개월";
+
+/* Description of a monthly price. For example: 10.99$ per month */
+"per month" = "매달";
+
+/* Label on a button for purchasing the product at a single one-time price, instead of a renewable subscription plan */
+"One-Time Purchase" = "일회성 구매";
+
+/* Title of a button suggesting to the user to continue to payment in the subscription screen */
+"Continue" = "계속";
+
+/* Label on a button that links to terms of use */
+"Terms of Use" = "이용 약관";
+
+/* Label on a button that links to privacy policy */
+"Privacy Policy" = "개인 정보 보호";
+
+/* Label on a button that restored previously purchased products */
+"Restore Purchases" = "구입 항목 복원";
+
+/* Short terms of use for subscription */
+"Payment will be charged to your iTunes account at confirmation of purchase. Subscriptions will automatically renew unless auto-renew is turned off at least 24 hours before the end of current period. Your account will be charged according to your plan for renewal within 24 hours prior to the end of the current period. You can manage or turn off auto-renew in your Apple ID account settings at any time after purchase." = "구독은 결제하신 iTunes 계정을 통해 이루어지며 구독하신 달의 마지막 날 24시간 이내에 다음 달 구독 여부가 결정됩니다. 결제하신 이후에는iTunes 계정을 통해 구독을 관리하실 수 있습니다. 구독하는 중 해당 월의 구독을 취소하는 것은 불가능합니다. 다음 달의 결제갱신 여부에 대해서만 취소가 가능합니다. 자동 갱신은 사용자의 Apple ID 계정 설정을 통해 언제든지 관리 또는 비활성화할 수 있습니다.";
+
+/* Short terms of use for subscription with free trial */
+"Payment will be charged to your iTunes account at confirmation of purchase. Subscriptions will automatically renew unless auto-renew is turned off at least 24 hours before the end of current period. Your account will be charged according to your plan for renewal within 24 hours prior to the end of the current period. You can manage or turn off auto-renew in your Apple ID account settings at any time after purchase. If you subscribe before your free trial ends, the rest of your free trial period will be forfeited as soon as your purchase is confirmed." = "결제는 구매 확인 시 iTunes 계정을 통해 이뤄집니다. 구독은 무료 평가 기간이 끝나기 24시간 전에 취소하지 않는 이상 무료 평가가 끝난 직후부터 시작됩니다. 갱신일로부터 24시간 전에 멤버십 또는 구독을 취소하지 않으면 멤버십 또는 구독이 갱신될 수 있습니다. 구독 기간이 끝나기 24시간 이내 사용자 계정에 갱신 비용이 청구됩니다. 언제든 사용자의 Apple ID 계정 설정에서 구독을 관리하거나 자동 갱신을 취소할 수 있습니다. 무료 평가 기간이 끝나기 전에 구독을 시작한 경우 남아 있는 무료 평가 기간은 결제 직후 소실됩니다.";
+
+/* Subtitle of a button appearing in the subscription screen, notifying users that by pressing this button they will be saving {0}% annualy */
+"Save {0}% Per Year!" = "연간 {0}% 할인 혜택";
+
+/* Title of a pop-up informing the user that they can save %@ amount by upgrading to an annual payment plan. Example: Upgrade to yearly and save 50% now! */
+"Upgrade to yearly and save %@%% now!" = "연간 구독으로 %@%%를 절약하세요!";
+
+/* Title of a button offering the user the continue using the monthly payment plan. Please keep as short as possible */
+"Continue with monthly" = "월간 구독으로 계속하기";
+
+/* Title of a button offering the user to upgrade to an annual payment plan. Please keep as short as possible */
+"Upgrade to yearly" = "연간 구독";
+
+/* Title of the video import screen, appears on the top part of it */
+"Import" = "불러오기";
+
+/* Toolbar button. Category for elements that can be added to the composition. These include, for example text, stickers and shapes */
+"Add" = "추가";
+
+/* Title of a button on the import screen which the user should press after selecting assets in order to add them to the project */
+"Add to Project" = "프로젝트에 추가";
+
+/* Name of music album containing user's songs grouped by albums */
+"Albums" = "앨범";
+
+/* Name of music album containing user's songs grouped by artists */
+"Artists" = "아티스트";
+
+/* Title of an album representing the backgrounds assets available for importing */
+"Backgrounds" = "배경";
+
+/* Label on a tool tip indicating the most cost effective purchase option */
+"Best Value" = "최상의 가치";
+
+/* Title of a button for cancelling an on going operation.
+   Title of a button for cancelling the current interaction
+   Title of a button in a dialog, cancelling and dismissing it */
+"Cancel" = "취소";
+
+/* Message to the user that video export was canceled */
+"Canceled" = "취소됨";
+
+/* Message in a dialog prompting the user to confirm deleting a project */
+"Careful! This action cannot be undone" = "주의! 이 동작은 실행취소가 불가능합니다";
+
+/* Default description that appears when undoing/redoing certain types of steps that are best described by the \"Change\", for example \"Change: Color\" or \"Change: Target\". The %@ should remain in the translated string, and will be replaced by the localized description of the step */
+"Change: %@" = "변경: %@";
+
+/* Text on a button that contacts support */
+"Contact Us" = "고객지원";
+
+/* Title of a button for deleting a stored editing project
+   Title of a button in a dialog, confirming deleting of a project */
+"Delete" = "삭제";
+
+/* Title of a dialog prompting the user to confirm deleting a project */
+"Delete Project" = "프로젝트 삭제";
+
+/* Title of a dialog prompting the user to confirm deleting multiple projects */
+"Delete Projects" = "프로젝트 삭제";
+
+/* Error message presented to the user when a demo photo failed loading in help screen */
+"Demo photo failed to load" = "데모 사진 로딩 실패";
+
+/* Title of a button in a dialog, confirming renaming of a project */
+"Done" = "완료";
+
+/* Text in a text box shown when the user has just created a text item, explaining that changing the content is performed by double-tapping. */
+"Double tap to edit" = "이중 탭하여 편집";
+
+/* Error message presented to the user when a download error occurred help screen */
+"Download error" = "다운로드 오류";
+
+/* Header presented while fetching assets from the web, indicating a downloading operation is taking place. */
+"Downloading..." = "다운로드 중...";
+
+/* Suffix that appears when in captions of undo/redo operations of an eraser that is not associated with a specific tool */
+"Eraser" = "지우개";
+
+/* Suffix that appears in captions of undo/redo operations of the eraser of given brush based tool, where the %@ marker will be replaced with the localized name of the tool). For example when undoing usage of the eraser of the Smooth tool, the description will be \"Undo: Eraser (Smooth) */
+"Eraser (%@)" = "지우개 (%@)";
+
+/* Title of a button for exporting a stored editing project */
+"Export" = "내보내기";
+
+/* Message to the user that video is exported */
+"Exporting Project" = "비디오 내보냄";
+
+/* Message to the user that video exporting is in progress. */
+"Almost There!" = "거의 다 됐습니다!";
+
+/* Description of the qualities of 1080p video resolution */
+"Full HD. Great for bigger screens." = "풀 HD. 대형 스크린에 적합합니다.";
+
+/* Description of the qualities of 720p video resolution */
+"HD. Best balance between quality and size." = "HD. 품질과 크기 사이에 최상의 밸런스.";
+
+/* Error message presented to the user when an image failed loading in help screen */
+"Help image failed to load" = "도움말 이미지 불러오기 실패";
+
+/* Error message presented to the user when an image failed loading in help screen */
+"Image failed to load. Check your connection" = "이미지를 불러올 수 없습니다. 인터넷 연결 상태를 확인하시기 바랍니다";
+
+/* Short label on a button representing a positive response to an alert dialog */
+"Let's do it!" = "시작해 볼까요!";
+
+/* Body of a promotional message in the subscription screen */
+"Mixer. Text. Filter. Adjust. Effects. All together!" = "믹서. 텍스트. 필터. 조정. 효과. 모든 것이 한자리에!";
+
+/* Error message presented to the user when a network error occurred in help screen */
+"Network error" = "네트워크 오류";
+
+/* Title on a button creating a new empty project. */
+"New Project" = "새로운 프로젝트";
+
+/* Label presented instead of content in an empty album, indicating it has no search results. The \n should remain in the translated string. */
+"No results match your search.\n\nTry using fewer keywords, or double check spelling." = "일치하는 검색 결과가 없습니다.\n\n더 적은 키워드를 사용하거나 맞춤법이 맞는지 확인하세요.";
+
+/* Label presented instead of content in an empty album, indicating it has no photos or videos. */
+"No Photos or Videos" = "사진 또는 비디오 없음";
+
+/* Label presented instead of content in an empty album, indicating it has no songs or albums. */
+"No Songs or Albums" = "노래 또는 앨범 없음";
+
+/* Message asking the user not to close Videoleap or lock your device */
+"Please don't close Videoleap or lock your device." = "Videoleap을 종료하거나 기기를 끄지 마십시오.";
+
+/* Error message presented to the user when downloading of an image fails in help screen */
+"Problem downloading image" = "이미지 다운로드 도중 문제 발생";
+
+/* Title of the project management screen, presented at the top */
+"Projects" = "프로젝트";
+
+/* Default description that appears when redoing a step without a more specific description */
+"Redo" = "다시실행";
+
+/* Default description that appears when redoing a step, for example \"Redo: flatten\" or \"Redo: clear mask\". The %@ should remain in the translated string, and will be replaced by the localized description of the step */
+"Redo: %@" = "다시실행: %@";
+
+/* Title of a button for renaming a stored editing project */
+"Rename" = "이름변경";
+
+/* Title of a dialog prompting the user to choose a new name for a project */
+"Rename Project" = "프로젝트 이름 변경";
+
+/* Description that appears when redoing a reset to the values of an entry in the toolbar. For example \"Reset: Brightness\". The %@ should remain in the translated string, and will be replaced by the localized title of the toolbar entry */
+"Reset: %@" = "초기화: %@";
+
+/* Toolbar button. Resets the Chroma Key effect to its default values. */
+"Reset" = "초기화";
+
+/* Title of a button for saving an asset to the user's camera roll */
+"Save to Camera Roll" = "카메라 롤에 저장";
+
+/* Title of the button that sends video using iMessage */
+"Message" = "메시지";
+
+/* Title of the button that sends video using system sharing menu. */
+"More" = "기타";
+
+/* Title of the button that saves the video to the Camera Roll. */
+"Export.SaveToCameraRoll" = "저장";
+
+/* Description of the qualities of 480p video resolution */
+"SD. Perfect for sharing on social media." = "SD 화질. 소셜 미디어 공유에 적합합니다.";
+
+/* Name of music album containing user's songs  */
+"Songs" = "노래";
+
+/* Title of an album representing the sounds effects available for importing */
+"Sound Effects" = "음성 효과";
+
+/* Title of an album representing the stock assets available for importing */
+"Stock" = "스톡";
+
+/* Title of an album representing the visual media stock assets (videos, images, etc.) available for importing */
+"Stock.VisualMedia" = "스톡";
+
+/* Title of an album representing the audio stock assets available for importing */
+"Stock.Audio" = "스톡";
+
+/* Message to the user that video export succeeded */
+"Success!" = "성공했습니다!";
+
+/* Label on a button in a dialog, retrying the last operation */
+"Try again" = "재시도";
+
+/* Description of the qualities of 4K video resolution */
+"Ultra HD. Just like going to the movies!" = "울트라 HD. 마치 영화 같은 선명함!";
+
+/* Default description that appears when undoing a step without a more specific description */
+"Undo" = "실행취소";
+
+/* Description that appears when undoing a reset to the values of an entry in the toolbar. For example \"Undo Reset: Brightness\". The %@ should remain in the translated string, and will be replaced by the localized title of the toolbar entry */
+"Undo Reset: %@" = "실행취소 초기화: %@";
+
+/* Default description that appears when undoing a step, for example \"Undo: flatten\" or \"Undo: clear mask\". The %@ should remain in the translated string, and will be replaced by the localized description of the step */
+"Undo: %@" = "실행취소: %@";
+
+/* Body of a promotional message in the subscription screen */
+"Unleash your creativity with the most powerful tools" = "가장 강력한 도구를 이용해 상상력의 나래를 펼쳐보세요";
+
+/* Header title of a promotional message in the subscription screen */
+"Unlimited Layers" = "숫자 제한 없는 레이어";
+
+/* Title of a project that was yet to be named by the user */
+"Untitled Project" = "제목 없는 프로젝트";
+
+/* Label presented at import screen of the entire user content */
+"User Albums" = "사용자 앨범";
+
+/* Header title of a promotional message in the subscription screen */
+"Videoleap Pro - Now 75% Off!" = "Videoleap Pro - 현재75% 할인!";
+
+/* Header title of a promotional message in the subscription screen */
+"Videoleap Pro - Now 50% Off!" = "Videoleap Pro - 현재50% 할인!";
+
+/* Header title of a promotional message in the subscription screen */
+"Best offer yet! ✨ Limited time Singles' Day sale for Videoleap Pro!" = "역대 최대 할인! ✨ 싱글의 날 기념 Videoleap Pro 일시 할인!";
+
+/* Header title of a promotional message in the subscription screen */
+"📣 Celebrate Singles' Day with Videoleap Pro! ✨ Limited time offer!" = "Videoleap Pro와 함께 싱글의 ‘날을 기념하세요! ✨ 일시 할인 판매!";
+
+/* Header title of a promotional message in the subscription screen */
+"Singles' Day Super Sale! 🎉 Get your discount on Videoleap Pro before time runs out!" = "싱글의 날 슈퍼 세일!  일시 할인 중인 Videoleap Pro를 저렴한 가격에 구매하세요!";
+
+/* Header title of a promotional message in the subscription screen */
+"Singles’ Day Crazy Sale!" = "싱글의 날 크레이지 세일!";
+
+/* Label on a tool tip indicating a purchase option available for a limited time */
+"Limited Time!" = "제한된 시간!";
+
+/* Label representing remaining days in a countdown timer */
+"days" = "일";
+
+/* Label representing remaining hours in a countdown timer */
+"hours" = "시";
+
+/* Label representing remaining minutes in a countdown timer */
+"mins" = "분";
+
+/* Label representing remaining seconds in a countdown timer */
+"sec" = "초";
+
+/* Error message presented to the user when an error occurred in help screen */
+"Whoops! Something has happened" = "이런! 무언가 문제가 생겼습니다";
+
+/* Error message presented to the user when an error occurred in help screen */
+"Whoops! Something went wrong" = "이런! 무언가 잘못됐습니다";
+
+/* Error message presented to the user when an error occurred in help screen */
+"Whoops! Something's not right. Check your connection" = "이런! 무언가 잘못됐습니다. 인터넷 연결을 확인하세요";
+
+/* Label under a sound effects album name, describing the number of effects in that album */
+"%lu Effects" = "%lu개의 효과";
+
+/* Label under an audio album name, describing the number of songs in that album */
+"%lu Songs" = "%lu개의 노래";
+
+/* Toolbar button. Turns the chosen video or image to a basic clip layer. */
+"Clip" = "클립";
+
+/* Description that appears on the Undo/Redo caption which describes the action of adding a clip (e.g. Undo: Add Clip) */
+"Add Clip" = "클립 추가";
+
+/* Description that appears on the Undo/Redo caption which describes the action of adding clips (e.g. Undo: Add Clips) */
+"Add Clips" = "클립 추가";
+
+/* Description that appears on the Undo/Redo caption which describes the action of adding a keyframe (e.g. Undo: Add Keyframe) */
+"Add Keyframe" = "키프레임 추가";
+
+/* Description that appears on the Undo/Redo caption which describes the action of dragging a clip (e.g. Undo: Drag Clip) */
+"Drag Clip" = "클립 끌어놓기";
+
+/* Description that appears on the Undo/Redo caption which describes the action of dragging a label (e.g. Undo: Drag Label) */
+"Drag Label" = "라벨 끌어놓기";
+
+/* Description that appears on the Undo/Redo caption which describes the action of removing a keyframe (e.g. Undo: Remove Keyframe) */
+"Remove Keyframe" = "키프레임 제거";
+
+/* Description that appears on the Undo/Redo caption which describes the session's starting point */
+"Starting Point" = "출발점";
+
+/* Description that appears on the Undo/Redo caption which describes the action of trimming a segment (e.g. Undo: Trim) */
+"Trim" = "다듬기";
+
+/* Toolbar button. Aspect ratio of a project. */
+"16:9" = "16:9";
+
+/* Toolbar button. Aspect ratio of a project. */
+"1:1" = "1:1";
+
+/* Toolbar button. Aspect ratio of a project. */
+"9:19.5" = "9:19.5";
+
+/* Toolbar button. Aspect ratio of a project. */
+"19.5:9" = "19.5:9";
+
+/* Toolbar button. Aspect ratio of a project. */
+"2.35:1" = "2.35:1";
+
+/* Toolbar button. Aspect ratio of a project. */
+"3:4" = "3:4";
+
+/* Toolbar button. Aspect ratio of a project. */
+"4:3" = "4:3";
+
+/* Toolbar button. Aspect ratio of a project. */
+"9:16" = "9:16";
+
+/* Toolbar button. Name of equalizer preset. */
+"Acoustic" = "어쿠스틱";
+
+/* Toolbar button. Applies tonal adjustments, like brightness, contrast, etc. */
+"Adjust" = "조절";
+
+/* Subscription screen pro-feature thumbnail text, i.e, applies tonal adjustments, like brightness, contrast, etc. Ignore the \"thumbnail\" in your translation. */
+"Adjust thumbnail" = "조절";
+
+/* Toolbar button. Text alignment inside an area. */
+"Align" = "정렬";
+
+/* Toolbar button. Mask shape where everything is included. */
+"All" = "모두";
+
+/* Toolbar button, in Etch effect. Controls the angle of the lines. */
+"Angle" = "각도";
+
+/* Toolbar button. Controls (re-arranges) the vertical order of layers. For example, if text A is above text B, this operation will let user to move A to be below B */
+"Arrange" = "배열";
+
+/* Toolbar button. Controls background behind a text. */
+"Background" = "배경";
+
+/* Toolbar button. Name of equalizer preset. */
+"Bass +" = "저음 +";
+
+/* Toolbar button. Name of equalizer preset. */
+"Bass -" = "저음 -";
+
+/* Toolbar button. Group of blending modes. */
+"Blending" = "혼합";
+
+/* Toolbar button. Format option where background is created by blurring other content. */
+"Blur" = "흐림 효과";
+
+/* Toolbar button. Controls scan lines (smearing) to the bottom of the video. */
+"Bottom" = "아래";
+
+/* Toolbar button. Defines box-like shape of text background, filled with solid color. */
+"Box" = "상자";
+
+/* Toolbar button, inside Adjust. Type of tonal adjustment. */
+"Brightness" = "명도";
+
+/* Toolbar button, inside Selective Adjust. Type of tonal adjustment. */
+"Luminance" = "명도";
+
+/* Toolbar button. Alignment of text. */
+"Center" = "가운데";
+
+/* Toolbar button. Chroma Key effect (certain range of colors become transparent. Sometimes associated with Green Screen. */
+"Chroma" = "크로마";
+
+/* Toolbar button. Selects a color */
+"Color" = "색상";
+
+/* Toolbar button. Blending mode */
+"Color Burn" = "색상 번";
+
+/* Toolbar button. Adds a color splash effect: video becomes black & white, while one object stays in color. */
+/* Subscription screen pro-feature thumbnail text, emphasize an object in an image by eliminating all other colors but its own. */
+"Colorfy" = "색상입히기";
+
+/* Toolbar button, inside Adjust. Type of tonal adjustment. */
+"Contrast" = "대비";
+
+/* Toolbar button. In Pixelate, changes the pixelization effect to a grid of 3D-like cubes pattern. */
+"Cubes" = "큐브";
+
+/* Toolbar button. Adds CRT effect, that imitates an old CRT television screen. */
+"CRT" = "CRT";
+
+/* Toolbar button. Blending mode */
+"Darken" = "어둡게";
+
+/* Toolbar button. Adds a defocus effect. */
+"Defocus" = "초점해제";
+
+/* Subscription screen pro-feature thumbnail text, i.e, pro-feature that adds a defocus effect. Ignore the \"thumbnail\" in your translation. */
+"Defocus thumbnail" = "초점해제";
+
+/* Toolbar button, in Etch effect. Controls the density of the lines.
+   Toolbar button, in Pulsar effect. Controls the density of the pattern. */
+"Density" = "밀도";
+
+/* Toolbar button. Duplicates (creates an identical copy) of a clip.
+   Toolbar button. Duplicates (creates an identical copy) of an object
+   Title of a button for duplicating a stored editing project */
+"Duplicate" = "복제";
+
+/* Toolbar button. Opens keyboard to edit (type) text */
+"Edit" = "편집";
+
+/* Toolbar button. Group of features that apply visual effects. For example: grain, defocus.
+   Toolbar button. Enables selection of various text effects such as 'glow' or 'flames' */
+"Effects" = "특수 효과";
+
+/* Subscription screen pro-feature thumbnail text, i.e, pro-feature that applies visual effects. */
+"Effects thumbnail" = "특수 효과";
+
+/* Toolbar button. Applies sound equalizer. */
+"Equalizer" = "이퀄라이저";
+
+/* Toolbar button. Adds Etch effect, that draws horizontal halftone lines across the video. Similar to the artifact that was caused by old printing techniques. Halftone Lines can be an alternative name. */
+"Etch" = "에칭";
+
+/* Toolbar button, inside Adjust. Type of tonal adjustment. */
+"Exposure" = "노출";
+
+/* Toolbar button. Adds grain effect. Film can be dropped for shorter name. */
+"Film Grain" = "필름 입자";
+
+/* Toolbar button. Category for elements that apply tonal adjustments, like brightness, contrast, saturation, hue and global filters. */
+"MainToolbar.Filters" = "필터";
+
+/* Toolbar button. Adds a global filter layer that is applied on top of all of the layers in the composition. */
+"FilterLayer" = "필터";
+
+/* Toolbar button. Opens a secondary toolbar that allows the user to select a specific filter to apply to their video, such as Black&White, Sepia, etc. */
+"FilterLayer.Presets" = "프리셋";
+
+/* Toolbar button. Applies a filter on the selected layer and enables selection of various filter types. */
+"Layer.Filters" = "필터";
+
+/* Subscription screen pro-feature thumbnail text, i.e, pro-feature that applies filters. */
+"Filters thumbnail" = "필터";
+
+/* Toolbar button, in Format. When pressed, fits project format to match the current clip. */
+"Fit" = "맞추기";
+
+/* Selects a font */
+"Font" = "서체";
+
+/* Toolbar button. Defines format of the project. Resolution, orientation, background, etc. */
+"Format" = "비율";
+
+/* Toolbar button. Category of visual effects that look like visual glitches. Various distortions, changes of color, etc. */
+"Glitch" = "글리치";
+
+/* Subscription screen pro-feature thumbnail text, i.e, pro-feature that applies visual effects that look like visual glitches. */
+"Glitch thumbnail" = "글리치";
+
+/* Toolbar button, in Pulsar effect. Changes the pattern to mesh grid. */
+"Grid" = "격자";
+
+/* Toolbar button. Blending mode */
+"Hard Light" = "하드라이트";
+
+/* Toolbar button. Hides (removes) the shadow or another effect. */
+"Hide" = "숨기기";
+
+/* Toolbar button, inside Adjust. Type of tonal adjustment */
+"Hue" = "색조";
+
+/* Toolbar button. Controls intensity of an effect. */
+"Intensity" = "강도";
+
+/* Toolbar button. Inverts the area where the current effect (or mask) is applied. */
+"Invert" = "반전";
+
+/* Toolbar button. Name of equalizer preset. */
+"Jazz" = "재즈";
+
+/* Toolbar button. Alignment of text.
+   Toolbar button. Controls scan lines (smearing) to the left of the video. */
+"Left" = "왼쪽";
+
+/* Toolbar button, in Pulsar effect. Controls the apparent 3D-ness depth of the illusion. */
+"Levitation" = "부양";
+
+/* Toolbar button. Blending mode */
+"Lighten" = "밝게";
+
+/* Toolbar button. Defines shape that is a line.
+   Toolbar button. Shape of a mask that is a single line */
+"Linear" = "선형";
+
+/* Toolbar button, in Pulsar effect. Changes the pattern to horizontal lines. */
+"Lines" = "선";
+
+/* Toolbar button. Applies mask to an effect. */
+"Mask" = "마스크";
+
+/* Toolbar button. Shape of a mask of 2 parallel lines. */
+"Mirror" = "반영";
+
+/* Toolbar button. Adds another video or image as a layer, mixes (composes) the new layer on top of other layers. */
+"Mixer" = "믹서";
+
+/* Toolbar button. Blending mode */
+"Multiply" = "곱하기";
+
+/* Toolbar button. Adds music and sound effects.
+   Toolbar button. Group of audio controls and effects, like volume, equalizer, etc. */
+"Audio" = "오디오";
+
+/* Toolbar button. Mutes audio.
+   Toolbar button. Mutes the audio. */
+"Mute" = "음소거";
+
+/* Toolbar button, in Etch effect. Controls the color inversion of the lines, in a manner of negativeness, similar to a negative film of an old camera. */
+"Negative" = "네거티브";
+
+/* Toolbar button. No effect / transition is applied.
+   Toolbar button. No filter (or other effect) is applied.
+   Toolbar button. No mask is applied. */
+"None" = "없음";
+
+/* Toolbar button. Blending mode
+   Toolbar button. Name of equalizer preset that does nothing. */
+"Normal" = "보통";
+
+/* Toolbar button, inside Adjust. Type of tonal adjustment. */
+"Offset" = "오프셋";
+
+/* Toolbar button. Changes opacity of an object
+   Toolbar button. Changes opacity of an object. */
+"Opacity" = "불투명도";
+
+/* Toolbar button. Defines shape of text background where only the outline (contour) is visible. */
+"Outline" = "윤곽선";
+
+/* Toolbar button. Blending mode */
+"Overlay" = "오버레이";
+
+/* Toolbar button, in Pulsar effect. Controls the pattern type of the effect.
+   Toolbar button, in Pixelate effect. Controls the pattern type of the effect. */
+"Pattern" = "패턴";
+
+/* Toolbar button. In Pixelate, changes the pixelization effect to a standard square pixelization pattern. */
+"Pixels" = "픽셀";
+
+/* Toolbar button. Blending mode */
+"Plus Darker" = "더욱 어둡게";
+
+/* Toolbar button. Blending mode */
+"Plus Lighter" = "더욱 밝게";
+
+/* Toolbar button, in Pulsar effect. Changes the pattern to points. */
+"Points" = "포인트";
+
+/* Toolbar button. Applies a visual effect that looks like an image seen through a prism */
+"Prism" = "프리즘";
+
+/* Toolbar button. Adds pseudo-3D effect, that creates an illusion of 3D-ness to the video. The name is derived from Pulsar Data Visualisation. Pseudo-3D can be an alternative name. */
+"Pulsar" = "펄사";
+
+/* Subscription screen pro-feature thumbnail text, i.e, Adds pseudo-3D effect, that creates an illusion of 3D-ness to the video. The name is derived from Pulsar Data Visualisation. Pseudo-3D can be an alternative name. Ignore the \"thumbnail\" in your translation. */
+"Pulsar thumbnail" = "펄사";
+
+/* Toolbar button. Defines shape that is circular.
+   Toolbar button. Shape of a mask that is a circle. */
+"Radial" = "원형";
+
+/* Toolbar button. Format option that defines the aspect ratio (and orientation) of the project. */
+"Ratio" = "비율";
+
+/* Toolbar button. Shape of a mask that is a  rectangle. */
+"Rectangle" = "직사각형";
+
+/* Toolbar button. Refines an effect */
+"Refine" = "다듬기";
+
+/* Toolbar button. Removes the selected clip or layer */
+"Remove" = "제거";
+
+/* Toolbar button. Adds Chromatic Aberration effect, that results in noticeable colored edges (and especially red, green and blue) around object in the video. Chromatic Aberration can be an alternative name. */
+"RGB" = "RGB";
+
+/* Subscription screen pro-feature thumbnail text, i.e, Chromatic Aberration effect, that results in noticeable colored edges (and especially red, green and blue) around object in the video. Chromatic Aberration can be an alternative name. Ignore the \"thumbnail\" in your translation. */
+"RGB thumbnail" = "RGB";
+
+/* Toolbar button. Alignment of text.
+   Toolbar button. Controls scan lines (smearing) to the right of the video. */
+"Right" = "오른쪽";
+
+/* Toolbar button. Name of equalizer preset. */
+"Rock" = "락";
+
+/* Toolbar button, in Etch effect. Controls the coarseness, or smoothness, of the lines. */
+"Roughness" = "거칠기";
+
+/* Toolbar button, inside Adjust. Type of tonal adjustment */
+"Saturation" = "채도";
+
+/* Toolbar button. Controls the scaling of an effect. For example, in Grain controls how big the grains are. */
+"Scale" = "비율";
+
+/* Toolbar button. Adds Scan effect, that draws vertical and horizontal scan lines around the video. Smears the boundaries. Smear can be an alternative name. */
+"Scan" = "스캔";
+
+/* Toolbar button. A button for accessing a group of additional visual effects that are not apparent in the main effects toolbar. */
+"Effects.More" = "기타";
+
+/* Toolbar button. Blending mode */
+"Screen" = "스크린";
+
+/* Toolbar button. Controls sensitivity of an effect. */
+"Sensitivity" = "민감도";
+
+/* Toolbar button. Controls appearance of a shadow. */
+"Shadow" = "그림자";
+
+/* Toolbar button. Controls the shape of a widget/mask/effect/etc. */
+"Shape" = "모양";
+
+/* Toolbar button. Shows the shadow (or other effect) previously hidden. */
+"Show" = "보기";
+
+/* Toolbar button. Blending mode */
+"Soft Light" = "소프트라이트";
+
+/* Toolbar button. Controls the softness of a shadow or another effect. */
+"Softness" = "부드러움";
+
+/* Toolbar button. Controls the playback speed of the object. */
+"Speed" = "속도";
+
+/* Toolbar button, reverses a video clip when pressed. Should be short, prefer verbs. */
+"Reverse" = "리버스";
+
+/* Message bellow a progress indicator, when waiting for reverse to finish. */
+"Reversing..." = "리버싱 중...";
+
+/* Toolbar button. Splits (cuts or divides) the current object at the current time */
+"Split" = "분할";
+
+/* Toolbar button. Controls spread of Chroma Key (or other) effect */
+"Spread" = "스프레드";
+
+/* Toolbar button. Defines shape of text background that looks like a horizontal strip (runing from left edge to right edge of the whole screen). */
+"Strip" = "줄무늬";
+
+/* Toolbar button. Controls stroke of a shape / text. */
+"Stroke" = "선";
+
+/* Toolbar button, inside Adjust. Determines how warm the colors are. Type of tonal adjustment. */
+"Warmth" = "따뜻함";
+
+/* Toolbar button. Adds a text layer. */
+"Text" = "텍스트";
+
+/* Toolbar button. Controls threshold of Chroma Key (or other) effect. */
+"Threshold" = "한계값";
+
+/* Toolbar button, inside Adjust. Type of tonal adjustment */
+"Tint" = "색조";
+
+/* Toolbar button. Controls scan lines (smearing) to the top of the video. */
+"Top" = "최상위";
+
+/* Toolbar button. Group of tools that transform (move, rotate, etc.) an object. */
+"Transform" = "변형";
+
+/* Toolbar button. Horizontally flips an object, similar to a mirror reflection. */
+"Transform.Mirror" = "거울";
+
+/* Toolbar button. Vertically flips an object. */
+"Transform.Flip" = "뒤집기";
+
+/* Toolbar button. Rotates an object by 90 degrees. */
+"Transform.Rotate" = "회전";
+
+/* Toolbar button. Applies aspect fit on the selected layer to fit the canvas. */
+"Transform.Fit" = "맞춤";
+
+/* Toolbar button. Applies aspect fill on the selected layer to fill the canvas. */
+"Transform.Fill" = "채우기";
+
+/* Toolbar button. Name of equalizer preset. */
+"Treble +" = "고음 +";
+
+/* Toolbar button. Name of equalizer preset. */
+"Treble -" = "고음 -";
+
+/* Toolbar button. Unlinks (detaches, separates) audio from video. */
+"Unlink" = "연결해제";
+
+/* Toolbar button. Controls the velocity of grains, they way they move around. */
+"Velocity" = "속도";
+
+/* Toolbar button, inside Adjust. Type of tonal adjustment */
+"Vibrance" = "활기";
+
+/* Toolbar button, in Chromatic Aberration effect. Controls how fast the pattern vibrates.
+   Toolbar button, in Pulsar effect. Controls intensity of the lines vibration. The pattern might stay still or vibrate to add an un-easing effect. */
+"Vibration" = "진동";
+
+/* Toolbar button. Controls audio volume. */
+"Volume" = "음량";
+
+/* Toolbar button. Width of a stroke or other effect. */
+"Width" = "너비";
+
+/* Onboarding message, shown in a popoup */
+"Edit & trim any clip by tapping it" = "클립을 탭하면 편집 및 다듬기를 할 수 있습니다";
+
+/* Onboarding message, shown in a popoup */
+"Now apply a filter to make it pop!" = "이제 필터를 적용해 독특한 효과를 입혀보세요!";
+
+/* Onboarding message, shown in a popoup */
+"Add a filter to make it pop!" = "이제 필터를 적용해 톡톡 튀게 만드세요!";
+
+/* Onboarding message, shown in a popoup */
+"Now add a layer of text" = "이제 새로운 텍스트 레이어를 추가하세요";
+
+/* Onboarding message, shown in a popoup */
+"Add text to complete the package" = "텍스트를 추가하여 패키지를 완성하세요";
+
+/* Onboarding message, shown in a popoup */
+"Start a new project from the Projects screen" = "프로젝트 화면을 통해 새로운 프로젝트를 시작하세요";
+
+/* Onboarding message, shown in a popoup */
+"Go here to start a new project" = "새로운 프로젝트 시작하기";
+
+/* Onboarding message, shown in a popoup */
+"Select Mixer to overlay a video" = "비디오를 덧씌울 믹서를 선택하세요";
+
+/* Onboarding message, shown in a popoup */
+"Select Mixer to overlay or blend a video" = "비디오를 덧씌우거나 혼합할 믹서를 선택하세요";
+
+/* Onboarding message, shown in a popoup */
+"Tap between clips to add a transition" = "클립 사이를 탭하여 전환효과를 추가하세요";
+
+/* Onboarding message, shown in a popoup */
+"Tap the question mark for help" = "물음표를 눌러 도움말 보기";
+
+/* Onboarding message, shown in a popoup */
+"Tap the question mark above for help" = "위에 있는 물음표를 누르면 도움말을 볼 수 있습니다";
+
+/* Onboarding message, shown in a popoup */
+"Need help? Tap the question mark above" = "도움이 필요하신가요? 위에 있는 물음표를 탭하세요";
+
+/* Onboarding message, shown in a popoup */
+"Subscribe here for extra features!" = "구독을 시작하여 추가 기능을 이용하세요!";
+
+/* Onboarding message, shown in a popoup */
+"Subscribe here for premium content and more!" = "구독을 시작하여 프리미엄 콘텐츠와 다양한 기능을 즐겨보세요!";
+
+/* Onboarding message, shown in a popoup */
+"Go here for more options" = "여기를 방문하여 더욱 다양한 옵션을 확인하세요";
+
+/* Message shown when a project in empty */
+"Press the big red button below to get started!" = "아래 있는 크고 빨간 버튼을 눌러 시작하세요!";
+
+/* Message shown when a project in empty */
+"Press the big red button below to import footage" = "크고 빨간 버튼을 눌러 이미지 장면을 불러오세요";
+
+/* Message shown when a project in empty */
+"Tap the + below to get started" = "아래 + 버튼을 눌러 시작하세요";
+
+/* Message shown when a project in empty */
+"Tap the + below to add clips" = "아래 + 버튼을 눌러 클립을 추가하세요";
+
+/* Message shown when a project in empty */
+"Tap the + below to add media" = "아래 + 버튼을 눌러 미디어를 추가하세요";
+
+/* Message shown when a project in empty */
+"Tap the + below to add footage" = "아래 + 버튼을 눌러 장면을 추가하세요";
+
+/* Export. Defines output resolution */
+"Resolution" = "해상도";
+
+/* Export. Explanation message for resolution of 360p. */
+"Fast and small but lesser quality." = "작고 빠르지만, 낮은 품질";
+
+/* Export. Explanation message for resolution of 480p. */
+"Perfect for sharing on social media" = "소셜 미디어 공유에 적합";
+
+/* Export. Explanation message for resolution of 720p. */
+"Best balance between quality and size" = "품질과 크기 사이에 최상의 밸런스";
+
+/* Export. Explanation message for resolution of 1080p. */
+"Great for bigger screens, but heavier" = "대형 스크린에 환상적이지만 무겁고 용량이 큽니다";
+
+/* Export. Explanation message for resolution of 4K. */
+"Just like going to the movies!" = "마치 영화관에 간 것 같은!";
+
+/* Export. Defines output frame rate. */
+"Frames per second" = "초당 프레임";
+
+/* Export. Explanation message for frame rate of 24 */
+"Cinematic standard." = "영화 표준";
+
+/* Export. Explanation message for frame rate of 25 */
+"PAL standard." = "PAL 표준";
+
+/* Export. Explanation message for frame rate of 30 */
+"NTSC standard." = "NTSC 표준";
+
+/* Export. Explanation message for 50 FPS. PAL is the name of a television standard, commonly used almost everywhere except the US & Canada. */
+"Enables smoother animation, for PAL video." = "PAL 비디오 규격을 위한 부드러운  애니메이션 재생 활성화.";
+
+/* Export. Explanation message for frame rate of 60 */
+"Enables smoother animation." = "부드러운 애니메이션 활성화";
+
+/* Alert text given to the user when no permission was given by the user to photos, so the app can't take photos */
+"Videoleap does not have access to your photos. To enable access, go to iOS settings" = "Videoleap가 사용자의 사진을 열어볼 수 없습니다. 접근을 활성화하기 위해 iOS 설정 앱을 방문하십시오";
+
+/* Backstage button. Opens subscription screen.
+   Promotion subscription screen headline. */
+"Videoleap Pro" = "Videoleap Pro";
+
+/* Backstage button. Opens subscription screen. */
+"Go Pro" = "Pro 업그레이드";
+
+/* Backstage button. Opens subscription screen. */
+"Share Videoleap" = "Videoleap 공유";
+
+/* Backstage button. Opens subscription screen. */
+"More Apps by Lightricks" = "Lightricks사 제작 앱";
+
+/* Backstage button. Opens help. */
+"Help" = "도움말";
+
+/* Toolbar button. In Pixelate, changes the pixelization effect to a grid of hexagons pattern. */
+"Hexagons" = "육각형";
+
+/* Backstage button. Opens Mail app to write us feedback email. */
+"Send Feedback" = "피드백 보내기";
+
+/* Backstage button. Opens App Store rating. */
+"Rate & Review" = "앱 평가하기";
+
+/* Backstage button. Links to our social media presence. */
+"Social Media" = "소셜 미디어";
+
+/* A short option in a survey asking users how did they hear about Videoleap. The option being they heard about Videoleap from a social network */
+"Social media" = "소셜 미디어";
+
+/* Backstage button. Opens settings screen. */
+"Settings" = "설정";
+
+/* Backstage button. Opens tutorials. */
+"Tutorials" = "튜토리얼";
+
+/* Backstage promotional card. Body. */
+"Get access to premium content and unlimited project editing!" = "프리미엄 콘텐츠 제공, 무제한 프로젝트 편집!";
+
+/* Backstage promotional card. Title. */
+"Become Pro" = "Pro 업그레이드";
+
+/* Backstage promotional card. Title. */
+"Be a Pro" = "Pro로 업그레이드하세요";
+
+/* Backstage promotional card. Body. */
+"Unlock unlimited layers and more!" = "제한 없는 레이어 개수!";
+
+/* Backstage promotional card. Body. */
+"Unlimited layers, unlimited project duration and much more!" = "제한 없는 레이어 개수와 프로젝트 재생시간, 기타 등등!";
+
+/* Backstage promotional card. Body. */
+"Unlock premium content, unlimited layers and more!" = "프리미엄 콘텐츠 제공, 제한 없는 레이어 개수, 기타 등등!";
+
+/* Backstage promotional card. Title. */
+"Be Inspired!" = "영감을 받으세요!";
+
+/* Backstage promotional card. Body. */
+"Check out Videoleap's creative community on Instagram" = "Instagram의 Videoleap 커뮤니티를 살펴보세요";
+
+/* Backstage promotional card. Title. */
+"Get Enlightened" = "Enlightened 얻기";
+
+/* Backstage promotional card. Body. */
+"Join our Facebook page for weekly tutorials and more!" = "저희 Facebook 페이지에 참여하여 주간 튜토리얼과 최신 소식을 확인하세요!";
+
+/* Projects. Template for a new project name when creating a copy of an existing project. For example, project Xyz will become Copy of Xyz. */
+"Copy of %@" = "%@ 복제본";
+
+/* Sound effect, name of a category. */
+"Action" = "액션";
+
+/* Sound effect, name of a category. */
+"Animals" = "동물";
+
+/* Sound effect, name of a category. */
+"Bleeps" = "삐 소리";
+
+/* Sound effect, name of a category. */
+"Cartoon" = "만화";
+
+/* Sound effect, name of a category. */
+"Game Show" = "게임 쇼";
+
+/* Sound effect, name of a category. */
+"Holidays" = "휴일";
+
+/* Sound effect, name of a category. */
+"Instruments" = "악기";
+
+/* Sound effect, name of a category. */
+"Kitchen" = "주방";
+
+/* Sound effect, name of a category. */
+"Objects" = "물체";
+
+/* Sound effect, name of a category. */
+"People" = "사람";
+
+/* Sound effect, name of a category. */
+"Sci-Fi" = "Sci-Fi";
+
+/* Sound effect, name of a category. */
+"Sirens" = "사이렌";
+
+/* Sound effect, name of a category. */
+"Trailers" = "트레일러";
+
+/* Sound effect, name of a category. */
+"Video Games" = "비디오 게임";
+
+/* Sound effect, name of a category. */
+"Whoosh" = "우쉬";
+
+/* Toolbar button. Adds a layer that shows stickers */
+"Stickers" = "스티커";
+
+/* Title of the stickers import screen, appears on the top part of it */
+"Import.Stickers" = "스티커";
+
+/* Toolbar button. Adds a pixelization effect. */
+"Pixelate" = "픽셀화";
+
+/* Toolbar button. Adds an effect of water drops over the video. Raindrop can be alternative name. */
+"Screen Rain" = "스크린 비";
+
+/* Toolbar button. Adds an effect of multiplying the video several times and tiling it across the screen. */
+"Tiles" = "타일";
+
+/* Toolbar button. Adds an effect of making the video appear as if it was drawn on wool fabric. Wool can be alternative name. */
+"Fabric" = "직물";
+
+/* Toolbar button. Adds an effect of making the video appear as if it was drawn in 8-bit graphic, similar to very old computer games. */
+"8-bit" = "8비트";
+
+/* Toolbar button. Adds an effect highlighting and coloring the edges of objects in the video. */
+"Edges" = "가장자리";
+
+/* Toolbar button. Applies color adjustments for a narrow range of colors, selected by user. Selective Adjust, Range Adjust, Tone Lab, Hue Adjust. */
+"Color Range" = "색상 범위";
+
+/* Toolbar button. Short for Range Adjust. Applies color adjustments for a narrow range of colors, selected by user. Selective Adjust, Range Adjust, Tone Lab, Hue Adjust. */
+"Range Adj." = "범위 조정.";
+
+/* Toolbar button. Applies color adjustments for a narrow range of colors, selected by user. Selective Adjust, Range Adjust, Tone Lab, Hue Adjust. */
+"Tone Lab" = "색조 범위";
+
+/* Subscription screen pro-feature thumbnail text, i.e, pro-feature that applies color adjustments for a narrow range of colors, selected by user. Ignore the \"thumbnail\" in your translation */
+"Tone Lab thumbnail" = "색조 범위";
+
+/* Toolbar button. Applies color adjustments for a narrow range of colors, selected by user. Selective Adjust, Range Adjust, Tone Lab, Hue Adjust. */
+"Hue Adjust" = "색조 조정";
+
+/* Toolbar button. Controls the amount of distortion / shake in an effect. */
+"Twitch" = "Twitch";
+
+/* Title of a button the directs the user to purchace a subscription */
+"Remove Limit to Save" = "제한 제거";
+
+/* Label of a button of an alert presented to the user to indicate he uses more than the allowed limit of editing layers */
+"Remove Limit" = "제한 제거";
+
+/* Floating button on top of the video that appears when subscription only features were used and so the export becomes limited. */
+"Pro Only\nRemove Limit" = "Pro 전용\n기능 제한 제거";
+
+/* Popup message title, shown when non subscriber uses too many layers. */
+"Layer Limit Reached" = "레이어 개수 제한";
+
+/* Body of popoup alert when too many layers where used by non subscriber*/
+"Get Videoleap Pro to unlock unlimited layers and more!" = "Videoleap Pro로 업그레이드하여 레이어 개수 제한을 없애고 다양한 콘텐츠를 즐겨보세요!";
+
+/* Popup message title, shown when non subscriber uses feature available only to subscribers. */
+"Pro Only" = "Pro 전용";
+
+/* Body of popoup alert when pro only feature is used */
+"Get Videoleap Pro to unlock this effect and more!" = "Videoleap Pro로 업그레이드하여 이 효과를 비롯해 다양한 콘텐츠를 즐겨보세요!";
+
+/* A short title for a survey asking users who are no longer subscribers to our pro service, why they have unsubscribed */
+"You're no longer Pro. What went wrong?" = "Pro 구독을 중단하고 싶다구요? 무슨 문제를 겪고 계십니까?";
+
+/* A short option in a survey asking users who are no longer subscribers to our pro service, why they have unsubscribed. The option being they did not use the pro tools */
+"I don't use Pro tools" = "Pro 도구를 이용하지 않습니다";
+
+/* A short option in a survey asking users who are no longer subscribers to our pro service, why they have unsubscribed. The option being that they did not subscribe intentionally */
+"Subscribed by mistake" = "실수로 구독";
+
+/* A short option in a survey asking users who are no longer subscribers to our pro service, why they have unsubscribed. The option being that they use another app */
+"I use another app" = "다른 앱을 사용합니다";
+
+/* A short option in a survey asking users who are no longer subscribers to our pro service, why they have unsubscribed. The option being the subscription was too expensive */
+"Too expensive" = "너무 비쌈";
+
+/* Short label on a button which submits a user's respons to a survey */
+"Submit" = "제출";
+
+/* Placeholder text inside a text field where a user can write a custom answer to a survey */
+"Other" = "기타";
+
+/* Button in popoup alert */
+"Not Now" = "나중에";
+
+/* Button in popoup alert */
+"Not now" = "나중에";
+
+/* Label on a button in a dialog acknowledging its message */
+"OK" = "네";
+
+/* Toolbar button, adds Black and White effect */
+"B&W" = "흑백";
+
+/* Toolbar button. Adds vignette effect. */
+"Vignette" = "비네트";
+
+/* Toolbar button. Short for laboratories: a group of tools and features for developing visual styles and effects. */
+"Labs" = "실험실";
+
+/* Toolbar button. Controls barrel distortion in CRT. This is the optical distortion on old TVs caused by curvature of the screen. Looks like fisheye.  Bloat / Distortion are alternative names. */
+"Barrel" = "베럴";
+
+/* Message shown to the user if he is already a subscriber when accessing the subscription screen */
+"All the features are now available" = "이제 모든 기능을 이용할 수 있습니다";
+
+/* Title of a message shown to the user if he is already a subscriber when accessing the subscription screen */
+"You're already a subscriber" = "이미 구독 중입니다";
+
+/* Black Friday: Header title of a promotional message in the subscription screen */
+"Black Friday Only!" = "블랙 프라이데이 한정!";
+
+/* Cyber Monday: Header title of a promotional message in the subscription screen */
+"Cyber Monday Only!" = "사이버 먼데이 한정!";
+
+/* Chinese New Year */
+"Get 50% Off for the Chinese New Year!" = "중국의 설을 맞아 50% 저렴한 가격에 구매하세요!";
+
+/* Chinese New Year */
+"Chinese New Year Event starts from February 3rd" = "중국의 설 이벤트는 2월 3일부터 시작합니다";
+
+/* Alert when demo version is launched */
+"This version of %@ has been created specifically for demonstration purposes" = "%@의 이 버전은 데모 용도로 제작되었습니다";
+
+/* Title of alert appearing when trying to enter a disabled feature */
+"Feature not enabled for this demo" = "데모 버전에서 사용할 수 있는 기능이 아닙니다";
+
+/* In Checkout screen, label for the total price to be payed by the user. */
+"Total" = "합계";
+
+/* Error message presented to the user when assets could not be loaded */
+"Assets Failed to Load" = "에셋을 불러올 수 없음";
+
+/* Message presented to the user asking to contact us if problem is not solved. */
+"Contact us if the problem persists." = "문제가 지속되면 고객센터로 연락바랍니다.";
+
+/* Short title for a dialog which asks the user to approve a download over cellular network */
+"File Download" = "파일 다운로드";
+
+/* Content of a dialog which asks the user to approve a download over cellular network */
+"You are about to download a file using cellular data. Are you sure?" = "파일을 내려받는데 셀룰러 데이터를 이용합니다. 계속 진행하시겠습니까?";
+
+/* Short label on a button representing a positive response to an alert dialog */
+"Go to Settings" = "설정으로 이동";
+
+/* Error message presented to the user, when an exact error is not known. */
+"Something Went Wrong" = "알 수 없는 오류가 발생했습니다";
+
+/* Message presented to the user asking to try purchase the assets again and contact us if problem is not solved. */
+"Try again to purchase assets or contact us if the problem persists." = "에셋을 다시 구매하거나, 문제가 지속되는 경우 고객센터로 연락바랍니다.";
+
+/* Message presented to the user asking to try load the assets again and contact us if problem is not solved. */
+"Try again to reload assets or contact us if the problem persists." = "에셋을 다시 불러오거나, 문제가 지속되는 경우 고객센터로 연락바랍니다.";
+
+/* Shown as a title of video/photo/music when the actual title is not known or does not exists. */
+"Unknown" = "알 수 없음";
+
+/* Error message when user has no iCloud account */
+"iCloud Account Required" = "iCloud 계정 필요";
+
+/* Explanation to the user that iCloud acount is required in order to export premium assets and request to go to the settings */
+"You need an iCloud account to export premium assets. Please go to Settings and sign in to your iCloud account." = "프리미엄 에셋을 이용하려면 iCloud 계정이 필요합니다. 설정으로 이동해 iCloud 계정에 로그인하십시오.";
+
+/* Explanation to the user that purchase of premium assets failed and ways to continue from here  */
+"Failed finalizing the list of Premium Assets contained in your project, that needs to be purchased before proceeding. Please check your Internet connection and try again." = "프로젝트에 포함된 프리미엄 에셋 목록을 작성하는 데 실패했습니다. 인터넷 연결 상태를 확인하신 후 다시 시도하십시오.";
+
+/* Message presented instead of content in the purchased import tab, indicating the user has no purchased content, where {0} is the tab icon. */
+"Nothing here yet... but we can change that! Tap the {0} tab to get some great clips." = "아직 아무것도 없습니다… 하지만 문은 언제든 열려 있습니다! 멋진 클립을 받으려면 {0} 탭을 눌러보세요.";
+
+/* Badge placed on image preview of stock assets that are free to use. Should be short. */
+"FREE" = "무료";
+
+/* Badge placed on image preview of premium stock assets that are not free to use. Should be short. */
+"PREMIUM" = "프리미엄";
+
+/* Short label on a button which filters search results to videos */
+"Videos" = "비디오";
+
+/* Short label on a button which filters search results to photos (images) */
+"Photos" = "사진";
+
+/* Title of Terms & Conditions dialog. Premium assets are stock videos / images / music that are premium in quality and are not available for free.  */
+"Premium Assets" = "프리미엄 에셋";
+
+/* Label on a button in a Terms & Conditions dialog that accepts the terms */
+"Accept" = "승인";
+
+/* Content of a dialog which asks the user to accept the terms of using premium assets. The %@ should remain in the translated string, and will be replaced with the localized text \"Terms & Conditions\". The \\n should also remain in the translated string. */
+"Try them now and buy later if you like the results.\n\nUse of premium assets is subject to %@. By tapping Accept you confirm that you have read and agreed to the terms." = "지금 미리 사용해보고 결과물이 마음에 들면 구매하세요..\n\n프리미엄 에셋 이용은 %@을 따릅니다. 승인 버튼을 누르면 이용 약관을 읽어보았으며 동의하는 것으로 간주합니다.";
+
+/* Title of a link to terms of use document */
+"Terms & Conditions" = "이용 약관 및 조건";
+
+/* Place holder for a search field, shown when no specific search text was entered by user. */
+"Search" = "검색";
+
+/* Toolbar button. Adds a kaleidoscope effect. Should be short, can be sensible abbreviation if not possible otherwise. */
+"Kaleido" = "만화경";
+
+/* Toolbar button, in Kaleidoscope feature. Controls the type (mode) of the effect. */
+"Mode" = "모드";
+
+/* Toolbar button, adds a lens flare effect. */
+"Lens Flare" = "렌즈 플레어";
+
+/* Toolbar button. Group of styles and presets.
+   Toolbar button. Enables selection of various text effects such as 'glow' or 'flames' */
+"Style" = "스타일";
+
+/* Title of a button prompting the user to upgrade to the Pro version */
+"Upgrade Now" = "지금 업그레이드";
+
+/* Text appearing on a thumbnail suggesting what the user can get by subscribing. Only short strings can fit */
+"Unlimited\nLayers" = "무제한\n레이어";
+
+/* Subtitle appearing in the subscription screen, notifying users that by subscribing they can access all features of the app */
+"Access All Features" = "모든 기능 이용";
+
+/* Promotional message for Videoleap Pro subscription */
+"Get unlimited layers and Pro features" = "무제한 레이어와 Pro 기능을 제한없이 이용하세요";
+
+/* Promotional message after user has just subscribed to Videoleap Pro */
+"Welcome back! Tap + and let's get started" = "돌아오신 것을 환영합니다! +를 탭하여 시작하세요!";
+
+/* Promotional message for Photoleap app - unused. */
+"Create amazing art and designs to use in your videos!" = "멋진 예술작품을 만들고 디자인하여 비디오에 적용하세요!";
+
+/* Promotional message for Lightleap app - unused. */
+"Edit multiple photos at once for the perfect slideshow" = "완벽한 슬라이드쇼를 위해 여러 장의 사진을 한번에 편집하세요";
+
+/* Promotional message for Motionleap app - unused. */
+"Animate your photos to create stunning moving images" = "움직이는 사진으로 탄성이 나오는 동적인 이미지를 만들어보세요";
+
+/* Promotional message for Artleap app - unused. */
+"Add Effects & Filters in a tap!" = "한번의 탭으로 효과와 필터를 추가하세요!";
+
+/* Promotional message for Photoleap app. */
+"Create amazing digital art" = "놀라운 디지털 아트를 창조하세요";
+
+/* Promotional message for Lightleap app. */
+"Edit your photos like a pro" = "전문가처럼 사진을 편집하세요";
+
+/* Promotional message for Motionleap app. */
+"Animate your photos" = "사진을 움직이게 만들어보세요";
+
+/* Promotional message for Artleap app. */
+"Turn photos into art in a tap" = "한 번의 탭으로 사진을 예술작품으로 만드세요";
+
+/* Promotional message for Beatleap app. */
+"Create your own music video" = "자신만의 뮤직 비디오를 만들어보세요";
+
+/* Title of a screen that shows a preview of an asset, such as image or video. */
+"Preview" = "미리보기";
+
+/* Title of slider for selecting photo duration */
+"Photo Duration" = "사진 듀레이션";
+
+/* Description of a slider to select photo duration */
+"Set the default duration for an imported photo." = "불러 온 사진에 대해 기본 듀레이션을 설정";
+
+/* Title of selection bar to select default transition */
+"Transition" = "트랜지션";
+
+/* Subscription screen pro-feature thumbnail text, i.e, pro-feature that applies special transitions between photos & videos. */
+"Transitions thumbnail" = "전환효과";
+
+/* Description of transition selection bar */
+"Set the default transition between photos & videos." = "사진과 비디오 사이의 기본 트랜지션을 설정";
+
+/* Title of a switch for selecting import method for assets */
+"Live Photos as Videos" = "Live Photo를 비디오로";
+
+/* Toolbar button. Option for selecting transition between clips that randomly selects a transition for the user. */
+"Random" = "랜덤";
+
+/* Body text in a button encouraging the user to start a 3 day free trial of Videoleap Pro  */
+"Get 3 Days Free!" = "3일간 무료 이용!";
+
+/* Body text in a button encouraging the user to start a 7 day free trial of Videoleap Pro  */
+"Get 7 Days Free!" = "7일간 무료 이용!";
+
+/* Error message shown when export fails. */
+"Export failed" = "내보내기 실패";
+
+/* Error message shown when export fails. */
+"Failed to decode, some assets may be damaged" = "디코드 실패, 일부 리소스가 손상되었습니다";
+
+/* Error message shown when export fails. */
+"We couldn't continue because Videoleap was closed while exporting" = "내보내기 도중 Videoleap을 종료하여 계속할 수 없습니다";
+
+/* Error message shown when export fails. */
+"Too many Video layers" = "너무 많은 비디오 레이어";
+
+/* Toolbar button. Shows a color picker (pipette) for the Chroma Key effect. */
+"Picker" = "피커";
+
+/* Toolbar button. Controls changes and manipulatios of audio pitch. */
+"Pitch" = "음높이";
+
+/* Toolbar button. Represents an audio pitch control option that keeps original pitch despite speed manipulations. Alternatives for shorter strings: Hold Pitch, Maintain Pitch. */
+"Keep Pitch" = "음높이 유지";
+
+/* Toolbar button. Represents an audio pitch control option that does not keep original pitch when speed manipulations are applied. This is the opposite effect of "Keep Pitch". */
+"Change Pitch" = "음높이 변경";
+
+/* Toolbar button. Unmutes audio. */
+"Unmute" = "음소거 해제";
+
+/* Title of a slider that changes the size of an object. */
+"Size" = "크기";
+
+/* Apple's Files Application name. */
+"Files" = "파일";
+
+/* Subtitle of a promotional message in the subscription screen */
+"Get 1 Month Free!" = "무료로 1개월 얻기!";
+
+/* Title of a tool that allows changing distance between characters and lines in a text label. */
+"Spacing" = "간격";
+
+/* Title of a slider that changes the distance between characters in a text layer. */
+"Glyph Spacing" = "글자";
+
+/* Title of a slider that changes the distance between lines in a text layer. */
+"Line Spacing" = "줄";
+
+/* Header label for a screen promoting a special sale for the holiday season */
+"Holiday Sale" = "연말연시 세일";
+
+/* Title of a button representing an annual subscription plan */
+"Yearly Plan" = "연간 구독";
+
+/* Promotional text in a button for purchasing a subscription plan, informing the user he will receive a 1 month free trial period */
+"1 Month Free" = "1개월 무료";
+
+/* Promotional text in a button for purchasing a subscription plan, informing the user that he will later be billed a certain ammount annually. %@ will be converted into the correct sum amount (\"$36.99\" for example), please keep it in the translation as is */
+"then only %@ billed yearly" = "이후 매년 %@ 결제";
+
+/* Label on a button enabling the user too see other subscription payment plans available */
+"See More Plans" = "더욱 많은 약정 보기";
+
+/* Toolbar button. Enables adding animation to the selected object. */
+"Animation" = "애니메이션";
+
+/* Toolbar button. Animation category for animations that appear at the begining of the selected object. */
+"In" = "인프레임";
+
+/* Toolbar button. Animation category for animations that appear up to the end of the selected object. */
+"Out" = "아웃프레임";
+
+/* Toolbar button. Animation category for animations that appear throughout the entire selected object's duration. */
+"Overall" = "전체";
+
+/* Toolbar button. Fade in animation. */
+"AnimationType.FadeIn" = "페이드인";
+
+/* Toolbar button. Fade out animation. */
+"AnimationType.FadeOut" = "페이드아웃";
+
+/* Toolbar button. Slide left animation, making the object move left. */
+"AnimationType.SlideLeft" = "왼쪽으로 슬라이드";
+
+/* Toolbar button. Slide right animation, making the object move right. */
+"AnimationType.SlideRight" = "오른쪽으로 슬라이드";
+
+/* Toolbar button. Slide up animation, making the object move up. */
+"AnimationType.SlideUp" = "위쪽으로 슬라이드";
+
+/* Toolbar button. Slide down animation, making the object move down. */
+"AnimationType.SlideDown" = "아래쪽으로 슬라이드";
+
+/* Toolbar button. Scale up animation, making the object start small and expand to its current size. */
+"AnimationType.ScaleUp" = "확대";
+
+/* Toolbar button. Scale down animation, making the object start large and shrink to its current size. */
+"AnimationType.ScaleDown" = "축소";
+
+/* Toolbar button. Spin clockwise animation. */
+"AnimationType.SpinCW" = "좌회전";
+
+/* Toolbar button. Spin counter clockwise animation. */
+"AnimationType.SpinCCW" = "우회전";
+
+/* Toolbar button. Flicker animation, making objects appear and disappear in a repeating manner and in a random/twitchy feel. */
+"AnimationType.Flicker" = "깜빡";
+
+/* Toolbar button. Blink animation, making objects fade in and out in a repeating manner. */
+"AnimationType.Blink" = "반짝";
+
+/* Toolbar button. Pulse animation, making objects grow larger and smaller a fluent motion and a repeating manner. */
+"AnimationType.Pulse" = "진동";
+
+/* Toolbar button. Floating animation, making objects move up and down over and over in a fluent motion. */
+"AnimationType.Floating" = "둥실";
+
+/* Toolbar button. Wiggle animation, making objects randomly slightly move around the scene. */
+"AnimationType.Wiggle" = "꿈틀";
+
+/* Undo caption that in-animation (animation at the object's begining) duration changed */
+"Change In Animation Duration" = "인 애니메이션 지속시간 변경";
+
+/* Undo caption that out-animation (animation at the object's end) duration changed */
+"Change Out Animation Duration" = "아웃프레임 지속시간 변경";
+
+/* Undo caption that overall animation duration changed */
+"Change Overall Animation Duration" = "인프레임 지속시간 변경";
+
+/* Text communicating to the user the total amount they will pay for 3 months. Where {0} is the price. */
+"{0} total for 3 months!" = "3개월 도합 {0} !";
+
+/* Text communicating to the user the cost of the subscription once the subscription has renewed after a period of time. Where {0} is the price. */
+"Renews at {0}/year after" = "일 년 후 {0}에 갱신";
+
+/* Text informing the user of the percentage saved with the current sale. Where {0}% is the amount saved in percentage. */
+"Save {0}% on your first 3 months" = "첫 3달 간 {0}% 할인 받으세요";
+
+/* "Header label for a screen promoting a special sale for the new year" */
+"New Year's Sale" = "신년 세일";
+
+/* Text informing the user of the number of days remaining on the sale. Where {0} is the number of days remaining. */
+"Only {0} days remaining!" = "{0}일 남았습니다!";
+
+/* Text informing the user of that only 1 day is remaining on the sale. */
+"Only 1 day remaining!" = "1일 남았습니다!";
+
+/* A short title for a survey asking users how did they hear about Videoleap */
+"How did you hear about Videoleap?" = "Videoleap를 어떻게 알게 되었나요?";
+
+/* A short option in a survey asking users how did they hear about Videoleap. The option being they heard about Videoleap by searching online */
+"Searching online" = "온라인 검색";
+
+/* A short option in a survey asking users how did they hear about Videoleap. The option being they heard about Videoleap from a friend */
+"From a friend" = "친구로부터";
+
+/* A short option in a survey asking users how did they hear about Videoleap. The option being they heard about Videoleap from an article */
+"From an article" = "기사로부터";
+
+/* A short option in a survey asking users how did they hear about Videoleap. The option being they heard about Videoleap from ads */
+"Ads" = "광고";
+
+/* A short option in a survey asking users how did they hear about Videoleap. The option being they heard about Videoleap from the App store */
+"App Store" = "App Store";
+
+/* Title of a button on the top bar, presented durating the onboarding session, which enables the user to skip the onboarding. */
+"Skip" = "버킷";
+
+/* Toolbar button. Starts voice recording while playing the video simultaneously. Also known as off-camera commentary. */
+"Voiceover" = "보이스오버";
+
+/* Toolbar button. Starts voice recording while playing the video simultaneously. Also known as off-camera commentary. To replace an existing voice over element */
+"Retake" = "재촬영";
+
+/* Label on a tab representing all stock assets (images, videos) the user has bought from the app */
+"Purchased" = "구매완료";
+
+/* Description that appears on the Undo/Redo caption which describes the action of moving a mixer object to clip (e.g. Undo: Mixer to Clip) */
+"Mixer to Clip" = "믹서에서 클립으로";
+
+/* Description that appears on the Undo/Redo caption which describes the action of converting a clip object to a mixer (e.g. Undo: Clip to Mixer) */
+"Clip to Mixer" = "클립에서 믹서로";
+
+/* Toolbar button. Extracts the current frame from a video and adds it in place as an image, essentially stopping time within that particualr video */
+"Freeze" = "프리즈";
+
+/* Subscription screen pro-feature thumbnail text, i.e, pro-feature that extracts the current frame from a video and adds it in place as an image. */
+"Freeze Frame thumbnail" = "프레임\n프리즈";
+
+/* Toolbar button. Controls the amount of shadows left in the video frame after the color was removed using the Chroma-Key feature */
+"Shadows" = "그림자";
+
+/* Alert text presented to the user when no permissions were given by the user to use their microphone */
+"Videoleap does not have access to your microphone. To enable access, go to iOS settings" = "Videoleap이 마이크에 접근할 수 없습니다. iOS 설정으로 이동해 권한을 승인하십시오";
+
+/* Text communicating to the user the cost of the subscription per year. Where "{0}" will be replaced with the localized numeric representation of the price, e.g, "$100 billed yearly" */
+"{0} billed yearly" = "매년 {0} 청구";
+
+/* Text communicating to the user the discount percentage given for the subscription option. Where "\n" stands for a new line and "{0}" will be replaced with the actual discount percentage number, e.g, "SAVE 50%" */
+"SAVE \n{0}%" = "{0}%\n할인";
+
+/* Text communicating to the user the cost of the subscription per year. Where "\n" stands for a new line and "{0}" will be replaced with the localized numeric representation of the price, e.g, "Total: $100". */
+"Total: {0}" = "합계: {0}";
+
+/* Toolbar button. Splits (cuts or divides)  the current object at the current time, and extracts the  current frame */
+"Cut Frame" = "프레임 잘라내기";
+
+/* Description of a monthly price. Where "{0}" will be replaced with the localized numeric representation of the price, e.g, "$2.99 per month" */
+"{0} per month" = "{0}/월";
+
+/* Label on a button that restores previously purchased products */
+"Already Paid?" = "이미 결제하셨습니까?";
+
+/* Description that appears on the Undo/Redo caption which describes the action of dragging a layer in the project, changing its start time (e.g. Undo: Drag Layer) */
+"Drag Layer" = "레이어 드래그";
+
+/* filter effect names, applied on each frame. for instance filter B&W makes the video colors turn black and white. */
+"Filter.None" = "없음";
+"Filter.Action" = "액션";
+"Filter.B&W" = "흑백";
+"Filter.Retro" = "레트로";
+"Filter.Fortune" = "행운";
+"Filter.Vivid" = "생기";
+"Filter.High Noon" = "정오";
+"Filter.Steel" = "강철";
+"Filter.Firecracker" = "폭죽";
+"Filter.Cyberpunk" = "사이버펑크";
+"Filter.Purple Rain" = "보라색 비";
+"Filter.Spring" = "봄";
+"Filter.Night Vision" = "나이트 비전";
+"Filter.Negative" = "네거티브";
+"Filter.North" = "북쪽";
+"Filter.Fade" = "페이드";
+"Filter.Mist" = "안개";
+"Filter.Terra" = "대지";
+"Filter.Enchanted" = "마법";
+"Filter.Ultra" = "울트라";
+"Filter.Lovely Day" = "날씨 좋은 날";
+"Filter.Darkness" = "어둠";
+"Filter.Winter" = "겨울";
+"Filter.Vista" = "전망";
+"Filter.Sepia" = "세피아";
+
+/* text effects - special effects applied on each character. For instance, fire effect makes the letters burn with flames */
+"TextEffects.Fire" = "불";
+"TextEffects.Neon" = "네온";
+"TextEffects.Electricity" = "전기";
+"TextEffects.Gold" = "금";
+"TextEffects.Drip" = "드립";
+"TextEffects.Glitter" = "반짝이";
+"TextEffects.ChromaticAberration" = "색수차";
+
+/* text effects - special effects applied on each character. For instance, fire effect makes the letters burn with flames */
+"TextEffects.Water" = "물";
+
+/* Subscription screen pro-feature thumbnail text, i.e, pro-feature that applies special effects on each character. */
+"Text Effects thumbnail" = "텍스트 효과";
+
+/* Header label for a screen promoting a special spring sale */
+"Spring Sale" = "봄 세일";
+
+/* Second text label short. use translation with no more than 5 characters.*/
+"Seconds" = "초";
+
+/* Minutes text label short. use translation with no more than 5 characters.*/
+"Minutes" = "분";
+
+/* Hours text label short. use translation with no more than 5 characters.*/
+"Hours" = "시간";
+
+/* Days text label short. use translation with no more than 5 characters.*/
+"Days" = "일";
+
+/* Toolbar button. Preset animation that makes the text appear or disappear smoothly, see latest version fade in for better understanding of the word. */
+"AnimationGroup.Fade" = "페이드";
+
+/* Toolbar button. Preset animation that makes the text slide to or from its position, see latest version slide left for better understanding of the word. */
+"AnimationGroup.SlideRight" = "슬라이드 →";
+"AnimationGroup.SlideLeft" = "슬라이드 ←";
+"AnimationGroup.SlideUp" = "슬라이드 ↑";
+"AnimationGroup.SlideDown" = "슬라이드 ↓";
+
+/* Toolbar button. Preset animation that makes the text grow or shrink to or from its final size. See latest version scale up for better understanding of the word. */
+"AnimationGroup.Scale" = "비율";
+
+/* Toolbar button. Preset animation that makes the text spin, see latest version spin CW for better understanding of the word. */
+"AnimationGroup.Spin" = "스핀";
+
+/* Toolbar button. Preset animation, making objects appear and disappear in a repeating manner and in a random/twitchy feel. */
+"AnimationGroup.Flicker" = "깜빡";
+
+/* Toolbar button. Preset animation that makes the text apear letter by letter. */
+"AnimationGroup.Typewriter" = "타자기";
+
+/* Toolbar button. Preset animation that makes the text appear blurry and become sharp (or disappear from sharp to blur). */
+"AnimationGroup.Blur" = "흐림 효과";
+
+/* Toolbar button. Preset animation that makes the text fall down and then bounce gently. */
+"AnimationGroup.Bounce" = "바운스";
+
+/* Toolbar button. Preset animation that makes the text appear behind a mask. */
+"AnimationGroup.Reveal" = "나타내기";
+
+/* Toolbar button. Preset animation that makes the text letters appear or disappear in a spiral motion. */
+"AnimationGroup.Vortex" = "회오리";
+
+/* Toolbar button. Preset animation that makes the text letters appear by falling. */
+"AnimationGroup.Fall" = "낙하";
+
+/* Toolbar button. Preset animation that makes the text disappear behind a mask. */
+"AnimationGroup.Conceal" = "숨김";
+
+/* Toolbar button. Preset animation that makes the text move like a wave. */
+"AnimationGroup.Wave" = "파도";
+
+/* Toolbar button. Blink animation, making objects fade in and out in a repeating manner. */
+"AnimationGroup.Blink" = "반짝";
+
+/* Toolbar button. Floating animation, making objects move up and down over and over in a fluent motion. */
+"AnimationGroup.Floating" = "둥실";
+
+/* Toolbar button. Pulse animation, making objects grow larger and smaller a fluent motion and a repeating manner. */
+"AnimationGroup.Pulse" = "진동";
+
+/* Toolbar button. Wiggle animation, making objects randomly slightly move arround the scene. */
+"AnimationGroup.Wiggle" = "꿈틀";
+
+/* Toolbar button that allow the user to set the animation direction. For example, whether to slide in left, right, top or bottom. */
+"AnimationAttribute.Direction" = "방향";
+
+/* Toolbar button that allows the user to set the animation rotation direction. For example, whether the spin will be clockwise or counter clockwise. */
+"AnimationAttribute.Rotation" = "회전";
+
+/* Toolbar button that allow the user to set the animation scale direction. For example, whether the text will become bigger (scale up) or small (scale down). */
+"AnimationAttribute.Scale" = "비율";
+
+/* Toolbar button that allow the user to set the animation entrance / exit corner (relevant for Vortex animation) */
+"AnimationAttribute.Corner" = "모서리";
+
+/* Toolbar button that allows the user to set the animation's scale: per letter, per word, per line or for the whole text as a single unit. */
+"AnimationAttribute.Mode" = "모드";
+
+/* Toolbar button that allow the user to set the line order of text animation, for text with more than one line: up line order or down line order. */
+"AnimationAttribute.LineOrder" = "선 순서";
+
+/* Toolbar button that allow the user to set in line order of text animation: right-to-left or left-to-right. */
+"AnimationAttribute.Paragraph" = "단락";
+
+/* Toolbar button that sets the animation model to be global, i.e. the whole text moves together */
+"AnimationMode.Global" = "글로벌";
+
+/* Toolbar button that sets the animation model to be line by line, i.e. each line moves separately */
+"AnimationMode.Line" = "줄";
+
+/* Toolbar button that sets the animation model to be word by word, i.e. each word moves separately */
+"AnimationMode.Word" = "단어";
+
+/* Toolbar button that sets the animation model to be letter by letter, i.e. each letter moves separately */
+"AnimationMode.Glyph" = "글자";
+
+/* Subscription screen pro-feature thumbnail text, i.e, pro-feature that applies animation effects on each character. */
+"Text Animation thumbnail" = "텍스트\n애니메이션";
+
+/* Title for promotion screen stating the event we celebrate */
+"Dragon Boat Festival" = "드래곤 보트 페스티벌";
+
+/* Sub title of the promotion screen stating  what the user will get */
+"Unlimited Access Deal" = "무제한 액세스 혜택";
+
+/* The deal the user will get */
+"Get 1 Month for {0}" = "{0}에 1개월 이용";
+
+/* Title of a button enabling dismissing of a pop up screen */
+"Got it" = "알았어요";
+
+/* Text on subscription screen that explains the user that he will be automatically charge unless he canceles his subscription plan. */
+/* Note: {0} and {1} should be remained and we will replace them with amount of days and billed amount
+ in our code. e.g: for the english translation and choosing 5 days and $10 we will end up with:
+ After the 5 days free trial........renews for $10 per year.... */
+"After the {0} days free trial this subscription automatically renews for {1} per year unless it is canceled at least 24 hours before the end of the trial period." = "무료 평가 기간 {0}일이 만료되기 24시간 이전에 구독을 취소하지 않는 경우 구독이 자동으로 갱신되며 매년 {1} 비용을 청구합니다.";
+
+/* Same as the text above just month instead of year */
+"After the {0} days free trial this subscription automatically renews for {1} per month unless it is canceled at least 24 hours before the end of the trial period." = "무료 평가 기간 {0}일이 만료되기 24시간 이전에 구독을 취소하지 않는 경우 구독이 자동으로 갱신되며 매달 {1} 비용을 청구합니다.";
+
+/* Toolbar button. Defines traits of the canvas which the video is being rendered to. e.g. backround color, aspect ratio etc. */
+"Canvas" = "캔버스";
+
+/* Error message shown to the user when the app failed to decode assets */
+"We're sorry but we couldn't read the last few frames of one of your clips. Please trim them and try again.\nTried trimming and still can't export? Contact us and we'll be glad to help!" = "죄송합니다. 일부 클립의 마지막 프레임 몇 장을 읽을 수 없습니다. 다시 다듬은 후 재시도하시기 바랍니다.\n다듬기 후에도 내보낼 수 없으신가요? 고객지원으로 도움을 요청하시면 기꺼이 도와드리겠습니다!";
+
+/* Label explaining that in order to import the user's media, user must grant permission in the device's settings. */
+"We can't see your photos. To fix this, please allow Videoleap access to Photos via Settings." = "사진을 볼 수 없습니다. 문제를 해결하려면 설정에서 Videoleap이 사진에 액세스 할 수 있도록 승인하시기 바랍니다.";
+
+/*Title of the error message that happens when the user doesn't grant permissions to access the photos on the user's device. */
+"Allow Photos Access" = "사진 접근 승인";
+
+/* Label explaining that in order to import the user's media, user must grant permission in the device's settings. */
+"We can't see your music. To fix this, please allow Videoleap access to Media Library via Settings." = "음악을 볼 수 없습니다. 문제를 해결하려면 설정에서 Videoleap이 미디어 보관함에 액세스 할 수 있도록 승인하시기 바랍니다.";
+
+/*Title of the error message that happens when the user doesn't grant permissions to access the media library on the user's device. */
+"Allow Media Access" = "미디어 접근 승인";
+
+/* Label on a button that lets the user contact support if problem is not solved */
+"Still not working?" = "여전히 작동하지 않습니까?";
+
+/* Toolbar button. Lens flare preset names. for instance, preset diamond add a diamond shape lens flare. See attached thumbnails for better understanding. */
+"LensFlarePreset.Classic" = "클래식";
+"LensFlarePreset.Laser" = "레이저";
+"LensFlarePreset.Missile" = "미사일";
+"LensFlarePreset.Diamond" = "다이아몬드";
+"LensFlarePreset.Infinity" = "무한";
+"LensFlarePreset.Omega" = "오메가";
+"LensFlarePreset.Machina" = "마키나";
+"LensFlarePreset.Cryo" = "냉기";
+"LensFlarePreset.Sunny" = "화창";
+"LensFlarePreset.Val" = "하트";
+"LensFlarePreset.UFO" = "UFO";
+"LensFlarePreset.Nova" = "노바";
+"LensFlarePreset.Conduit" = "콘듀잇";
+"LensFlarePreset.Red Sun" = "빨간 태양";
+"LensFlarePreset.Virtua" = "가상";
+
+/* Title of a screen which specifies which features that are limited to subscribers were used by the user. */
+"You've used the following Pro tools:" = "지금까지 다음과 같은 Pro 도구를 사용했습니다:";
+
+/* Label of a button that returns the user to the previous screen in order for the user to remove features limited for subscribers. */
+"Go back and remove Pro tools" = "뒤로 돌아가 Pro 도구를 제거하세요";
+
+/* Label of a button that launches the subscription screen in order for the user to become a subscriber and be able to save the video. */
+"Go Pro and save video" = "Pro로 업그레이드하여 비디오를 저장하세요";
+
+/* Message that says the user has exceeded a certain amount of overlapping layers (e.g. more than 2 overlapping layers). %lu represents the number of layers that was exceeded. */
+"More than %lu overlapping layers" = "%lu개 이상의 중첩 레이어";
+
+/* Label that specifies a starting time of the pro feature. %@ represents the time. */
+"Starts at %@" = "시작 시간: %@";
+
+/* Label that says that the user has exceeded a certain amount of keyframes. */
+"Multiple Keyframes" = "다중 키프레임";
+
+/* Label that specifies that the users project duration passed the limit. */
+"Unlimited Video Length" = "무제한 동영상 길이";
+
+/* Message that specifies that the users project duration passed the limit. %lu represents the number of seconds */
+"Video is longer than %lu seconds" = "동영상 길이가 %lu초를 초과합니다";
+
+/* Message that specifies that the users project duration passed the limit. %g represents the number of minutes */
+"Video is longer than %g minutes" = "비디오가 %g 분보다 깁니다.";
+
+/* A short title for a survey asking users why did they cancel their trial */
+"Why did you cancel your trial?" = "평가를 취소한 이유가 무엇인지요?";
+
+/* A short option in a survey asking users why did they cancel their trial. The option being they didn't mean to start a trial */
+"Didn't mean to start a trial" = "평가판을 시작할 생각이 없었어요";
+
+/* A short option in a survey asking users why did they cancel their trial. The option being they only wanted the free trial */
+"I only wanted the free trial" = "무료 평가판만 원했어요";
+
+/* A short option in a survey asking users why did they cancel their trial. The option being they were disappointed with the app */
+"I was disappointed with the app" = "앱에 실망했어요";
+
+/* A short option in a survey asking users why did they cancel their trial. The option being they don't know how to use the app */
+"Don't know how to use the app" = "앱 사용 방법을 모르겠어요";
+
+/* A short asking users why did they cancel their trial. The option being they didn't understand what was free and what was paid */
+"Didn't understand what was free and what was paid" = "유·무료 기능을 구별하지 못하겠어요";
+
+/* A short option in a survey asking users why did they cancel their trial. The option being they just wanted to save a project */
+"I wanted to save a specific project" = "특정 프로젝트를 저장하고 싶어요";
+
+/* A short title for a survey asking users who canceled subscription, why they did so */
+"You are no longer a subscriber. What went wrong?" = "더이상 구독자가 아닙니다. 이유를 알려주시겠습니까?";
+
+/* A short option in a asking users why did they cancel subscription. The option being they never pay for subscription */
+"I never pay for subscription" = "구독 비용을 지불한 적이 없어요";
+
+/* Decline button of a pop up subscription Screen */
+"Decline Offer" = "제안 거부";
+
+/* Subscription offers - discount percentage text */
+"SAVE %lu%%" = "%lu%% 할인";
+
+/* Sub-Title of a pop-up subscription screen offering a discounted product */
+"Then %@ the year after.\nCancel anytime." = "이후 다음해부터는 %@가 청구됩니다.\n 언제든 취소할 수 있습니다.";
+
+/* Title of a pop-up subscription screen offering a discounted product */
+"1 Year for Just %@" = "1년에 단돈 %@";
+
+/* Label that informs the user that he will be automatically charged 24 hours before the end of the trial period unless the auto renewal is canceled */
+"If you do not cancel, you will be automatically charged 24 hours before the end of the trial." = "취소하지 않으면 평가 기간이 끝나기 24시간 전에 자동으로 결제됩니다.";
+
+/* Subtitle trial button option 3*/
+"Start 3 day trial" = "3일 평가판 시작";
+
+/* Indicates the price which will be paid after a trial period ends, for example "$10/year after trial ends" */
+"/year after trial ends" = "/년을 평가 기간 이후 지불";
+
+/* Header label for the subscription screen promoting a special sale for the mid autumn festival */
+"Mid Autumn Festival Sale" = "중추절 페스티벌 세일";
+
+/* Text on subscription screen that explains the user that he will be automatically charge unless he canceles his subscription plan, where the trail period is 1 month */
+/* Note: {0} should be left as is and we will replace with the billed amount in our code. e.g: for the english translation with $10 we will end up with:
+ After the 1 month free trial.......renews for $10 per year.... */
+"After the 1 month free trial this subscription automatically renews for {0} per year unless it is canceled at least 24 hours before the end of the trial period" = "1개월 무료 평가가 만료되기 최소 24시간 전에 구독을 취소하지 않는 경우 연 {0}에 구독이 자동 연장됩니다";
+
+/* Text informing the user of what is included in a yearly Videoleap VIP subscription. */
+"with a yearly subscription" = "연간 구독 혜택";
+
+/* Toolbar button. Type of transition between clips. */
+"TransitionType.None" = "없음";
+"TransitionType.Dissolve" = "디졸브";
+"TransitionType.Fade" = "페이드";
+"TransitionType.SlideRight" = "슬라이드 →";
+"TransitionType.SlideLeft" = "슬라이드 ←";
+"TransitionType.SlideUp" = "슬라이드 ↑";
+"TransitionType.SlideDown" = "슬라이드 ↓";
+"TransitionType.WipeRight" = "쓱삭 →";
+"TransitionType.WipeLeft" = "쓱삭 ←";
+"TransitionType.WipeUp" = "쓱삭 ↑";
+"TransitionType.WipeDown" = "쓱삭 ↓";
+"TransitionType.IrisIn" = "조리개 닫기";
+"TransitionType.IrisOut" = "조리개 열기";
+"TransitionType.Glitch1" = "글리치 01";
+"TransitionType.Glitch2" = "글리치 02";
+"TransitionType.Glitch3" = "글리치 03";
+"TransitionType.Glitch4" = "글리치 04";
+"TransitionType.Glitch5" = "글리치 05";
+"TransitionType.Glitch6" = "글리치 06";
+"TransitionType.LensFlare1" = "플레어 01";
+"TransitionType.LensFlare2" = "플레어 02";
+"TransitionType.LensFlare3" = "플레어 03";
+"TransitionType.LightLeak1" = "빛 01";
+"TransitionType.LightLeak2" = "빛 02";
+"TransitionType.LightLeak3" = "빛 03";
+"TransitionType.Film" = "빛 04";
+"TransitionType.Film2" = "필름 01";
+"TransitionType.Film3" = "필름 02";
+"TransitionType.Film4" = "필름 03";
+"TransitionType.Blur" = "흐림 효과";
+"TransitionType.BlurWithExposure" = "플래시";
+"TransitionType.PrismAndZoom" = "확대";
+"TransitionType.ScanLinesRight" = "스캔 →";
+"TransitionType.ScanLinesLeft" = "스캔 ←";
+"TransitionType.ScanLinesUp" = "스캔 ↑";
+"TransitionType.ScanLinesDown" = "스캔 ↓";
+"TransitionType.Pixelate" = "픽셀화";
+"TransitionType.KaleidoscopeKaleido" = "만화경";
+"TransitionType.KaleidoscopeGrid" = "격자";
+"TransitionType.KaleidoscopeRotation" = "기하";
+"TransitionType.Brush1" = "브러시 01";
+"TransitionType.Brush2" = "브러시 02";
+"TransitionType.Brush3" = "브러시 03";
+"TransitionType.Brush4" = "브러시 04";
+"TransitionType.Brush5" = "브러시 05";
+"TransitionType.Ink1" = "브러시 01";
+"TransitionType.Ink2" = "브러시 02";
+"TransitionType.Ink3" = "브러시 03";
+"TransitionType.Smoke1" = "연기 01";
+"TransitionType.Smoke2" = "연기 02";
+"TransitionType.Smoke3" = "연기 03";
+"TransitionType.Smoke4" = "연기 04";
+"TransitionType.Vector1" = "벡터 01";
+"TransitionType.Vector2" = "벡터 02";
+"TransitionType.Vector3" = "벡터 03";
+"TransitionType.Vector4" = "벡터 04";
+"TransitionType.Vector5" = "벡터 05";
+"TransitionType.Vector6" = "벡터 06";
+"TransitionType.Love1" = "사랑 01";
+"TransitionType.Love2" = "사랑 02";
+"TransitionType.Love3" = "사랑 03";
+
+/* Title of an alert shown after failed purchase */
+"Purchase Failed" = "구매 실패";
+
+/* Message shown after a failing operation, giving the user 3 options: retry the failing operation, send a feedback email or cancel the operation */
+"Please try again. If the problem persists, let us know and we'll get right on it." = "다시 시도해주시기 바랍니다. 만약 문제가 지속되는 경우, 연락해 주시면 바로 살펴보겠습니다.";
+
+/* Title for the button that allows the user to save a video for a certain amount of money. The %@ should remain in the translated string, and will be replaced by amount of money, for example: "Save this video for 1$". */
+"Save this video for %@" = "%@에 비디오 저장";
+
+/* Message presented to the user after purchasing the video failed, asking to try again to export the video and contact us if problem is not solved. */
+"Try again to export the video or contact us if the problem persists." = "비디오를 다시 내보내거나 문제가 지속되는 경우 고객센터에 연락하십시오.";
+
+/* Tooltip message presented to a user at the beginning of an interactive tutorial where he creates his first video project */
+"Hey 👋\nWelcome to your first project!\nTap the + to add a clip" = "안녕하세요 👋\n첫 프로젝트가 여러분을 환영합니다!\n+를 탭하여 클립을 추가하세요";
+
+/* Tooltip message presented to a user at the beginning of an interactive tutorial where he creates his first video project */
+"Welcome 👋 Let's create a video! Tap + to add a clip." = "환영합니다 👋 동영상을 제작해볼까요! +를 눌러 클립을 추가하세요.";
+
+/* Tooltip message presented to a user during an instructing tutorial directing him to choose from a selection of video clips */
+"Choose a clip" = "클립을 선택하세요";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to add text to a video */
+"Let's add a Text layer" = "텍스트 레이어를 더해볼까요";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to add text to a video */
+"Let's add text" = "텍스트를 추가해볼까요";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to change a name label in a video. <NAME> is a tag that must not be changed */
+"Meet <NAME>, tap here to change its name" = "<NAME>을 만나보세요. 이곳을 탭하면 이름을 변경할 수 있습니다";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to change a name label in a video. <NAME> is a tag that must not be changed */
+"Let's name this panda" = "이 팬더의 이름을 지어봅시다";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to change a name label in a video. <NAME> is a tag that must not be changed */
+"Meet <NAME>, tap here to change his name" = "<NAME>을 만나보세요. 이곳을 탭하면 이름을 변경할 수 있습니다";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to change a name label in a video. <NAME> is a tag that must not be changed */
+"Let's name this cat" = "이 고양이의 이름을 지어봅시다";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to change a name label in a video. <NAME> is a tag that must not be changed */
+"Meet <NAME>, tap here to change her name" = "<NAME>을 만나보세요. 이곳을 탭하면 이름을 변경할 수 있습니다";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to change a name label in a video. <NAME> is a tag that must not be changed */
+"Let's name this penguin" = "이 펭귄의 이름을 지어봅시다";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to type in a new name for an animal or human in a video */
+"Type in a new name for <NAME>" = "다음을 위한 새로운 이름을 입력하십시오: <NAME>";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to type in a new name for an animal or human in a video */
+"Let's name this dog" = "이 강아지의 이름을 지어봅시다";
+
+/* Tooltip message presented to a user during an interactive tutorial asking him to type the selected animal name */
+"Type a name" = "이름을 입력하세요";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to use the Animation feature to animate a text title */
+"Animate your Text to make it pop!" = "텍스트를 움직이게 만들어보세요!";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to use the Animation feature to animate a text title */
+"Now animate your text!" = "이제 텍스트를 움직여봅시다!";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to choose the Overall animation type */
+"Choose Overall to animate your\nText from start to finish" = "전체를 선택하면 텍스트를\n처음부터 끝까지 움직이게 만듭니다";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to choose the Overall animation type */
+"Choose an animation for the duration of your text" = "텍스트가 표시되는 동안의 애니메이션을 선택하세요";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to choose the Pulse animation type */
+"Try Pulse" = "진동 사용";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to press a Play button */
+"Tap the Play button to preview your project" = "재생 버튼을 눌르면 프로젝트를 미리볼 수 있습니다";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to press a Play button */
+"Tap play to see what you've created!" = "재생 버튼을 눌러 작품을 감상하세요!";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to open the video export screen */
+"Looking good! 👌\nNow let's export" = "아주 좋아보입니다!👌\n이제 내보내 볼까요";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to open the video export screen */
+"Looking good 👌 Now time to export" = "좋아보입니다 👌 이제 내보내세요";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to tap a button to save his project to the Photos app */
+"Save your project to Photos" = "프로젝트를 사진에 저장합니다";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to tap a button to save his project to the Photos app */
+"Let's save to Photos" = "사진을 저장해볼까요";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to open the Projects screen to start working on a new project */
+"Congrats! 🎉\nOpen the Projects screen to start a new project" = "축하합니다! 🎉\n프로젝트 화면을 열고 새로운 프로젝트를 시작하세요";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to open the Projects screen to start working on a new project */
+"Congrats 🎉 Get started on more projects here" = "축하합니다 🎉 여기서 더 많은 프로젝트를 시작하세요";
+
+/* Title of a project that was created by the initial interactive tutorial */
+"My First Project" = "나의 첫 프로젝트";
+
+/* Title of a button on the top bar, presented durating the onboarding session, which enables the user to skip the onboarding. */
+"Onboarding.SKIP" = "버킷";
+
+/* Text informing the user of the amount they will save with the yearly payment plan. Example: Save 50% */
+"Save %@%%" = "%@%% 절약";
+
+/* Text informing the user of the most popular payment plan among users */
+"Most Popular" = "가장 인기";
+
+/* Text informing the user how much the yearly subscription will cost per year once their free trial has ended. */
+"then %@/year." = "이후 %@/년.";
+
+/* A price displayed in the amount the user will pay for the item per year. Example: $34.99/year */
+"%@/year" = "%@/년";
+
+/* Text informing the user that they will receive a number of days free with a yearly subscription. Please keep this string as short as possible. */
+"Get %@ days free with yearly Pro!" = "연간 Pro 구독시 %@일간 무료 이용!";
+
+/* Text informing the user that they will receive 1 month free with a yearly subscription. Please keep this string as short as possible. */
+"Get 1 month free with yearly Pro!" = "연간 Pro 구독시 1개월 무료 이용!";
+
+/* Title of the error message that the user gets when trying to export to TikTok or Douyin a video that is too short or is not in the allowed aspect ratio, informing the user that the video is not in an allowed format.  */
+"Incorrect Format" = "올바르지 않은 형식";
+
+/* Content of the error message that the user gets when trying to export to TikTok a video that is too short or is not in the allowed aspect ratio, informing the user that the video is not in an allowed format. */
+"Your project must be longer than 3 seconds and in the correct aspect ratio to export to TikTok." = "프로젝트를 TikTok으로 내보내려면 3초 이상의 재생시간과 올바른 화면 비율을 가지고 있어야 합니다.";
+
+/* Content of the error message that the user gets when trying to export to Douyin a video that is too short or is not in the allowed aspect ratio, informing the user that the video is not in an allowed format. */
+"Your project must be longer than 3 seconds and in the correct aspect ratio to export to Douyin." = "프로젝트를 Douyin으로 내보내려면 3초 이상의 재생시간과 올바른 화면 비율을 가지고 있어야 합니다.";
+
+/* Name of the Douyin app for the title of the export button in the export window. */
+"Douyin" = "抖音";
+
+/* Name of the Kuaishou app for the title of the export button in the export window. */
+"Kuaishou" = "快手";
+
+/* Title for the button that allows the user to save a video for a certain amount of money. The %@ should remain in the translated string, and will be replaced by amount of money, for example: "Pay 1$ to export". */
+"Pay %@ to export" = "%@ 지불 후 내보내기";
+
+/* Message telling the users they will be charged after the export is complete  */
+"You will only be charged after export is complete." = "내보내기 작업이 완료된 이후에만 과금이 이뤄집니다.";
+
+/* Toolbar button. Adds music. */
+"Toolbar.Music" = "음악";
+
+/* Title of the music import screen, appears on the top part of it */
+"Import.Music" = "음악";
+
+/* Subscription screen pro-feature thumbnail text, i.e, pro-feature that adds music. */
+"Music thumbnail" = "음악";
+
+/* Toolbar button. Adds sound effects. */
+"Toolbar.SoundEffects" = "사운드 FX";
+
+/* Title of the sound effects import screen, appears on the top part of it */
+"Import.SoundEffects" = "사운드 FX";
+
+/* Subscription screen pro-feature thumbnail text, i.e, sounds effects pro-feature. */
+"Sound FX thumbnail" = "사운드 FX";
+
+/* Toolbar button that was removed, used to add audio that can be looped. Translation left for backward compatibility of legacy projects. */
+"Toolbar.Loops" = "루프";
+
+/* Title of a view that presents a list of all premium assets used in a project, with a button that approves their purchase */
+"Buy Premium Assets" = "Premium 애셋 구매";
+
+/* Title of an error message that's presented when no mail account is found to send a mail. */
+"No Mail Accounts" = "No Mail Accounts";
+
+/* Text of an error message that's presented when no mail account is found to send a mail. */
+"Please set up a Mail account in order to send email." = "Please set up a Mail account in order to send email.";
+
+/* Title of an error message that's presented when no Mail account is found to send a mail. */
+"NoMailAccount.title" = "Mail 계정 없음";
+
+/* Content text of an error message that's presented when no Mail account is found to send a mail. */
+"NoMailAccount.contentText" = "아래 링크를 방문하여 Apple의 지침대로 이메일 계정을 설정하세요.";
+
+/* Button text of an error message that's presented when no Mail account is found to send a mail. Tapping the button opens a link with instructions to set up a mail account */
+"NoMailAccount.acceptButtonTitle" = "지침서로 이동";
+
+/* Title of message presented to the user telling about the purchase limit of 10 media assets. */
+"Getty Assets not Purchased" = "Getty 애셋 구매하지 않음";
+
+/* Message presented to the user telling about the purchase limit of 10 media assets */
+"There is a technical purchase limit of 10 Getty Assets. We are working on getting you a solution ASAP!" = "Getty 애셋을 최대 10개까지만 구매할 수 있는 기술적인 제한 사항이 존재합니다. 최대한 빨리 해당 문제를 해결하기 위해 노력하고 있습니다!";
+
+/* Text of alert message that appears when a non-subscriber is using pro features and recording while playing. */
+"Great job editing!" = "멋진 편집 작업입니다!";
+
+/* Text of alert message that appears when a non-subscriber is using pro features and recording while playing */
+"But why settle for screen recording quality? Be sure to get Pro to save your video without a watermark." = "화면 녹화 품질에 불만이신가요? Pro로 업그레이드하여 워터마크 없이 동영상을 저장하세요.";
+
+/* Description of a switch to select if the exported video will contain a watermark */
+"Watermark" = "워터마크";
+
+/* Text that is written on a designated drop region that appears when clips are dragged. Dropping clips on this region will transfer them to a new video layer */
+"Drop here to turn into a separate layer" = "여기로 떨구면 분리된 레이어로 바뀝니다";
+
+/* Title of an error message shown to the user when we couldn't import some of their files. */
+"Seems there are several issues with your files" = "파일에 다수의 문제가 발견되었습니다";
+
+/* Title of an error message shown to the user when the app couldn't connect to the internet */
+"Seems there's no internet" = "인터넷을 사용할 수 없음";
+
+/* Error message shown to the user when the app couldn't connect to the internet */
+"Please check your connection and try again." = "인터넷 접속 후 다시 시도하십시오.";
+
+/* Error message shown to the user when the app couldn't connect to the internet */
+"No internet connection, please reconnect and try again." = "인터넷에 연결되지 않았습니다. 접속 후 다시 시도하십시오.";
+
+/* Error message that appears when there is not enough space on the device to save assets */
+"Insufficient storage, please free up some space and try again." = "저장 공간이 부족합니다. 공간 확보 후 다시 시도하십시오.";
+
+/* Title of an error message shown to the user when we couldn't import their file. */
+"Seems there's an issue with this file" = "파일에 문제가 있는 것 같습니다";
+
+/* Title of an error message shown to the user when we couldn't import one of their files. */
+"Seems there's an issue with one of your files" = "파일 하나에 문제가 있는 것 같습니다";
+
+/* Title of an error message shown to the user when we couldn't import their files. */
+"Seems there's an issue with these files" = "파일에 문제가 있는 것 같습니다";
+
+/* Title of an error message shown to the user when we couldn't import %lu files, where %lu is the number of corrupted files. */
+"Seems there's an issue with %lu of these files" = "%lu개의 파일에 문제가 있는 것 같습니다";
+
+/* Error message shown to the user when we couldn't import their file. */
+"To avoid issues in saving your video, this file has not been imported." = "비디오 저장 문제를 피하기 위해 해당 파일을 불러오지 않았습니다.";
+
+/* Error message shown to the user when we couldn't import their files. */
+"To avoid issues in saving your video, these files have not been imported." = "비디오 관련 문제로 인해 파일을 불러오지 못했습니다.";
+
+/* Error message shown to the user when we couldn't import one of their files. */
+"To avoid issues in saving your video, one of them has not been imported." = "비디오 저장 문제를 피하기 위해 해당 파일 하나를 불러오지 않았습니다.";
+
+/* Error message shown to the user when we couldn't import %lu files, where %lu is the number of corrupted files. */
+"To avoid issues in saving your video, %lu of your files have not been imported." = "비디오 관련 문제로 인해 %lu개의 파일을 불러오지 못했습니다.";
+
+/* Title of an error message shown to the user when they try to import clips with corrupted audio. */
+"Seems there’s an audio issue" = "오디오 관련 문제가 있는 것 같습니다";
+
+/* Error message shown to the user when they try to import a clip with corrupted audio. We import the clip without audio and inform the user by presenting this text in an alert. */
+"We couldn't read the audio of your clip. Your clip will be imported without sound." = "클립으로부터 오디오를 읽지 못했습니다. 해당 클립은 소리 없이 불러옵니다.";
+
+/* Error message shown to the user when they try to import a clip with corrupted audio. We import the clip without audio and inform the user by presenting this text in an alert. */
+"We couldn't read the audio of one of your clips. This clip will be imported without sound." = "클립 하나로부터 오디오를 읽지 못했습니다. 해당 클립은 소리 없이 불러옵니다.";
+
+/* Error message shown to the user when they try to import clips with corrupted audio. We import the clips without audio and inform the user by presenting this text in an alert. */
+"We couldn't read the audio of your clips. Your clips will be imported without sound." = "클립으로부터 오디오를 읽지 못했습니다. 해당 클립은 소리 없이 불러옵니다.";
+
+/* Error message shown to the user when they try to import %lu clips with corrupted audio, where %lu is the number of clips with corrupted audio. We import the clips without audio and inform the user by presenting this text in an alert. */
+"We couldn't read the audio of %lu of your clips. These clips will be imported without sound." = "%lu개의 클립으로부터 오디오를 읽지 못했습니다. 해당 클립은 소리 없이 불러옵니다.";
+
+/* Title of an error message shown to the user when they try to import clips with corrupted video. */
+"Seems there’s a video issue" = "비디오에 문제가 있는 것 같습니다";
+
+/* Error message shown to the user when they try to import a clip with corrupted video. We import the clip without video and inform the user by presenting this text in an alert. */
+"We couldn’t read the video in your clip. We’ll import the sound, but can’t import the video." = "클립으로부터 비디오를 읽어들일 수 없습니다. 소리는 불러오지만 비디오는 불러올 수 없습니다.";
+
+/* Error message shown to the user when they try to import a clip with corrupted video. We import the clip without video and inform the user by presenting this text in an alert. */
+"We couldn't read the video in one of your clips. We’ll import the sound, but can’t import the video." = "클립 하나에서 비디오를 읽어들일 수 없습니다. 소리는 불러오지만 비디오는 불러올 수 없습니다.";
+
+/* Error message shown to the user when they try to import clips with corrupted video. We import the clips without video and inform the user by presenting this text in an alert. */
+"We couldn't read the video in your clips. We’ll import the sound, but can’t import the video." = "클립에서 비디오를 읽어들일 수 없습니다. 소리는 불러오지만 비디오는 불러올 수 없습니다.";
+
+/* Error message shown to the user when they try to import %lu clips with corrupted video, where %lu is the number of clips with corrupted video. We import the clips without video and inform the user by presenting this text in an alert. */
+"We couldn't read the video in %lu of your clips. We’ll import the sound, but can’t import the video." = "%lu개의 클립으로부터 비디오를 읽어들일 수 없습니다. 소리는 불러오지만 비디오는 불러올 수 없습니다.";
+
+/* Text at the end of an error message asking the user to click the "Contact Us" button that contacts our support team and sends them an email with the corrupted files */
+"To help us resolve this issue in the future, please contact us!" = "문제를 해결하려면, 고객지원으로 연락 바랍니다!";
+
+/* Error title shown to the user when the file they tried to import cannot be read. */
+"There’s a problem reading this file" = "이 파일을 읽어오는 도중 오류가 발생했습니다";
+
+/* Error title shown to the user when one of several files they tried to import couldn't be read. */
+"There’s a problem reading one of your files" = "파일 하나를 읽어오는 도중 오류가 발생했습니다";
+
+/* Error title shown to the user when one all the files they tried to import couldn't be read (at least 2 files). */
+"There’s a problem reading these files" = "이 파일들을 읽어오는 도중 오류가 발생했습니다";
+
+/* Error title shown to the user when some (at least 2 files) of the files they tried to import couldn't be read (at least 2 files). */
+"There’s a problem reading %lu of these files" = "%lu개의 파일들을 읽어오는 도중 오류가 발생했습니다";
+
+/* Error message shown to the user when importing their files failed and updating to iOS 13.0 or above is likely to solve it. */
+"Updating to iOS 13.0 or above is likely to fix it." = "iOS 13.0 및 이후 버전으로 업데이트하면 문제가 해결될 수 있습니다.";
+
+/* Error message shown to the user when one of several files they tried to import couldn't be read and updating to iOS 13.0 or above is likely to solve it. */
+"There’s a problem reading one of your files, updating to iOS 13.0 or above is likely to fix it." = "파일 중 하나를 읽는 데 문제가 발생했습니다. iOS 13.0 및 이후 버전으로 업데이트하면 문제가 해결될 수 있습니다.";
+
+/* Error message shown to the user when some (at least 2 files) of the files they tried to import couldn't be read (at least 2 files) and updating to iOS 13.0 or above is likely to solve it. */
+"There’s a problem reading %lu of these files, updating to iOS 13.0 or above is likely to fix it." = "%lu개의 파일을 읽는 도중 오류가 발생했습니다. iOS 13.0 및 이후 버전으로 업데이트하면 문제가 해결될 수 있습니다.";
+
+/* Toolbar button. Replaces the footage/asset behind a clip/mixer. */
+"Toolbar.Replace" = "바꾸기";
+
+/* Title in a dialog informing the user that his attempt to replace the asset behind a timeline clip with a video asset will result in a shortened clip because the new asset's duration is shorter than the clip's duration, and as a byproduct the clips that placed after it will appear earlier in the timeline. */
+"Your new clip is shorter than the original" = "새로운 클립이 원본보다 짧습니다";
+
+/* Body in a dialog informing the user that his attempt to replace the asset behind a timeline clip with a video asset will result in a shortened clip because the new asset's duration is shorter than the clip's duration, and as a byproduct the clips that placed after it will appear earlier in the timeline. */
+"Your video will be shortened and the timeline will be adjusted accordingly" = "그에 따라 동영상 재생 시간도 짧아지며, 타임라인이 알맞게 조정됩니다";
+
+/* Title in a dialog informing the user that his attempt to replace the asset behind a timeline clip with a video asset will result in a slightly longer clip because the new asset's time scale does not match the clip's time scale, and as a byproduct the clips that placed after it will appear later in the timeline. */
+"Your new clip has a different time scale from the original" = "새로운 클립과 원본 사이에 시간 범위 차이가 있습니다";
+
+/* Body in a dialog informing the user that his attempt to replace the asset behind a timeline clip with a video asset will result in a slightly longer clip because the new asset's time scale does not match the clip's time scale, and as a byproduct the clips that placed after it will appear later in the timeline. */
+"There's not much to do about it, but your video will be a few frames longer and the timeline will be adjusted accordingly" = "별도로 필요한 작업은 없지만, 동영상이 몇 프레임 더 늘어나며 타임라인이 그에 맞게 조정됩니다";
+
+/* Message in a dialog informing the user that it is not possible to replace the asset behind a clip with an audio asset. */
+"Audio track cannot replace a video clip" = "오디오 트랙을 비디오 트랙으로 바꿀 수 없습니다";
+
+/* Description that appears on the Undo/Redo caption which describes the action of pinning a layer to a clip. The meaning of pinning is that the layer gets linked to the clip at the start time of the layer, so that if the start time of the clip changes, the start time of the layer will change accordingly (e.g. there's a layer that starts the same time as a clip, and the layer gets pinned. Now if you move the clip to a new start time, the layer will also be moved to start at the new start time). */
+"Layer Pinned" = "레이어 고정";
+
+/* Description that appears on the Undo/Redo caption which describes the action of removing the pinning from a layer. The meaning of pinning is that the layer gets linked to the clip at the start time of the layer, so that if the start time of the clip changes, the start time of the layer will change accordingly (e.g. there's a layer that starts the same time as a clip, and the layer gets pinned. Now if you move the clip to a new start time, the layer will also be moved to start at the new start time). When the pin is removed, this link is broken, and changing the start time of the clip will not affect the start time of the layer */
+"Layer Unpinned" = "레이어 고정해제";
+
+/* Toolbar button. Controls magnitude of an effect. */
+"Magnitude" = "세기";
+
+/* Toolbar button. Controls the number of reflections in a kaleidoscope processor. */
+"Reflections" = "반사";
+
+/* Subheadline of the 2021 Chinese New Year Subscription Promotion Overlay. */
+"CNY2021Overlay.subheadline" = "신년 세일";
+
+/* Subtitle of the 2021 Chinese New Year Subscription Promotion Overlay */
+"CNY2021Overlay.subtitle" = "특별 할인 혜택을 놓치지 마세요";
+
+/* Manage settings section in backstage menu, */
+"MANAGE" = "관리";
+
+/* About section in backstage menu, */
+"ABOUT" = "정보";
+
+/* More section in backstage menu, */
+"MORE" = "더 보기";
+
+/* Backstage option leading to seeing user subscription plan. */
+"Your Membership" = "멤버십";
+
+/* Backstage option leading to subscription screen. */
+"Get Videoleap Pro" = "Videoleap Pro 구매";
+
+/* Backstage option leading user to log in screen. */
+"Log In" = "로그인";
+
+/* Backstage option leading user to log out. */
+"Log Out" = "로그아웃";
+
+/* Login screen error message title */
+"Oops!" = "이런!";
+
+/* Login screen error message body */
+"There was a problem logging you in.\nPlease try again later." = "로그인에 문제가 있습니다.\n나중에 다시 시도하세요.";
+
+/* Log out message body */
+"You’re now logged out" = "로그아웃했습니다";
+
+/* Title of a button prompting users to select more media (photos, videos, etc.) from their camera roll */
+"Select More Media" = "더 많은 사진 선택";
+
+/* Title of an alert presented to the users when a project can not be accessed */
+"Sorry, this project can't be accessed" = "죄송합니다. 이 프로젝트에 접근할 수 없습니다";
+
+/* Body of an alert presented to the users when a project can not be accessed */
+"Please contact us to take a look under the hood." = "내부적인 문제를 확인하기 위해 저희에게 연락주시기 바랍니다.";
+
+/* Title of alert notifying the user that iCloud Drive should be enabled to continue */
+"iCloudDriveRequiredAlert.Title" = "한 단계 더";
+
+/* Message of alert notifying the user that iCloud Drive should be enabled to continue, and refers them to a link for instructions */
+"iCloudDriveRequiredAlert.Message" = "프리미엄 Getty 미디어를 구매하고 내보내려면 기기 설정에서 iCloud Drive를 켜야합니다.\n\n도움이 필요하면 다음 지침을 따르세요.";
+
+/* Button text of alert notifying the user that iCloud Drive should be enabled to continue. Tapping this button opens a link with instructions to set up iCloud Drive */
+"iCloudDriveRequiredAlert.instructionsButtonTitle" = "지침서로 이동";
