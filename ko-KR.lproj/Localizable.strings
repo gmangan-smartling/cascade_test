@@ -1,4 +1,4 @@
-/* Device language. Used as a unique key. */
+/* Device language. Modified instruction only. */
 "Device language" = "ko";
 
 /* Time in seconds, e.g. 0.50s which means half a second (the s is abbreviation for seconds). The %.2f should remain in the translated string */
