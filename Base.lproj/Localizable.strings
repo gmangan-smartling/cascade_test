@@ -2204,3 +2204,7 @@
 
 /* Button text of alert notifying the user that iCloud Drive should be enabled to continue. Tapping this button opens a link with instructions to set up iCloud Drive */
 "iCloudDriveRequiredAlert.instructionsButtonTitle" = "Go to instructions";
+
+"Smartling Tips" = "Smartling Tips";
+
+"Create a localization strategy and roadmap" = "Create a localization strategy and roadmap";
