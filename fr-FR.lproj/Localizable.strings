@@ -1,0 +1,2206 @@
+/* Device language. Used as a unique key. */
+"Device language" = "fr";
+
+/* Time in seconds, e.g. 0.50s which means half a second (the s is abbreviation for seconds). The %.2f should remain in the translated string */
+"%.2fs" = "%.2fs";
+
+/* Description that appears when undoing/redoing a step that moves a widget, for example \"Text: Move\" or \"Mask: Move\". The %@ should remain in the translated string, and will be replaced by the localized title of the widget */
+"%@: Move" = "%@: Déplacer";
+
+/* Label on a button for purchasing subscription that renews every one month */
+"Month" = "mois";
+
+/* Label on a button for purchasing subscription that renews every x months */
+"Months" = "mois";
+
+/* Label on a button for purchasing the product at a single one-time price, instead of a renewable subscription plan */
+"One-Time\nPurchase" = "Achat en\nune fois";
+
+/* Label on a button for purchasing subscription that renews every 12 months */
+"ANNUAL" = "ANNUEL";
+
+/* Label on a button for purchasing subscription that renews every month, in capital letters */
+"MONTHLY" = "MENSUEL";
+
+/* Label on a button for purchasing the product at a single one-time price, instead of a renewable subscription plan */
+"ONE-TIME\nPURCHASE" = "PAIEMENT\nUNIQUE";
+
+/* Abbreviation of the word month, representing per-month suffix of a price, as in $5/mo - $5 per month. The '/' should remain in the localized version */
+"/mo" = "/m";
+
+/* Label on a button for purchasing subscription that renews every month. Text shown when 1 month of free trial is offered for new subscribers */
+"1 Month" = "1 mois";
+
+/* Button appearing in the subscription screen, notifying users that by pressing this button they are choosing an anual subscription plan - 12 months */
+"12 Months" = "12 mois";
+
+/* Description of a monthly price. For example: 10.99$ per month */
+"per month" = "par mois";
+
+/* Label on a button for purchasing the product at a single one-time price, instead of a renewable subscription plan */
+"One-Time Purchase" = "Achat définitif";
+
+/* Title of a button suggesting to the user to continue to payment in the subscription screen */
+"Continue" = "Continuer";
+
+/* Label on a button that links to terms of use */
+"Terms of Use" = "Conditions d'utilisation";
+
+/* Label on a button that links to privacy policy */
+"Privacy Policy" = "Règles de confidentialité";
+
+/* Label on a button that restored previously purchased products */
+"Restore Purchases" = "Restaurer les achats";
+
+/* Short terms of use for subscription */
+"Payment will be charged to your iTunes account at confirmation of purchase. Subscriptions will automatically renew unless auto-renew is turned off at least 24 hours before the end of current period. Your account will be charged according to your plan for renewal within 24 hours prior to the end of the current period. You can manage or turn off auto-renew in your Apple ID account settings at any time after purchase." = "Le paiement sera facturé sur votre compte iTunes au moment de la confirmation de l'achat. Les abonnements sont renouvelés automatiquement, sauf si le renouvellement automatique est désactivé au moins 24 heures avant la fin de la période en cours. Votre compte sera facturé en fonction de votre forfait en vue du renouvellement dans un délai de 24 heures avant la fin de la période en cours. Vous pouvez gérer ou désactiver le renouvellement automatique dans les réglages du compte de votre identifiant Apple, à tout moment après l'achat.";
+
+/* Short terms of use for subscription with free trial */
+"Payment will be charged to your iTunes account at confirmation of purchase. Subscriptions will automatically renew unless auto-renew is turned off at least 24 hours before the end of current period. Your account will be charged according to your plan for renewal within 24 hours prior to the end of the current period. You can manage or turn off auto-renew in your Apple ID account settings at any time after purchase. If you subscribe before your free trial ends, the rest of your free trial period will be forfeited as soon as your purchase is confirmed." = "Le paiement sera facturé sur votre compte iTunes lors de la confirmation de l'achat. Les abonnements débuteront immédiatement après la fin de l’essai gratuit, sauf s’ils ont été annulés au moins 24 heures avant la fin de la période d’essai. Les abonnements sont renouvelés automatiquement, sauf si le renouvellement automatique est désactivé au moins 24 heures avant la fin de la période en cours. Les frais de renouvellement seront facturés sur votre compte, dans les conditions prévues dans votre forfait, dans les 24 heures qui précèdent la fin de la période en cours. Une fois l'achat effectué, vous pouvez à tout moment gérer ou désactiver le renouvellement automatique dans les réglages du compte associé à votre identifiant Apple. Si vous vous abonnez avant la fin de votre essai gratuit, le reste de la période de votre essai gratuit sera abandonné dès que votre achat aura été confirmé.";
+
+/* Subtitle of a button appearing in the subscription screen, notifying users that by pressing this button they will be saving {0}% annualy */
+"Save {0}% Per Year!" = "Économisez {0}% par an";
+
+/* Title of a pop-up informing the user that they can save %@ amount by upgrading to an annual payment plan. Example: Upgrade to yearly and save 50% now! */
+"Upgrade to yearly and save %@%% now!" = "Passez à un plan annuel et économisez %@ %% maintenant !";
+
+/* Title of a button offering the user the continue using the monthly payment plan. Please keep as short as possible */
+"Continue with monthly" = "Continuez avec le plan mensuel";
+
+/* Title of a button offering the user to upgrade to an annual payment plan. Please keep as short as possible */
+"Upgrade to yearly" = "Passez au plan annuel";
+
+/* Title of the video import screen, appears on the top part of it */
+"Import" = "Importer";
+
+/* Toolbar button. Category for elements that can be added to the composition. These include, for example text, stickers and shapes */
+"Add" = "Ajouter";
+
+/* Title of a button on the import screen which the user should press after selecting assets in order to add them to the project */
+"Add to Project" = "Ajouter au projet";
+
+/* Name of music album containing user's songs grouped by albums */
+"Albums" = "Albums";
+
+/* Name of music album containing user's songs grouped by artists */
+"Artists" = "Artistes";
+
+/* Title of an album representing the backgrounds assets available for importing */
+"Backgrounds" = "Arrière-plans";
+
+/* Label on a tool tip indicating the most cost effective purchase option */
+"Best Value" = "Valeur optimale";
+
+/* Title of a button for cancelling an on going operation.
+   Title of a button for cancelling the current interaction
+   Title of a button in a dialog, cancelling and dismissing it */
+"Cancel" = "Annuler";
+
+/* Message to the user that video export was canceled */
+"Canceled" = "Annulé";
+
+/* Message in a dialog prompting the user to confirm deleting a project */
+"Careful! This action cannot be undone" = "Attention ! Cette action ne peut pas être annulée";
+
+/* Default description that appears when undoing/redoing certain types of steps that are best described by the \"Change\", for example \"Change: Color\" or \"Change: Target\". The %@ should remain in the translated string, and will be replaced by the localized description of the step */
+"Change: %@" = "Modifier : %@";
+
+/* Text on a button that contacts support */
+"Contact Us" = "Nous contacter";
+
+/* Title of a button for deleting a stored editing project
+   Title of a button in a dialog, confirming deleting of a project */
+"Delete" = "Supprimer";
+
+/* Title of a dialog prompting the user to confirm deleting a project */
+"Delete Project" = "Supprimer le projet";
+
+/* Title of a dialog prompting the user to confirm deleting multiple projects */
+"Delete Projects" = "Supprimer les projets";
+
+/* Error message presented to the user when a demo photo failed loading in help screen */
+"Demo photo failed to load" = "Impossible de charger la photo démo";
+
+/* Title of a button in a dialog, confirming renaming of a project */
+"Done" = "OK";
+
+/* Text in a text box shown when the user has just created a text item, explaining that changing the content is performed by double-tapping. */
+"Double tap to edit" = "Toucher deux fois pour modifier";
+
+/* Error message presented to the user when a download error occurred help screen */
+"Download error" = "Erreur de téléchargement";
+
+/* Header presented while fetching assets from the web, indicating a downloading operation is taking place. */
+"Downloading..." = "Téléchargement…";
+
+/* Suffix that appears when in captions of undo/redo operations of an eraser that is not associated with a specific tool */
+"Eraser" = "Gomme";
+
+/* Suffix that appears in captions of undo/redo operations of the eraser of given brush based tool, where the %@ marker will be replaced with the localized name of the tool). For example when undoing usage of the eraser of the Smooth tool, the description will be \"Undo: Eraser (Smooth) */
+"Eraser (%@)" = "Gommer (%@)";
+
+/* Title of a button for exporting a stored editing project */
+"Export" = "Export";
+
+/* Message to the user that video is exported */
+"Exporting Project" = "Exportation du projet";
+
+/* Message to the user that video exporting is in progress. */
+"Almost There!" = "Opération presque terminée !";
+
+/* Description of the qualities of 1080p video resolution */
+"Full HD. Great for bigger screens." = "Pleine HD. Idéale pour les plus grands écrans.";
+
+/* Description of the qualities of 720p video resolution */
+"HD. Best balance between quality and size." = "HD. Meilleur équilibre entre qualité et taille.";
+
+/* Error message presented to the user when an image failed loading in help screen */
+"Help image failed to load" = "L’image d’aide n’a pas pu être chargée";
+
+/* Error message presented to the user when an image failed loading in help screen */
+"Image failed to load. Check your connection" = "Image non chargée. Vérifiez votre connexion";
+
+/* Short label on a button representing a positive response to an alert dialog */
+"Let's do it!" = "Allons-y !";
+
+/* Body of a promotional message in the subscription screen */
+"Mixer. Text. Filter. Adjust. Effects. All together!" = "Mixer. Texte. Filtre. Ajuster. Effets. Tous les outils réunis !";
+
+/* Error message presented to the user when a network error occurred in help screen */
+"Network error" = "Erreur de réseau";
+
+/* Title on a button creating a new empty project. */
+"New Project" = "Nouveau projet";
+
+/* Label presented instead of content in an empty album, indicating it has no search results. The \n should remain in the translated string. */
+"No results match your search.\n\nTry using fewer keywords, or double check spelling." = "Votre recherche ne renvoie aucun résultat.\n\nEssayez avec moins de mots ou vérifiez l'orthographe.";
+
+/* Label presented instead of content in an empty album, indicating it has no photos or videos. */
+"No Photos or Videos" = "Pas de photo ni de vidéo";
+
+/* Label presented instead of content in an empty album, indicating it has no songs or albums. */
+"No Songs or Albums" = "Pas de morceaux ni d’album";
+
+/* Message asking the user not to close Videoleap or lock your device */
+"Please don't close Videoleap or lock your device." = "Ne fermez pas Videoleap ou votre appareil.";
+
+/* Error message presented to the user when downloading of an image fails in help screen */
+"Problem downloading image" = "Problème de téléchargement d’image";
+
+/* Title of the project management screen, presented at the top */
+"Projects" = "Projets";
+
+/* Default description that appears when redoing a step without a more specific description */
+"Redo" = "Rétablir";
+
+/* Default description that appears when redoing a step, for example \"Redo: flatten\" or \"Redo: clear mask\". The %@ should remain in the translated string, and will be replaced by the localized description of the step */
+"Redo: %@" = "Rétablir : %@";
+
+/* Title of a button for renaming a stored editing project */
+"Rename" = "Renommer";
+
+/* Title of a dialog prompting the user to choose a new name for a project */
+"Rename Project" = "Renommer le projet";
+
+/* Description that appears when redoing a reset to the values of an entry in the toolbar. For example \"Reset: Brightness\". The %@ should remain in the translated string, and will be replaced by the localized title of the toolbar entry */
+"Reset: %@" = "Réinitialiser: %@";
+
+/* Toolbar button. Resets the Chroma Key effect to its default values. */
+"Reset" = "Réinitialiser";
+
+/* Title of a button for saving an asset to the user's camera roll */
+"Save to Camera Roll" = "Enregistrer dans la pellicule";
+
+/* Title of the button that sends video using iMessage */
+"Message" = "Message";
+
+/* Title of the button that sends video using system sharing menu. */
+"More" = "Autre";
+
+/* Title of the button that saves the video to the Camera Roll. */
+"Export.SaveToCameraRoll" = "Enregistrer";
+
+/* Description of the qualities of 480p video resolution */
+"SD. Perfect for sharing on social media." = "SD. Parfait pour partager sur les médias sociaux.";
+
+/* Name of music album containing user's songs  */
+"Songs" = "Morceaux";
+
+/* Title of an album representing the sounds effects available for importing */
+"Sound Effects" = "Effets sonores";
+
+/* Title of an album representing the stock assets available for importing */
+"Stock" = "Banque";
+
+/* Title of an album representing the visual media stock assets (videos, images, etc.) available for importing */
+"Stock.VisualMedia" = "Banque d’images";
+
+/* Title of an album representing the audio stock assets available for importing */
+"Stock.Audio" = "Banque de sons";
+
+/* Message to the user that video export succeeded */
+"Success!" = "Export réussi !";
+
+/* Label on a button in a dialog, retrying the last operation */
+"Try again" = "Essayez encore";
+
+/* Description of the qualities of 4K video resolution */
+"Ultra HD. Just like going to the movies!" = "Ultra HD. Comme si on allait au cinéma !";
+
+/* Default description that appears when undoing a step without a more specific description */
+"Undo" = "Annuler";
+
+/* Description that appears when undoing a reset to the values of an entry in the toolbar. For example \"Undo Reset: Brightness\". The %@ should remain in the translated string, and will be replaced by the localized title of the toolbar entry */
+"Undo Reset: %@" = "Annuler réinitialiser: %@";
+
+/* Default description that appears when undoing a step, for example \"Undo: flatten\" or \"Undo: clear mask\". The %@ should remain in the translated string, and will be replaced by the localized description of the step */
+"Undo: %@" = "Annuler : %@";
+
+/* Body of a promotional message in the subscription screen */
+"Unleash your creativity with the most powerful tools" = "Libérez votre créativité avec les outils les plus puissants";
+
+/* Header title of a promotional message in the subscription screen */
+"Unlimited Layers" = "Des calques sans limites";
+
+/* Title of a project that was yet to be named by the user */
+"Untitled Project" = "Projet sans titre";
+
+/* Label presented at import screen of the entire user content */
+"User Albums" = "Albums d’utilisateur";
+
+/* Header title of a promotional message in the subscription screen */
+"Videoleap Pro - Now 75% Off!" = "Videoleap Pro - 75 % de remise maintenant !";
+
+/* Header title of a promotional message in the subscription screen */
+"Videoleap Pro - Now 50% Off!" = "Videoleap Pro - 50 % de remise maintenant !";
+
+/* Header title of a promotional message in the subscription screen */
+"Best offer yet! ✨ Limited time Singles' Day sale for Videoleap Pro!" = "Notre meilleure offre à ce jour ! ✨ Offre à durée limitée sur Videoleap Pro pour la Journée des célibataires.";
+
+/* Header title of a promotional message in the subscription screen */
+"📣 Celebrate Singles' Day with Videoleap Pro! ✨ Limited time offer!" = "📣 Fêtez la Journée des célibataires avec Videoleap Pro ! ✨ Offre à durée limitée.";
+
+/* Header title of a promotional message in the subscription screen */
+"Singles' Day Super Sale! 🎉 Get your discount on Videoleap Pro before time runs out!" = "Offre incroyable pour la Journée des célibataires ! 🎉 Profitez d'une remise sur Videoleap Pro avant qu'il ne soit trop tard.";
+
+/* Header title of a promotional message in the subscription screen */
+"Singles’ Day Crazy Sale!" = "Offre incroyable pour la Journée des célibataires !";
+
+/* Label on a tool tip indicating a purchase option available for a limited time */
+"Limited Time!" = "Durée limitée !";
+
+/* Label representing remaining days in a countdown timer */
+"days" = "Jours";
+
+/* Label representing remaining hours in a countdown timer */
+"hours" = "Heures";
+
+/* Label representing remaining minutes in a countdown timer */
+"mins" = "Minutes";
+
+/* Label representing remaining seconds in a countdown timer */
+"sec" = "Secondes";
+
+/* Error message presented to the user when an error occurred in help screen */
+"Whoops! Something has happened" = "Oups ! Il s’est produit quelque chose";
+
+/* Error message presented to the user when an error occurred in help screen */
+"Whoops! Something went wrong" = "Oups ! Quelque chose est allé de travers";
+
+/* Error message presented to the user when an error occurred in help screen */
+"Whoops! Something's not right. Check your connection" = "Oups ! Quelque chose ne va pas. Vérifiez votre connexion.";
+
+/* Label under a sound effects album name, describing the number of effects in that album */
+"%lu Effects" = "%lu effets";
+
+/* Label under an audio album name, describing the number of songs in that album */
+"%lu Songs" = "%lu morceaux";
+
+/* Toolbar button. Turns the chosen video or image to a basic clip layer. */
+"Clip" = "Clip";
+
+/* Description that appears on the Undo/Redo caption which describes the action of adding a clip (e.g. Undo: Add Clip) */
+"Add Clip" = "Ajouter un clip";
+
+/* Description that appears on the Undo/Redo caption which describes the action of adding clips (e.g. Undo: Add Clips) */
+"Add Clips" = "Ajouter des clips";
+
+/* Description that appears on the Undo/Redo caption which describes the action of adding a keyframe (e.g. Undo: Add Keyframe) */
+"Add Keyframe" = "Ajouter une image clé";
+
+/* Description that appears on the Undo/Redo caption which describes the action of dragging a clip (e.g. Undo: Drag Clip) */
+"Drag Clip" = "Glisser un clip";
+
+/* Description that appears on the Undo/Redo caption which describes the action of dragging a label (e.g. Undo: Drag Label) */
+"Drag Label" = "Glisser une étiquette";
+
+/* Description that appears on the Undo/Redo caption which describes the action of removing a keyframe (e.g. Undo: Remove Keyframe) */
+"Remove Keyframe" = "Retirer une image clé";
+
+/* Description that appears on the Undo/Redo caption which describes the session's starting point */
+"Starting Point" = "Point de départ";
+
+/* Description that appears on the Undo/Redo caption which describes the action of trimming a segment (e.g. Undo: Trim) */
+"Trim" = "Raccourcir";
+
+/* Toolbar button. Aspect ratio of a project. */
+"16:9" = "16:9";
+
+/* Toolbar button. Aspect ratio of a project. */
+"1:1" = "1:1";
+
+/* Toolbar button. Aspect ratio of a project. */
+"9:19.5" = "9:19.5";
+
+/* Toolbar button. Aspect ratio of a project. */
+"19.5:9" = "19.5:9";
+
+/* Toolbar button. Aspect ratio of a project. */
+"2.35:1" = "2.35:1";
+
+/* Toolbar button. Aspect ratio of a project. */
+"3:4" = "3:4";
+
+/* Toolbar button. Aspect ratio of a project. */
+"4:3" = "4:3";
+
+/* Toolbar button. Aspect ratio of a project. */
+"9:16" = "9:16";
+
+/* Toolbar button. Name of equalizer preset. */
+"Acoustic" = "Acoustique";
+
+/* Toolbar button. Applies tonal adjustments, like brightness, contrast, etc. */
+"Adjust" = "Ajuster";
+
+/* Subscription screen pro-feature thumbnail text, i.e, applies tonal adjustments, like brightness, contrast, etc. Ignore the \"thumbnail\" in your translation. */
+"Adjust thumbnail" = "Ajuster";
+
+/* Toolbar button. Text alignment inside an area. */
+"Align" = "Aligner";
+
+/* Toolbar button. Mask shape where everything is included. */
+"All" = "Tout";
+
+/* Toolbar button, in Etch effect. Controls the angle of the lines. */
+"Angle" = "Coin";
+
+/* Toolbar button. Controls (re-arranges) the vertical order of layers. For example, if text A is above text B, this operation will let user to move A to be below B */
+"Arrange" = "Arranger";
+
+/* Toolbar button. Controls background behind a text. */
+"Background" = "Arrière-plan";
+
+/* Toolbar button. Name of equalizer preset. */
+"Bass +" = "Basse +";
+
+/* Toolbar button. Name of equalizer preset. */
+"Bass -" = "Basse -";
+
+/* Toolbar button. Group of blending modes. */
+"Blending" = "Fusion";
+
+/* Toolbar button. Format option where background is created by blurring other content. */
+"Blur" = "Flou";
+
+/* Toolbar button. Controls scan lines (smearing) to the bottom of the video. */
+"Bottom" = "En bas";
+
+/* Toolbar button. Defines box-like shape of text background, filled with solid color. */
+"Box" = "Rectangle";
+
+/* Toolbar button, inside Adjust. Type of tonal adjustment. */
+"Brightness" = "Luminosité";
+
+/* Toolbar button, inside Selective Adjust. Type of tonal adjustment. */
+"Luminance" = "Luminosité";
+
+/* Toolbar button. Alignment of text. */
+"Center" = "Centre";
+
+/* Toolbar button. Chroma Key effect (certain range of colors become transparent. Sometimes associated with Green Screen. */
+"Chroma" = "Chroma";
+
+/* Toolbar button. Selects a color */
+"Color" = "Couleur";
+
+/* Toolbar button. Blending mode */
+"Color Burn" = "Densité c.";
+
+/* Toolbar button. Adds a color splash effect: video becomes black & white, while one object stays in color. */
+/* Subscription screen pro-feature thumbnail text, emphasize an object in an image by eliminating all other colors but its own. */
+"Colorfy" = "Colorier";
+
+/* Toolbar button, inside Adjust. Type of tonal adjustment. */
+"Contrast" = "Contraste";
+
+/* Toolbar button. In Pixelate, changes the pixelization effect to a grid of 3D-like cubes pattern. */
+"Cubes" = "Pixéliser";
+
+/* Toolbar button. Adds CRT effect, that imitates an old CRT television screen. */
+"CRT" = "CRT";
+
+/* Toolbar button. Blending mode */
+"Darken" = "Assombrir";
+
+/* Toolbar button. Adds a defocus effect. */
+"Defocus" = "Hors focale";
+
+/* Subscription screen pro-feature thumbnail text, i.e, pro-feature that adds a defocus effect. Ignore the \"thumbnail\" in your translation. */
+"Defocus thumbnail" = "Hors focale";
+
+/* Toolbar button, in Etch effect. Controls the density of the lines.
+   Toolbar button, in Pulsar effect. Controls the density of the pattern. */
+"Density" = "Densité";
+
+/* Toolbar button. Duplicates (creates an identical copy) of a clip.
+   Toolbar button. Duplicates (creates an identical copy) of an object
+   Title of a button for duplicating a stored editing project */
+"Duplicate" = "Dupliquer";
+
+/* Toolbar button. Opens keyboard to edit (type) text */
+"Edit" = "Modifier";
+
+/* Toolbar button. Group of features that apply visual effects. For example: grain, defocus.
+   Toolbar button. Enables selection of various text effects such as 'glow' or 'flames' */
+"Effects" = "Effets";
+
+/* Subscription screen pro-feature thumbnail text, i.e, pro-feature that applies visual effects. */
+"Effects thumbnail" = "Effets";
+
+/* Toolbar button. Applies sound equalizer. */
+"Equalizer" = "Égaliser";
+
+/* Toolbar button. Adds Etch effect, that draws horizontal halftone lines across the video. Similar to the artifact that was caused by old printing techniques. Halftone Lines can be an alternative name. */
+"Etch" = "Gravure";
+
+/* Toolbar button, inside Adjust. Type of tonal adjustment. */
+"Exposure" = "Exposition";
+
+/* Toolbar button. Adds grain effect. Film can be dropped for shorter name. */
+"Film Grain" = "Grain de film";
+
+/* Toolbar button. Category for elements that apply tonal adjustments, like brightness, contrast, saturation, hue and global filters. */
+"MainToolbar.Filters" = "Filtres";
+
+/* Toolbar button. Adds a global filter layer that is applied on top of all of the layers in the composition. */
+"FilterLayer" = "Filtres";
+
+/* Toolbar button. Opens a secondary toolbar that allows the user to select a specific filter to apply to their video, such as Black&White, Sepia, etc. */
+"FilterLayer.Presets" = "Préréglages";
+
+/* Toolbar button. Applies a filter on the selected layer and enables selection of various filter types. */
+"Layer.Filters" = "Filtres";
+
+/* Subscription screen pro-feature thumbnail text, i.e, pro-feature that applies filters. */
+"Filters thumbnail" = "Filtres";
+
+/* Toolbar button, in Format. When pressed, fits project format to match the current clip. */
+"Fit" = "Adapter";
+
+/* Selects a font */
+"Font" = "Police";
+
+/* Toolbar button. Defines format of the project. Resolution, orientation, background, etc. */
+"Format" = "Format";
+
+/* Toolbar button. Category of visual effects that look like visual glitches. Various distortions, changes of color, etc. */
+"Glitch" = "Glitch";
+
+/* Subscription screen pro-feature thumbnail text, i.e, pro-feature that applies visual effects that look like visual glitches. */
+"Glitch thumbnail" = "Glitch";
+
+/* Toolbar button, in Pulsar effect. Changes the pattern to mesh grid. */
+"Grid" = "Grille";
+
+/* Toolbar button. Blending mode */
+"Hard Light" = "Lumière crue";
+
+/* Toolbar button. Hides (removes) the shadow or another effect. */
+"Hide" = "Masquer";
+
+/* Toolbar button, inside Adjust. Type of tonal adjustment */
+"Hue" = "Teinte";
+
+/* Toolbar button. Controls intensity of an effect. */
+"Intensity" = "Intensité";
+
+/* Toolbar button. Inverts the area where the current effect (or mask) is applied. */
+"Invert" = "Inverser";
+
+/* Toolbar button. Name of equalizer preset. */
+"Jazz" = "Jazz";
+
+/* Toolbar button. Alignment of text.
+   Toolbar button. Controls scan lines (smearing) to the left of the video. */
+"Left" = "Gauche";
+
+/* Toolbar button, in Pulsar effect. Controls the apparent 3D-ness depth of the illusion. */
+"Levitation" = "Lévitation";
+
+/* Toolbar button. Blending mode */
+"Lighten" = "Éclaircir";
+
+/* Toolbar button. Defines shape that is a line.
+   Toolbar button. Shape of a mask that is a single line */
+"Linear" = "Linéaire";
+
+/* Toolbar button, in Pulsar effect. Changes the pattern to horizontal lines. */
+"Lines" = "Lignes";
+
+/* Toolbar button. Applies mask to an effect. */
+"Mask" = "Masquer";
+
+/* Toolbar button. Shape of a mask of 2 parallel lines. */
+"Mirror" = "Miroir";
+
+/* Toolbar button. Adds another video or image as a layer, mixes (composes) the new layer on top of other layers. */
+"Mixer" = "Mixer";
+
+/* Toolbar button. Blending mode */
+"Multiply" = "Multiplier";
+
+/* Toolbar button. Adds music and sound effects.
+   Toolbar button. Group of audio controls and effects, like volume, equalizer, etc. */
+"Audio" = "Audio";
+
+/* Toolbar button. Mutes audio.
+   Toolbar button. Mutes the audio. */
+"Mute" = "Sourdine";
+
+/* Toolbar button, in Etch effect. Controls the color inversion of the lines, in a manner of negativeness, similar to a negative film of an old camera. */
+"Negative" = "Négatif";
+
+/* Toolbar button. No effect / transition is applied.
+   Toolbar button. No filter (or other effect) is applied.
+   Toolbar button. No mask is applied. */
+"None" = "Aucune";
+
+/* Toolbar button. Blending mode
+   Toolbar button. Name of equalizer preset that does nothing. */
+"Normal" = "Normal";
+
+/* Toolbar button, inside Adjust. Type of tonal adjustment. */
+"Offset" = "Décalage";
+
+/* Toolbar button. Changes opacity of an object
+   Toolbar button. Changes opacity of an object. */
+"Opacity" = "Opacité";
+
+/* Toolbar button. Defines shape of text background where only the outline (contour) is visible. */
+"Outline" = "Contour";
+
+/* Toolbar button. Blending mode */
+"Overlay" = "Incrustation";
+
+/* Toolbar button, in Pulsar effect. Controls the pattern type of the effect.
+   Toolbar button, in Pixelate effect. Controls the pattern type of the effect. */
+"Pattern" = "Motif";
+
+/* Toolbar button. In Pixelate, changes the pixelization effect to a standard square pixelization pattern. */
+"Pixels" = "Pixéliser";
+
+/* Toolbar button. Blending mode */
+"Plus Darker" = "Dark+";
+
+/* Toolbar button. Blending mode */
+"Plus Lighter" = "Light+";
+
+/* Toolbar button, in Pulsar effect. Changes the pattern to points. */
+"Points" = "Points";
+
+/* Toolbar button. Applies a visual effect that looks like an image seen through a prism */
+"Prism" = "Prisme";
+
+/* Toolbar button. Adds pseudo-3D effect, that creates an illusion of 3D-ness to the video. The name is derived from Pulsar Data Visualisation. Pseudo-3D can be an alternative name. */
+"Pulsar" = "Pulsar";
+
+/* Subscription screen pro-feature thumbnail text, i.e, Adds pseudo-3D effect, that creates an illusion of 3D-ness to the video. The name is derived from Pulsar Data Visualisation. Pseudo-3D can be an alternative name. Ignore the \"thumbnail\" in your translation. */
+"Pulsar thumbnail" = "Pulsar";
+
+/* Toolbar button. Defines shape that is circular.
+   Toolbar button. Shape of a mask that is a circle. */
+"Radial" = "Radiale";
+
+/* Toolbar button. Format option that defines the aspect ratio (and orientation) of the project. */
+"Ratio" = "Rapport";
+
+/* Toolbar button. Shape of a mask that is a  rectangle. */
+"Rectangle" = "Rectangle";
+
+/* Toolbar button. Refines an effect */
+"Refine" = "Affiner";
+
+/* Toolbar button. Removes the selected clip or layer */
+"Remove" = "Retirer";
+
+/* Toolbar button. Adds Chromatic Aberration effect, that results in noticeable colored edges (and especially red, green and blue) around object in the video. Chromatic Aberration can be an alternative name. */
+"RGB" = "RVB";
+
+/* Subscription screen pro-feature thumbnail text, i.e, Chromatic Aberration effect, that results in noticeable colored edges (and especially red, green and blue) around object in the video. Chromatic Aberration can be an alternative name. Ignore the \"thumbnail\" in your translation. */
+"RGB thumbnail" = "RVB";
+
+/* Toolbar button. Alignment of text.
+   Toolbar button. Controls scan lines (smearing) to the right of the video. */
+"Right" = "Droite";
+
+/* Toolbar button. Name of equalizer preset. */
+"Rock" = "Rock";
+
+/* Toolbar button, in Etch effect. Controls the coarseness, or smoothness, of the lines. */
+"Roughness" = "Rugosité";
+
+/* Toolbar button, inside Adjust. Type of tonal adjustment */
+"Saturation" = "Saturation";
+
+/* Toolbar button. Controls the scaling of an effect. For example, in Grain controls how big the grains are. */
+"Scale" = "Échelle";
+
+/* Toolbar button. Adds Scan effect, that draws vertical and horizontal scan lines around the video. Smears the boundaries. Smear can be an alternative name. */
+"Scan" = "Scanner";
+
+/* Toolbar button. A button for accessing a group of additional visual effects that are not apparent in the main effects toolbar. */
+"Effects.More" = "Autre";
+
+/* Toolbar button. Blending mode */
+"Screen" = "Écran";
+
+/* Toolbar button. Controls sensitivity of an effect. */
+"Sensitivity" = "Sensitivité";
+
+/* Toolbar button. Controls appearance of a shadow. */
+"Shadow" = "Ombre";
+
+/* Toolbar button. Controls the shape of a widget/mask/effect/etc. */
+"Shape" = "Forme";
+
+/* Toolbar button. Shows the shadow (or other effect) previously hidden. */
+"Show" = "Afficher";
+
+/* Toolbar button. Blending mode */
+"Soft Light" = "Lum. tam.";
+
+/* Toolbar button. Controls the softness of a shadow or another effect. */
+"Softness" = "Douceur";
+
+/* Toolbar button. Controls the playback speed of the object. */
+"Speed" = "Vitesse";
+
+/* Toolbar button, reverses a video clip when pressed. Should be short, prefer verbs. */
+"Reverse" = "Inverser";
+
+/* Message bellow a progress indicator, when waiting for reverse to finish. */
+"Reversing..." = "Inversion...";
+
+/* Toolbar button. Splits (cuts or divides) the current object at the current time */
+"Split" = "Scinder";
+
+/* Toolbar button. Controls spread of Chroma Key (or other) effect */
+"Spread" = "Étaler";
+
+/* Toolbar button. Defines shape of text background that looks like a horizontal strip (runing from left edge to right edge of the whole screen). */
+"Strip" = "Bande";
+
+/* Toolbar button. Controls stroke of a shape / text. */
+"Stroke" = "Trait";
+
+/* Toolbar button, inside Adjust. Determines how warm the colors are. Type of tonal adjustment. */
+"Warmth" = "Chaleur";
+
+/* Toolbar button. Adds a text layer. */
+"Text" = "Texte";
+
+/* Toolbar button. Controls threshold of Chroma Key (or other) effect. */
+"Threshold" = "Seuil";
+
+/* Toolbar button, inside Adjust. Type of tonal adjustment */
+"Tint" = "Nuance";
+
+/* Toolbar button. Controls scan lines (smearing) to the top of the video. */
+"Top" = "En haut";
+
+/* Toolbar button. Group of tools that transform (move, rotate, etc.) an object. */
+"Transform" = "Transformer";
+
+/* Toolbar button. Horizontally flips an object, similar to a mirror reflection. */
+"Transform.Mirror" = "Miroir";
+
+/* Toolbar button. Vertically flips an object. */
+"Transform.Flip" = "Renverser";
+
+/* Toolbar button. Rotates an object by 90 degrees. */
+"Transform.Rotate" = "Faire pivoter";
+
+/* Toolbar button. Applies aspect fit on the selected layer to fit the canvas. */
+"Transform.Fit" = "Adapter";
+
+/* Toolbar button. Applies aspect fill on the selected layer to fill the canvas. */
+"Transform.Fill" = "Remplir";
+
+/* Toolbar button. Name of equalizer preset. */
+"Treble +" = "Aigu +";
+
+/* Toolbar button. Name of equalizer preset. */
+"Treble -" = "Aigu -";
+
+/* Toolbar button. Unlinks (detaches, separates) audio from video. */
+"Unlink" = "Délier";
+
+/* Toolbar button. Controls the velocity of grains, they way they move around. */
+"Velocity" = "Vélocité";
+
+/* Toolbar button, inside Adjust. Type of tonal adjustment */
+"Vibrance" = "Pulsation";
+
+/* Toolbar button, in Chromatic Aberration effect. Controls how fast the pattern vibrates.
+   Toolbar button, in Pulsar effect. Controls intensity of the lines vibration. The pattern might stay still or vibrate to add an un-easing effect. */
+"Vibration" = "Pulsation";
+
+/* Toolbar button. Controls audio volume. */
+"Volume" = "Volume";
+
+/* Toolbar button. Width of a stroke or other effect. */
+"Width" = "Largeur";
+
+/* Onboarding message, shown in a popoup */
+"Edit & trim any clip by tapping it" = "Éditez et coupez n’importe quel clip en le touchant";
+
+/* Onboarding message, shown in a popoup */
+"Now apply a filter to make it pop!" = "Ajoutez-y un filtre pour le faire éclater!";
+
+/* Onboarding message, shown in a popoup */
+"Add a filter to make it pop!" = "Ajoutez un filtre pour le faire éclater!";
+
+/* Onboarding message, shown in a popoup */
+"Now add a layer of text" = "Ajoutez-y un nouveau calque de texte";
+
+/* Onboarding message, shown in a popoup */
+"Add text to complete the package" = "Ajoutez du texte pour compléter le paquet";
+
+/* Onboarding message, shown in a popoup */
+"Start a new project from the Projects screen" = "Commencez un nouveau projet à partir de l’écran Projets";
+
+/* Onboarding message, shown in a popoup */
+"Go here to start a new project" = "Allez ici pour commencer un nouveau projet";
+
+/* Onboarding message, shown in a popoup */
+"Select Mixer to overlay a video" = "Sélectionner Mixer pour incruster une vidéo";
+
+/* Onboarding message, shown in a popoup */
+"Select Mixer to overlay or blend a video" = "Sélectionner Mixer pour incruster ou fusionner une vidéo";
+
+/* Onboarding message, shown in a popoup */
+"Tap between clips to add a transition" = "Touchez entre les clips pour ajouter une transition";
+
+/* Onboarding message, shown in a popoup */
+"Tap the question mark for help" = "Touchez le point d’interrogation pour de l’aide";
+
+/* Onboarding message, shown in a popoup */
+"Tap the question mark above for help" = "Touchez le point d’interrogation au dessus pour de l’aide";
+
+/* Onboarding message, shown in a popoup */
+"Need help? Tap the question mark above" = "Besoin d’aide ? Touchez le point d’interrogation là dessus";
+
+/* Onboarding message, shown in a popoup */
+"Subscribe here for extra features!" = "Abonnez-vous ici à d’autres fonctionnalités !";
+
+/* Onboarding message, shown in a popoup */
+"Subscribe here for premium content and more!" = "Abonnez-vous ici à un contenu de qualité et bien plus encore !";
+
+/* Onboarding message, shown in a popoup */
+"Go here for more options" = "Allez ici pour davantage d’options";
+
+/* Message shown when a project in empty */
+"Press the big red button below to get started!" = "Appuyez sur le gros bouton rouge en bas pour commencer !";
+
+/* Message shown when a project in empty */
+"Press the big red button below to import footage" = "Appuyez sur le gros bouton rouge en bas pour importer des séquences !";
+
+/* Message shown when a project in empty */
+"Tap the + below to get started" = "Touchez le + ci-dessous pour commencer";
+
+/* Message shown when a project in empty */
+"Tap the + below to add clips" = "Touchez le + ci-dessous pour ajouter des clips";
+
+/* Message shown when a project in empty */
+"Tap the + below to add media" = "Touchez le + ci-dessous pour ajouter des médias";
+
+/* Message shown when a project in empty */
+"Tap the + below to add footage" = "Touchez le + ci-dessous pour ajouter des séquences";
+
+/* Export. Defines output resolution */
+"Resolution" = "Résolution";
+
+/* Export. Explanation message for resolution of 360p. */
+"Fast and small but lesser quality." = "Petite et rapide qualité moindre.";
+
+/* Export. Explanation message for resolution of 480p. */
+"Perfect for sharing on social media" = "Parfait pour partager sur les médias sociaux.";
+
+/* Export. Explanation message for resolution of 720p. */
+"Best balance between quality and size" = "Meilleur équilibre entre qualité et taille.";
+
+/* Export. Explanation message for resolution of 1080p. */
+"Great for bigger screens, but heavier" = "Idéale pour les plus grands écrans, mais plus lourde.";
+
+/* Export. Explanation message for resolution of 4K. */
+"Just like going to the movies!" = "Comme si on allait au cinéma!";
+
+/* Export. Defines output frame rate. */
+"Frames per second" = "Images par seconde";
+
+/* Export. Explanation message for frame rate of 24 */
+"Cinematic standard." = "Cinématique standard.";
+
+/* Export. Explanation message for frame rate of 25 */
+"PAL standard." = "Standard PAL.";
+
+/* Export. Explanation message for frame rate of 30 */
+"NTSC standard." = "Standard NTSC.";
+
+/* Export. Explanation message for 50 FPS. PAL is the name of a television standard, commonly used almost everywhere except the US & Canada. */
+"Enables smoother animation, for PAL video." = "Fluidifie les animations, pour la vidéo PAL.";
+
+/* Export. Explanation message for frame rate of 60 */
+"Enables smoother animation." = "Fluidifie les animations.";
+
+/* Alert text given to the user when no permission was given by the user to photos, so the app can't take photos */
+"Videoleap does not have access to your photos. To enable access, go to iOS settings" = "Videoleap n'a pas accès à vos photos. Pour activer l'accès, accédez aux réglages d'iOS.";
+
+/* Backstage button. Opens subscription screen.
+   Promotion subscription screen headline. */
+"Videoleap Pro" = "Videoleap Pro";
+
+/* Backstage button. Opens subscription screen. */
+"Go Pro" = "Soyez Pro";
+
+/* Backstage button. Opens subscription screen. */
+"Share Videoleap" = "Partager Videoleap";
+
+/* Backstage button. Opens subscription screen. */
+"More Apps by Lightricks" = "Plus d’apps par Lightricks";
+
+/* Backstage button. Opens help. */
+"Help" = "Aide";
+
+/* Toolbar button. In Pixelate, changes the pixelization effect to a grid of hexagons pattern. */
+"Hexagons" = "Hexagones";
+
+/* Backstage button. Opens Mail app to write us feedback email. */
+"Send Feedback" = "Envoyer des commentaires";
+
+/* Backstage button. Opens App Store rating. */
+"Rate & Review" = "Note et avis";
+
+/* Backstage button. Links to our social media presence. */
+"Social Media" = "Médias sociaux";
+
+/* A short option in a survey asking users how did they hear about Videoleap. The option being they heard about Videoleap from a social network */
+"Social media" = "Médias sociaux";
+
+/* Backstage button. Opens settings screen. */
+"Settings" = "Réglages";
+
+/* Backstage button. Opens tutorials. */
+"Tutorials" = "Tutoriels";
+
+/* Backstage promotional card. Body. */
+"Get access to premium content and unlimited project editing!" = "Accédez à un contenu de qualité et à une édition illimitée de projets !";
+
+/* Backstage promotional card. Title. */
+"Become Pro" = "Devenez Pro";
+
+/* Backstage promotional card. Title. */
+"Be a Pro" = "Soyez un Pro";
+
+/* Backstage promotional card. Body. */
+"Unlock unlimited layers and more!" = "Débloquez des calques sans limites et bien plus !";
+
+/* Backstage promotional card. Body. */
+"Unlimited layers, unlimited project duration and much more!" = "Des calques sans limites, une durée de projet sans limites et bien plus encore !";
+
+/* Backstage promotional card. Body. */
+"Unlock premium content, unlimited layers and more!" = "Débloquez un contenu de qualité, des calques sans limites et bien plus encore !";
+
+/* Backstage promotional card. Title. */
+"Be Inspired!" = "Trouvez l'inspiration !";
+
+/* Backstage promotional card. Body. */
+"Check out Videoleap's creative community on Instagram" = "Jetez un coup d'œil à la communauté créative de Videoleap sur Instagram";
+
+/* Backstage promotional card. Title. */
+"Get Enlightened" = "Brillez";
+
+/* Backstage promotional card. Body. */
+"Join our Facebook page for weekly tutorials and more!" = "Rejoignez notre page Facebook pour des tutoriels habdomadaires et plus encore !";
+
+/* Projects. Template for a new project name when creating a copy of an existing project. For example, project Xyz will become Copy of Xyz. */
+"Copy of %@" = "Copie de %@";
+
+/* Sound effect, name of a category. */
+"Action" = "Action";
+
+/* Sound effect, name of a category. */
+"Animals" = "Animaux";
+
+/* Sound effect, name of a category. */
+"Bleeps" = "Blips";
+
+/* Sound effect, name of a category. */
+"Cartoon" = "Dessins animés";
+
+/* Sound effect, name of a category. */
+"Game Show" = "Jeu télévisé";
+
+/* Sound effect, name of a category. */
+"Holidays" = "Noël";
+
+/* Sound effect, name of a category. */
+"Instruments" = "Instruments";
+
+/* Sound effect, name of a category. */
+"Kitchen" = "Cuisine";
+
+/* Sound effect, name of a category. */
+"Objects" = "Objets";
+
+/* Sound effect, name of a category. */
+"People" = "Personnes";
+
+/* Sound effect, name of a category. */
+"Sci-Fi" = "Sci-Fi";
+
+/* Sound effect, name of a category. */
+"Sirens" = "Sirènes";
+
+/* Sound effect, name of a category. */
+"Trailers" = "Bandes-annonces";
+
+/* Sound effect, name of a category. */
+"Video Games" = "Jeux vidéo";
+
+/* Sound effect, name of a category. */
+"Whoosh" = "Souffle";
+
+/* Toolbar button. Adds a layer that shows stickers */
+"Stickers" = "Stickers";
+
+/* Title of the stickers import screen, appears on the top part of it */
+"Import.Stickers" = "Stickers";
+
+/* Toolbar button. Adds a pixelization effect. */
+"Pixelate" = "Pixéliser";
+
+/* Toolbar button. Adds an effect of water drops over the video. Raindrop can be alternative name. */
+"Screen Rain" = "Écran de pluie";
+
+/* Toolbar button. Adds an effect of multiplying the video several times and tiling it across the screen. */
+"Tiles" = "Tuiles";
+
+/* Toolbar button. Adds an effect of making the video appear as if it was drawn on wool fabric. Wool can be alternative name. */
+"Fabric" = "Tissu";
+
+/* Toolbar button. Adds an effect of making the video appear as if it was drawn in 8-bit graphic, similar to very old computer games. */
+"8-bit" = "8-bit";
+
+/* Toolbar button. Adds an effect highlighting and coloring the edges of objects in the video. */
+"Edges" = "Bords";
+
+/* Toolbar button. Applies color adjustments for a narrow range of colors, selected by user. Selective Adjust, Range Adjust, Tone Lab, Hue Adjust. */
+"Color Range" = "Gamme de couleurs";
+
+/* Toolbar button. Short for Range Adjust. Applies color adjustments for a narrow range of colors, selected by user. Selective Adjust, Range Adjust, Tone Lab, Hue Adjust. */
+"Range Adj." = "Ajust. gamme";
+
+/* Toolbar button. Applies color adjustments for a narrow range of colors, selected by user. Selective Adjust, Range Adjust, Tone Lab, Hue Adjust. */
+"Tone Lab" = "Gamme";
+
+/* Subscription screen pro-feature thumbnail text, i.e, pro-feature that applies color adjustments for a narrow range of colors, selected by user. Ignore the \"thumbnail\" in your translation */
+"Tone Lab thumbnail" = "Gamme";
+
+/* Toolbar button. Applies color adjustments for a narrow range of colors, selected by user. Selective Adjust, Range Adjust, Tone Lab, Hue Adjust. */
+"Hue Adjust" = "Ajuster teinte";
+
+/* Toolbar button. Controls the amount of distortion / shake in an effect. */
+"Twitch" = "Pincer";
+
+/* Title of a button the directs the user to purchace a subscription */
+"Remove Limit to Save" = "Retirer les limites";
+
+/* Label of a button of an alert presented to the user to indicate he uses more than the allowed limit of editing layers */
+"Remove Limit" = "Retirer les limites";
+
+/* Floating button on top of the video that appears when subscription only features were used and so the export becomes limited. */
+"Pro Only\nRemove Limit" = "Pro uniquement\nDébloquer";
+
+/* Popup message title, shown when non subscriber uses too many layers. */
+"Layer Limit Reached" = "Limite de calque atteinte";
+
+/* Body of popoup alert when too many layers where used by non subscriber*/
+"Get Videoleap Pro to unlock unlimited layers and more!" = "Obtenez Videoleap Pro pour débloquer des calques sans limites et plus encore !";
+
+/* Popup message title, shown when non subscriber uses feature available only to subscribers. */
+"Pro Only" = "Pro uniquement";
+
+/* Body of popoup alert when pro only feature is used */
+"Get Videoleap Pro to unlock this effect and more!" = "Obtenez Videoleap Pro pour débloquer cet effet et plus encore !";
+
+/* A short title for a survey asking users who are no longer subscribers to our pro service, why they have unsubscribed */
+"You're no longer Pro. What went wrong?" = "Vous n'êtes plus Pro. Que s'est-il passé ?";
+
+/* A short option in a survey asking users who are no longer subscribers to our pro service, why they have unsubscribed. The option being they did not use the pro tools */
+"I don't use Pro tools" = "Je n'utilise pas les outils Pro";
+
+/* A short option in a survey asking users who are no longer subscribers to our pro service, why they have unsubscribed. The option being that they did not subscribe intentionally */
+"Subscribed by mistake" = "Je me suis abonné par erreur";
+
+/* A short option in a survey asking users who are no longer subscribers to our pro service, why they have unsubscribed. The option being that they use another app */
+"I use another app" = "J'utilise une autre app";
+
+/* A short option in a survey asking users who are no longer subscribers to our pro service, why they have unsubscribed. The option being the subscription was too expensive */
+"Too expensive" = "Prix trop élevé";
+
+/* Short label on a button which submits a user's respons to a survey */
+"Submit" = "Envoyer";
+
+/* Placeholder text inside a text field where a user can write a custom answer to a survey */
+"Other" = "Autre";
+
+/* Button in popoup alert */
+"Not Now" = "Plus tard";
+
+/* Button in popoup alert */
+"Not now" = "Plus tard";
+
+/* Label on a button in a dialog acknowledging its message */
+"OK" = "Accepter";
+
+/* Toolbar button, adds Black and White effect */
+"B&W" = "N&B";
+
+/* Toolbar button. Adds vignette effect. */
+"Vignette" = "Vignetage";
+
+/* Toolbar button. Short for laboratories: a group of tools and features for developing visual styles and effects. */
+"Labs" = "Labos";
+
+/* Toolbar button. Controls barrel distortion in CRT. This is the optical distortion on old TVs caused by curvature of the screen. Looks like fisheye.  Bloat / Distortion are alternative names. */
+"Barrel" = "Tonneau";
+
+/* Message shown to the user if he is already a subscriber when accessing the subscription screen */
+"All the features are now available" = "Toutes les fonctionnalités sont maintenant disponibles";
+
+/* Title of a message shown to the user if he is already a subscriber when accessing the subscription screen */
+"You're already a subscriber" = "Vous êtes déjà abonné";
+
+/* Black Friday: Header title of a promotional message in the subscription screen */
+"Black Friday Only!" = "Uniquement le jour du Black Friday !";
+
+/* Cyber Monday: Header title of a promotional message in the subscription screen */
+"Cyber Monday Only!" = "Uniquement le jour du Cyber Monday !";
+
+/* Chinese New Year */
+"Get 50% Off for the Chinese New Year!" = "Profitez de -50 % pour le Nouvel An chinois !";
+
+/* Chinese New Year */
+"Chinese New Year Event starts from February 3rd" = "L'événement Nouvel An chinois commence le 3 février";
+
+/* Alert when demo version is launched */
+"This version of %@ has been created specifically for demonstration purposes" = "Cette version de %@ a été exclusivement conçue à des fins de démonstration.";
+
+/* Title of alert appearing when trying to enter a disabled feature */
+"Feature not enabled for this demo" = "Fonction désactivée dans cette version de démonstration.";
+
+/* In Checkout screen, label for the total price to be payed by the user. */
+"Total" = "Générale";
+
+/* Error message presented to the user when assets could not be loaded */
+"Assets Failed to Load" = "Échec du chargement des actifs";
+
+/* Message presented to the user asking to contact us if problem is not solved. */
+"Contact us if the problem persists." = "Contactez-nous si le problème persiste.";
+
+/* Short title for a dialog which asks the user to approve a download over cellular network */
+"File Download" = "Téléchargement de fichier";
+
+/* Content of a dialog which asks the user to approve a download over cellular network */
+"You are about to download a file using cellular data. Are you sure?" = "Vous êtes sur le point de télécharger un fichier via un réseau cellulaire. Êtes-vous sûr ?";
+
+/* Short label on a button representing a positive response to an alert dialog */
+"Go to Settings" = "Accédez aux réglages";
+
+/* Error message presented to the user, when an exact error is not known. */
+"Something Went Wrong" = "Une erreur s'est produite";
+
+/* Message presented to the user asking to try purchase the assets again and contact us if problem is not solved. */
+"Try again to purchase assets or contact us if the problem persists." = "Réessayez d'acheter les actifs ou contactez-nous si le problème persiste.";
+
+/* Message presented to the user asking to try load the assets again and contact us if problem is not solved. */
+"Try again to reload assets or contact us if the problem persists." = "Réessayez de recharger les actifs ou contactez-nous si le problème persiste.";
+
+/* Shown as a title of video/photo/music when the actual title is not known or does not exists. */
+"Unknown" = "Inconnu";
+
+/* Error message when user has no iCloud account */
+"iCloud Account Required" = "Compte iCloud requis";
+
+/* Explanation to the user that iCloud acount is required in order to export premium assets and request to go to the settings */
+"You need an iCloud account to export premium assets. Please go to Settings and sign in to your iCloud account." = "Vous avez besoin d'un compte iCloud pour exporter les actifs supérieurs. Veuillez accéder aux Réglages et vous connecter à votre compte iCloud.";
+
+/* Explanation to the user that purchase of premium assets failed and ways to continue from here  */
+"Failed finalizing the list of Premium Assets contained in your project, that needs to be purchased before proceeding. Please check your Internet connection and try again." = "Échec de la finalisation de la liste d'actifs supérieurs contenue dans votre projet, qui doit être achetée avant de continuer. Veuillez vérifier votre connexion Internet et réessayer.";
+
+/* Message presented instead of content in the purchased import tab, indicating the user has no purchased content, where {0} is the tab icon. */
+"Nothing here yet... but we can change that! Tap the {0} tab to get some great clips." = "Rien à cet endroit pour l'instant… mais cela peut changer ! Appuyez sur l'onglet {0} pour obtenir de fantastiques clips.";
+
+/* Badge placed on image preview of stock assets that are free to use. Should be short. */
+"FREE" = "GRATUIT";
+
+/* Badge placed on image preview of premium stock assets that are not free to use. Should be short. */
+"PREMIUM" = "SUPÉRIEUR";
+
+/* Short label on a button which filters search results to videos */
+"Videos" = "Vidéos";
+
+/* Short label on a button which filters search results to photos (images) */
+"Photos" = "Photos";
+
+/* Title of Terms & Conditions dialog. Premium assets are stock videos / images / music that are premium in quality and are not available for free.  */
+"Premium Assets" = "Actifs supérieurs";
+
+/* Label on a button in a Terms & Conditions dialog that accepts the terms */
+"Accept" = "J'accepte";
+
+/* Content of a dialog which asks the user to accept the terms of using premium assets. The %@ should remain in the translated string, and will be replaced with the localized text \"Terms & Conditions\". The \\n should also remain in the translated string. */
+"Try them now and buy later if you like the results.\n\nUse of premium assets is subject to %@. By tapping Accept you confirm that you have read and agreed to the terms." = "Essayez maintenant et achetez plus tard si vous aimez les résultats. \n\nL'utilisation des actifs supérieurs est soumis aux %@. En touchant Accepter, vous confirmez que vous avez lu et accepté les conditions.";
+
+/* Title of a link to terms of use document */
+"Terms & Conditions" = "Conditions générales";
+
+/* Place holder for a search field, shown when no specific search text was entered by user. */
+"Search" = "Recherche";
+
+/* Toolbar button. Adds a kaleidoscope effect. Should be short, can be sensible abbreviation if not possible otherwise. */
+"Kaleido" = "Kaléido";
+
+/* Toolbar button, in Kaleidoscope feature. Controls the type (mode) of the effect. */
+"Mode" = "Mode";
+
+/* Toolbar button, adds a lens flare effect. */
+"Lens Flare" = "Lens flare";
+
+/* Toolbar button. Group of styles and presets.
+   Toolbar button. Enables selection of various text effects such as 'glow' or 'flames' */
+"Style" = "Style";
+
+/* Title of a button prompting the user to upgrade to the Pro version */
+"Upgrade Now" = "Mettre à niveau maintenant";
+
+/* Text appearing on a thumbnail suggesting what the user can get by subscribing. Only short strings can fit */
+"Unlimited\nLayers" = "Calques\nsans limites";
+
+/* Subtitle appearing in the subscription screen, notifying users that by subscribing they can access all features of the app */
+"Access All Features" = "Accédez à toutes les fonctions";
+
+/* Promotional message for Videoleap Pro subscription */
+"Get unlimited layers and Pro features" = "Obtenez des calques et des fonctions Pro illimités";
+
+/* Promotional message after user has just subscribed to Videoleap Pro */
+"Welcome back! Tap + and let's get started" = "Bienvenue ! Touchez + et commençons !";
+
+/* Promotional message for Photoleap app - unused. */
+"Create amazing art and designs to use in your videos!" = "Créez de l'art et des designs incroyables pour vos vidéos !";
+
+/* Promotional message for Lightleap app - unused. */
+"Edit multiple photos at once for the perfect slideshow" = "Éditez plusieurs photos simultanément pour créer le diaporama parfait";
+
+/* Promotional message for Motionleap app - unused. */
+"Animate your photos to create stunning moving images" = "Mettez vos photos en mouvement pour créer de superbes animations";
+
+/* Promotional message for Artleap app - unused. */
+"Add Effects & Filters in a tap!" = "Ajoutez des effets et des filtres d'un seul geste !";
+
+/* Promotional message for Photoleap app. */
+"Create amazing digital art" = "Créez d’incroyables œuvres numériques";
+
+/* Promotional message for Lightleap app. */
+"Edit your photos like a pro" = "Retouchez vos photos comme un pro";
+
+/* Promotional message for Motionleap app. */
+"Animate your photos" = "Animez vos photos";
+
+/* Promotional message for Artleap app. */
+"Turn photos into art in a tap" = "Transformez vos photos en créations artistiques, d’un seul geste";
+
+/* Promotional message for Beatleap app. */
+"Create your own music video" = "Réalisez votre propre clip vidéo";
+
+/* Title of a screen that shows a preview of an asset, such as image or video. */
+"Preview" = "Aperçu";
+
+/* Title of slider for selecting photo duration */
+"Photo Duration" = "Durée de la photo";
+
+/* Description of a slider to select photo duration */
+"Set the default duration for an imported photo." = "Pour définir la durée par défaut d'une photo importée.";
+
+/* Title of selection bar to select default transition */
+"Transition" = "Transition";
+
+/* Subscription screen pro-feature thumbnail text, i.e, pro-feature that applies special transitions between photos & videos. */
+"Transitions thumbnail" = "Transitions";
+
+/* Description of transition selection bar */
+"Set the default transition between photos & videos." = "Pour définir la transition par défaut entre les photos et les vidéos";
+
+/* Title of a switch for selecting import method for assets */
+"Live Photos as Videos" = "Live Photos sous forme de vidéos";
+
+/* Toolbar button. Option for selecting transition between clips that randomly selects a transition for the user. */
+"Random" = "Aléatoire";
+
+/* Body text in a button encouraging the user to start a 3 day free trial of Videoleap Pro  */
+"Get 3 Days Free!" = "Profitez de 3 jours gratuits !";
+
+/* Body text in a button encouraging the user to start a 7 day free trial of Videoleap Pro  */
+"Get 7 Days Free!" = "Profitez de 7 jours gratuits !";
+
+/* Error message shown when export fails. */
+"Export failed" = "Échec d’exportation";
+
+/* Error message shown when export fails. */
+"Failed to decode, some assets may be damaged" = "Échec du décodage, des ressources peuvent être endommagées";
+
+/* Error message shown when export fails. */
+"We couldn't continue because Videoleap was closed while exporting" = "Nous n’avons pas pu continuer parce que Videoleap s’est fermé pendant l’exportation";
+
+/* Error message shown when export fails. */
+"Too many Video layers" = "Trop de calques vidéos";
+
+/* Toolbar button. Shows a color picker (pipette) for the Chroma Key effect. */
+"Picker" = "Pipette";
+
+/* Toolbar button. Controls changes and manipulatios of audio pitch. */
+"Pitch" = "Hauteur";
+
+/* Toolbar button. Represents an audio pitch control option that keeps original pitch despite speed manipulations. Alternatives for shorter strings: Hold Pitch, Maintain Pitch. */
+"Keep Pitch" = "Hauteur =";
+
+/* Toolbar button. Represents an audio pitch control option that does not keep original pitch when speed manipulations are applied. This is the opposite effect of "Keep Pitch". */
+"Change Pitch" = "Hauteur ≠";
+
+/* Toolbar button. Unmutes audio. */
+"Unmute" = "Son actif";
+
+/* Title of a slider that changes the size of an object. */
+"Size" = "Taille";
+
+/* Apple's Files Application name. */
+"Files" = "Fichiers";
+
+/* Subtitle of a promotional message in the subscription screen */
+"Get 1 Month Free!" = "Obtenez 1 mois gratuit !";
+
+/* Title of a tool that allows changing distance between characters and lines in a text label. */
+"Spacing" = "Espacement";
+
+/* Title of a slider that changes the distance between characters in a text layer. */
+"Glyph Spacing" = "Caractères";
+
+/* Title of a slider that changes the distance between lines in a text layer. */
+"Line Spacing" = "Lignes";
+
+/* Header label for a screen promoting a special sale for the holiday season */
+"Holiday Sale" = "Offre de fin d'année";
+
+/* Title of a button representing an annual subscription plan */
+"Yearly Plan" = "Forfait annuel";
+
+/* Promotional text in a button for purchasing a subscription plan, informing the user he will receive a 1 month free trial period */
+"1 Month Free" = "1 mois gratuit";
+
+/* Promotional text in a button for purchasing a subscription plan, informing the user that he will later be billed a certain ammount annually. %@ will be converted into the correct sum amount (\"$36.99\" for example), please keep it in the translation as is */
+"then only %@ billed yearly" = "puis seulement %@ par an";
+
+/* Label on a button enabling the user too see other subscription payment plans available */
+"See More Plans" = "Voir d'autres forfaits";
+
+/* Toolbar button. Enables adding animation to the selected object. */
+"Animation" = "Animation";
+
+/* Toolbar button. Animation category for animations that appear at the begining of the selected object. */
+"In" = "Entrée";
+
+/* Toolbar button. Animation category for animations that appear up to the end of the selected object. */
+"Out" = "Sortie";
+
+/* Toolbar button. Animation category for animations that appear throughout the entire selected object's duration. */
+"Overall" = "Générale";
+
+/* Toolbar button. Fade in animation. */
+"AnimationType.FadeIn" = "Fondu ent.";
+
+/* Toolbar button. Fade out animation. */
+"AnimationType.FadeOut" = "Fondu sor.";
+
+/* Toolbar button. Slide left animation, making the object move left. */
+"AnimationType.SlideLeft" = "Glissé ←";
+
+/* Toolbar button. Slide right animation, making the object move right. */
+"AnimationType.SlideRight" = "Glissé →";
+
+/* Toolbar button. Slide up animation, making the object move up. */
+"AnimationType.SlideUp" = "Glissé ↑";
+
+/* Toolbar button. Slide down animation, making the object move down. */
+"AnimationType.SlideDown" = "Glissé ↓";
+
+/* Toolbar button. Scale up animation, making the object start small and expand to its current size. */
+"AnimationType.ScaleUp" = "Expansion";
+
+/* Toolbar button. Scale down animation, making the object start large and shrink to its current size. */
+"AnimationType.ScaleDown" = "Réduction";
+
+/* Toolbar button. Spin clockwise animation. */
+"AnimationType.SpinCW" = "Piv. Droite";
+
+/* Toolbar button. Spin counter clockwise animation. */
+"AnimationType.SpinCCW" = "Piv. Gauche";
+
+/* Toolbar button. Flicker animation, making objects appear and disappear in a repeating manner and in a random/twitchy feel. */
+"AnimationType.Flicker" = "Clignotement";
+
+/* Toolbar button. Blink animation, making objects fade in and out in a repeating manner. */
+"AnimationType.Blink" = "Clignement";
+
+/* Toolbar button. Pulse animation, making objects grow larger and smaller a fluent motion and a repeating manner. */
+"AnimationType.Pulse" = "Pulsation";
+
+/* Toolbar button. Floating animation, making objects move up and down over and over in a fluent motion. */
+"AnimationType.Floating" = "Flottement";
+
+/* Toolbar button. Wiggle animation, making objects randomly slightly move around the scene. */
+"AnimationType.Wiggle" = "Vibration";
+
+/* Undo caption that in-animation (animation at the object's begining) duration changed */
+"Change In Animation Duration" = "Changement de la durée de l'animation d'entrée";
+
+/* Undo caption that out-animation (animation at the object's end) duration changed */
+"Change Out Animation Duration" = "Changement de la durée de l'animation de sortie";
+
+/* Undo caption that overall animation duration changed */
+"Change Overall Animation Duration" = "Changement de la durée de l'animation générale";
+
+/* Text communicating to the user the total amount they will pay for 3 months. Where {0} is the price. */
+"{0} total for 3 months!" = "{0} au total pour 3 mois !";
+
+/* Text communicating to the user the cost of the subscription once the subscription has renewed after a period of time. Where {0} is the price. */
+"Renews at {0}/year after" = "Ensuite, renouvellement à {0}/an";
+
+/* Text informing the user of the percentage saved with the current sale. Where {0}% is the amount saved in percentage. */
+"Save {0}% on your first 3 months" = "Économisez {0} % sur les 3 premiers mois";
+
+/* "Header label for a screen promoting a special sale for the new year" */
+"New Year's Sale" = "Offre du Nouvel An";
+
+/* Text informing the user of the number of days remaining on the sale. Where {0} is the number of days remaining. */
+"Only {0} days remaining!" = "Plus que {0} jours !";
+
+/* Text informing the user of that only 1 day is remaining on the sale. */
+"Only 1 day remaining!" = "Plus qu'un jour !";
+
+/* A short title for a survey asking users how did they hear about Videoleap */
+"How did you hear about Videoleap?" = "Comment avez-vous connu Videoleap ?";
+
+/* A short option in a survey asking users how did they hear about Videoleap. The option being they heard about Videoleap by searching online */
+"Searching online" = "Recherche sur Internet";
+
+/* A short option in a survey asking users how did they hear about Videoleap. The option being they heard about Videoleap from a friend */
+"From a friend" = "Grâce à un ami";
+
+/* A short option in a survey asking users how did they hear about Videoleap. The option being they heard about Videoleap from an article */
+"From an article" = "Dans un article";
+
+/* A short option in a survey asking users how did they hear about Videoleap. The option being they heard about Videoleap from ads */
+"Ads" = "Publicités";
+
+/* A short option in a survey asking users how did they hear about Videoleap. The option being they heard about Videoleap from the App store */
+"App Store" = "App Store";
+
+/* Title of a button on the top bar, presented durating the onboarding session, which enables the user to skip the onboarding. */
+"Skip" = "Passer";
+
+/* Toolbar button. Starts voice recording while playing the video simultaneously. Also known as off-camera commentary. */
+"Voiceover" = "Voix off";
+
+/* Toolbar button. Starts voice recording while playing the video simultaneously. Also known as off-camera commentary. To replace an existing voice over element */
+"Retake" = "Remplacer";
+
+/* Label on a tab representing all stock assets (images, videos) the user has bought from the app */
+"Purchased" = "Achats";
+
+/* Description that appears on the Undo/Redo caption which describes the action of moving a mixer object to clip (e.g. Undo: Mixer to Clip) */
+"Mixer to Clip" = "Convertir l'objet Mixer en clip";
+
+/* Description that appears on the Undo/Redo caption which describes the action of converting a clip object to a mixer (e.g. Undo: Clip to Mixer) */
+"Clip to Mixer" = "Convertir le clip en objet Mixer";
+
+/* Toolbar button. Extracts the current frame from a video and adds it in place as an image, essentially stopping time within that particualr video */
+"Freeze" = "Figer";
+
+/* Subscription screen pro-feature thumbnail text, i.e, pro-feature that extracts the current frame from a video and adds it in place as an image. */
+"Freeze Frame thumbnail" = "Arrêt sur\nimage";
+
+/* Toolbar button. Controls the amount of shadows left in the video frame after the color was removed using the Chroma-Key feature */
+"Shadows" = "Ombres";
+
+/* Alert text presented to the user when no permissions were given by the user to use their microphone */
+"Videoleap does not have access to your microphone. To enable access, go to iOS settings" = "Videoleap n’a pas accès à votre micro. Pour activer l’accès, ouvrez les réglages d'iOS";
+
+/* Text communicating to the user the cost of the subscription per year. Where "{0}" will be replaced with the localized numeric representation of the price, e.g, "$100 billed yearly" */
+"{0} billed yearly" = "{0} chaque année";
+
+/* Text communicating to the user the discount percentage given for the subscription option. Where "\n" stands for a new line and "{0}" will be replaced with the actual discount percentage number, e.g, "SAVE 50%" */
+"SAVE \n{0}%" = "ÉCONOMISEZ \n{0} %";
+
+/* Text communicating to the user the cost of the subscription per year. Where "\n" stands for a new line and "{0}" will be replaced with the localized numeric representation of the price, e.g, "Total: $100". */
+"Total: {0}" = "Total : {0}";
+
+/* Toolbar button. Splits (cuts or divides)  the current object at the current time, and extracts the  current frame */
+"Cut Frame" = "Couper img";
+
+/* Description of a monthly price. Where "{0}" will be replaced with the localized numeric representation of the price, e.g, "$2.99 per month" */
+"{0} per month" = "{0} par mois";
+
+/* Label on a button that restores previously purchased products */
+"Already Paid?" = "Produit déjà payé ?";
+
+/* Description that appears on the Undo/Redo caption which describes the action of dragging a layer in the project, changing its start time (e.g. Undo: Drag Layer) */
+"Drag Layer" = "Déplacer le calque";
+
+/* filter effect names, applied on each frame. for instance filter B&W makes the video colors turn black and white. */
+"Filter.None" = "Aucun";
+"Filter.Action" = "Action";
+"Filter.B&W" = "N&B";
+"Filter.Retro" = "Rétro";
+"Filter.Fortune" = "Fortune";
+"Filter.Vivid" = "Vif";
+"Filter.High Noon" = "Midi pile";
+"Filter.Steel" = "Acier";
+"Filter.Firecracker" = "Pétard";
+"Filter.Cyberpunk" = "Cyberpunk";
+"Filter.Purple Rain" = "Purple Rain";
+"Filter.Spring" = "Printemps";
+"Filter.Night Vision" = "Vis. nocturne";
+"Filter.Negative" = "Négatif";
+"Filter.North" = "Nord";
+"Filter.Fade" = "Fondu";
+"Filter.Mist" = "Brume";
+"Filter.Terra" = "Terra";
+"Filter.Enchanted" = "Enchanté";
+"Filter.Ultra" = "Ultra";
+"Filter.Lovely Day" = "Belle journée";
+"Filter.Darkness" = "Obscurité";
+"Filter.Winter" = "Hiver";
+"Filter.Vista" = "Vista";
+"Filter.Sepia" = "Sépia";
+
+/* text effects - special effects applied on each character. For instance, fire effect makes the letters burn with flames */
+"TextEffects.Fire" = "Feu";
+"TextEffects.Neon" = "Néon";
+"TextEffects.Electricity" = "Électricité";
+"TextEffects.Gold" = "Or";
+"TextEffects.Drip" = "Goutte";
+"TextEffects.Glitter" = "Paillettes";
+"TextEffects.ChromaticAberration" = "Aberration chromatique";
+
+/* text effects - special effects applied on each character. For instance, fire effect makes the letters burn with flames */
+"TextEffects.Water" = "Eau";
+
+/* Subscription screen pro-feature thumbnail text, i.e, pro-feature that applies special effects on each character. */
+"Text Effects thumbnail" = "Effets\nde texte";
+
+/* Header label for a screen promoting a special spring sale */
+"Spring Sale" = "Offre de printemps";
+
+/* Second text label short. use translation with no more than 5 characters.*/
+"Seconds" = "s";
+
+/* Minutes text label short. use translation with no more than 5 characters.*/
+"Minutes" = "min";
+
+/* Hours text label short. use translation with no more than 5 characters.*/
+"Hours" = "h";
+
+/* Days text label short. use translation with no more than 5 characters.*/
+"Days" = "jours";
+
+/* Toolbar button. Preset animation that makes the text appear or disappear smoothly, see latest version fade in for better understanding of the word. */
+"AnimationGroup.Fade" = "Fondu";
+
+/* Toolbar button. Preset animation that makes the text slide to or from its position, see latest version slide left for better understanding of the word. */
+"AnimationGroup.SlideRight" = "Glissé →";
+"AnimationGroup.SlideLeft" = "Glissé ←";
+"AnimationGroup.SlideUp" = "Glissé ↑";
+"AnimationGroup.SlideDown" = "Glissé ↓";
+
+/* Toolbar button. Preset animation that makes the text grow or shrink to or from its final size. See latest version scale up for better understanding of the word. */
+"AnimationGroup.Scale" = "Échelle";
+
+/* Toolbar button. Preset animation that makes the text spin, see latest version spin CW for better understanding of the word. */
+"AnimationGroup.Spin" = "Spirale";
+
+/* Toolbar button. Preset animation, making objects appear and disappear in a repeating manner and in a random/twitchy feel. */
+"AnimationGroup.Flicker" = "Clignotement";
+
+/* Toolbar button. Preset animation that makes the text apear letter by letter. */
+"AnimationGroup.Typewriter" = "Machine à écrire";
+
+/* Toolbar button. Preset animation that makes the text appear blurry and become sharp (or disappear from sharp to blur). */
+"AnimationGroup.Blur" = "Flou";
+
+/* Toolbar button. Preset animation that makes the text fall down and then bounce gently. */
+"AnimationGroup.Bounce" = "Rebond";
+
+/* Toolbar button. Preset animation that makes the text appear behind a mask. */
+"AnimationGroup.Reveal" = "Apparition";
+
+/* Toolbar button. Preset animation that makes the text letters appear or disappear in a spiral motion. */
+"AnimationGroup.Vortex" = "Tourbillon";
+
+/* Toolbar button. Preset animation that makes the text letters appear by falling. */
+"AnimationGroup.Fall" = "Chute";
+
+/* Toolbar button. Preset animation that makes the text disappear behind a mask. */
+"AnimationGroup.Conceal" = "Dissimulation";
+
+/* Toolbar button. Preset animation that makes the text move like a wave. */
+"AnimationGroup.Wave" = "Vague";
+
+/* Toolbar button. Blink animation, making objects fade in and out in a repeating manner. */
+"AnimationGroup.Blink" = "Clignement";
+
+/* Toolbar button. Floating animation, making objects move up and down over and over in a fluent motion. */
+"AnimationGroup.Floating" = "Flottement";
+
+/* Toolbar button. Pulse animation, making objects grow larger and smaller a fluent motion and a repeating manner. */
+"AnimationGroup.Pulse" = "Pulsation";
+
+/* Toolbar button. Wiggle animation, making objects randomly slightly move arround the scene. */
+"AnimationGroup.Wiggle" = "Vibration";
+
+/* Toolbar button that allow the user to set the animation direction. For example, whether to slide in left, right, top or bottom. */
+"AnimationAttribute.Direction" = "Orientation";
+
+/* Toolbar button that allows the user to set the animation rotation direction. For example, whether the spin will be clockwise or counter clockwise. */
+"AnimationAttribute.Rotation" = "Faire pivoter";
+
+/* Toolbar button that allow the user to set the animation scale direction. For example, whether the text will become bigger (scale up) or small (scale down). */
+"AnimationAttribute.Scale" = "Échelle";
+
+/* Toolbar button that allow the user to set the animation entrance / exit corner (relevant for Vortex animation) */
+"AnimationAttribute.Corner" = "Coin";
+
+/* Toolbar button that allows the user to set the animation's scale: per letter, per word, per line or for the whole text as a single unit. */
+"AnimationAttribute.Mode" = "Mode";
+
+/* Toolbar button that allow the user to set the line order of text animation, for text with more than one line: up line order or down line order. */
+"AnimationAttribute.LineOrder" = "Ordre des lignes";
+
+/* Toolbar button that allow the user to set in line order of text animation: right-to-left or left-to-right. */
+"AnimationAttribute.Paragraph" = "Paragraphe";
+
+/* Toolbar button that sets the animation model to be global, i.e. the whole text moves together */
+"AnimationMode.Global" = "Ensemble";
+
+/* Toolbar button that sets the animation model to be line by line, i.e. each line moves separately */
+"AnimationMode.Line" = "Par ligne";
+
+/* Toolbar button that sets the animation model to be word by word, i.e. each word moves separately */
+"AnimationMode.Word" = "Par mot";
+
+/* Toolbar button that sets the animation model to be letter by letter, i.e. each letter moves separately */
+"AnimationMode.Glyph" = "Par lettre";
+
+/* Subscription screen pro-feature thumbnail text, i.e, pro-feature that applies animation effects on each character. */
+"Text Animation thumbnail" = "Texte\nanimé";
+
+/* Title for promotion screen stating the event we celebrate */
+"Dragon Boat Festival" = "Festival des bateaux-dragons";
+
+/* Sub title of the promotion screen stating  what the user will get */
+"Unlimited Access Deal" = "Offre d'accès illimité";
+
+/* The deal the user will get */
+"Get 1 Month for {0}" = "1 mois pour {0}";
+
+/* Title of a button enabling dismissing of a pop up screen */
+"Got it" = "OK";
+
+/* Text on subscription screen that explains the user that he will be automatically charge unless he canceles his subscription plan. */
+/* Note: {0} and {1} should be remained and we will replace them with amount of days and billed amount
+ in our code. e.g: for the english translation and choosing 5 days and $10 we will end up with:
+ After the 5 days free trial........renews for $10 per year.... */
+"After the {0} days free trial this subscription automatically renews for {1} per year unless it is canceled at least 24 hours before the end of the trial period." = "Au terme de l'essai gratuit de {0} jours, cet abonnement sera renouvelé automatiquement au tarif de {1} par an, sauf s'il est annulé au moins 24 heures avant la fin de la période d'essai.";
+
+/* Same as the text above just month instead of year */
+"After the {0} days free trial this subscription automatically renews for {1} per month unless it is canceled at least 24 hours before the end of the trial period." = "Au terme de l'essai gratuit de {0} jours, cet abonnement sera renouvelé automatiquement au tarif de {1} par mois, sauf s'il est annulé au moins 24 heures avant la fin de la période d'essai.";
+
+/* Toolbar button. Defines traits of the canvas which the video is being rendered to. e.g. backround color, aspect ratio etc. */
+"Canvas" = "Zone de travail";
+
+/* Error message shown to the user when the app failed to decode assets */
+"We're sorry but we couldn't read the last few frames of one of your clips. Please trim them and try again.\nTried trimming and still can't export? Contact us and we'll be glad to help!" = "Malheureusement, les dernières images de l'un de vos clips sont illisibles. Veuillez les enlever, puis réessayer.\nVous avez essayé d'enlever des images, mais l'exportation ne fonctionne toujours pas ? Contactez-nous, nous vous aiderons à trouver une solution.";
+
+/* Label explaining that in order to import the user's media, user must grant permission in the device's settings. */
+"We can't see your photos. To fix this, please allow Videoleap access to Photos via Settings." = "Nous ne pouvons pas accéder à vos photos. Pour résoudre le problème, autorisez Videoleap à accéder à vos photos, dans Réglages.";
+
+/*Title of the error message that happens when the user doesn't grant permissions to access the photos on the user's device. */
+"Allow Photos Access" = "Autoriser l'accès aux photos";
+
+/* Label explaining that in order to import the user's media, user must grant permission in the device's settings. */
+"We can't see your music. To fix this, please allow Videoleap access to Media Library via Settings." = "Nous ne pouvons pas accéder à votre musique. Pour résoudre le problème, autorisez Videoleap à accéder à votre bibliothèque de médias, dans Réglages.";
+
+/*Title of the error message that happens when the user doesn't grant permissions to access the media library on the user's device. */
+"Allow Media Access" = "Autoriser l'accès aux médias";
+
+/* Label on a button that lets the user contact support if problem is not solved */
+"Still not working?" = "Le problème persiste ?";
+
+/* Toolbar button. Lens flare preset names. for instance, preset diamond add a diamond shape lens flare. See attached thumbnails for better understanding. */
+"LensFlarePreset.Classic" = "Classique";
+"LensFlarePreset.Laser" = "Laser";
+"LensFlarePreset.Missile" = "Missile";
+"LensFlarePreset.Diamond" = "Diamant";
+"LensFlarePreset.Infinity" = "Infini";
+"LensFlarePreset.Omega" = "Omega";
+"LensFlarePreset.Machina" = "Machina";
+"LensFlarePreset.Cryo" = "Cryo";
+"LensFlarePreset.Sunny" = "Ensoleillé";
+"LensFlarePreset.Val" = "Val";
+"LensFlarePreset.UFO" = "UFO";
+"LensFlarePreset.Nova" = "Nova";
+"LensFlarePreset.Conduit" = "Tube";
+"LensFlarePreset.Red Sun" = "Soleil rouge";
+"LensFlarePreset.Virtua" = "Virtua";
+
+/* Title of a screen which specifies which features that are limited to subscribers were used by the user. */
+"You've used the following Pro tools:" = "Vous avez utilisé les outils Pro suivants :";
+
+/* Label of a button that returns the user to the previous screen in order for the user to remove features limited for subscribers. */
+"Go back and remove Pro tools" = "Annuler et supprimer les outils Pro";
+
+/* Label of a button that launches the subscription screen in order for the user to become a subscriber and be able to save the video. */
+"Go Pro and save video" = "Passer à la version Pro";
+
+/* Message that says the user has exceeded a certain amount of overlapping layers (e.g. more than 2 overlapping layers). %lu represents the number of layers that was exceeded. */
+"More than %lu overlapping layers" = "+ de %lu calques se chevauchent";
+
+/* Label that specifies a starting time of the pro feature. %@ represents the time. */
+"Starts at %@" = "Début à %@";
+
+/* Label that says that the user has exceeded a certain amount of keyframes. */
+"Multiple Keyframes" = "Images clés multiples";
+
+/* Label that specifies that the users project duration passed the limit. */
+"Unlimited Video Length" = "Longueur illimitée des vidéos";
+
+/* Message that specifies that the users project duration passed the limit. %lu represents the number of seconds */
+"Video is longer than %lu seconds" = "La vidéo dure plus de %lu secondes";
+
+/* Message that specifies that the users project duration passed the limit. %g represents the number of minutes */
+"Video is longer than %g minutes" = "La vidéo dure plus de %g minutes";
+
+/* A short title for a survey asking users why did they cancel their trial */
+"Why did you cancel your trial?" = "Pourquoi avez-vous annulé votre essai ?";
+
+/* A short option in a survey asking users why did they cancel their trial. The option being they didn't mean to start a trial */
+"Didn't mean to start a trial" = "Je n'avais pas l'intention de commencer un essai";
+
+/* A short option in a survey asking users why did they cancel their trial. The option being they only wanted the free trial */
+"I only wanted the free trial" = "Je souhaitais uniquement profiter de l'essai gratuit";
+
+/* A short option in a survey asking users why did they cancel their trial. The option being they were disappointed with the app */
+"I was disappointed with the app" = "J'ai été déçu de l'app";
+
+/* A short option in a survey asking users why did they cancel their trial. The option being they don't know how to use the app */
+"Don't know how to use the app" = "Je ne sais pas comment utiliser l'app";
+
+/* A short asking users why did they cancel their trial. The option being they didn't understand what was free and what was paid */
+"Didn't understand what was free and what was paid" = "Je n'avais pas compris ce qui était gratuit et ce qui était payant";
+
+/* A short option in a survey asking users why did they cancel their trial. The option being they just wanted to save a project */
+"I wanted to save a specific project" = "Je souhaitais enregistrer un projet spécifique";
+
+/* A short title for a survey asking users who canceled subscription, why they did so */
+"You are no longer a subscriber. What went wrong?" = "Vous n'êtes plus abonné. Pourquoi avez-vous pris cette décision ?";
+
+/* A short option in a asking users why did they cancel subscription. The option being they never pay for subscription */
+"I never pay for subscription" = "Je n'ai jamais souscrit d'abonnement";
+
+/* Decline button of a pop up subscription Screen */
+"Decline Offer" = "Refuser l'offre";
+
+/* Subscription offers - discount percentage text */
+"SAVE %lu%%" = "ÉCONOMISEZ %lu %%";
+
+/* Sub-Title of a pop-up subscription screen offering a discounted product */
+"Then %@ the year after.\nCancel anytime." = "Puis %@ l'année suivante.\nRésiliable à tout moment.";
+
+/* Title of a pop-up subscription screen offering a discounted product */
+"1 Year for Just %@" = "1 an pour seulement %@";
+
+/* Label that informs the user that he will be automatically charged 24 hours before the end of the trial period unless the auto renewal is canceled */
+"If you do not cancel, you will be automatically charged 24 hours before the end of the trial." = "Sauf résiliation de votre part, vous serez facturé automatiquement 24 heures avant la fin de la période d'essai.";
+
+/* Subtitle trial button option 3*/
+"Start 3 day trial" = "Commencez l'essai gratuit de 3 jours";
+
+/* Indicates the price which will be paid after a trial period ends, for example "$10/year after trial ends" */
+"/year after trial ends" = "/an après la période d'essai";
+
+/* Header label for the subscription screen promoting a special sale for the mid autumn festival */
+"Mid Autumn Festival Sale" = "Promo spéciale Mid Autumn Festival";
+
+/* Text on subscription screen that explains the user that he will be automatically charge unless he canceles his subscription plan, where the trail period is 1 month */
+/* Note: {0} should be left as is and we will replace with the billed amount in our code. e.g: for the english translation with $10 we will end up with:
+ After the 1 month free trial.......renews for $10 per year.... */
+"After the 1 month free trial this subscription automatically renews for {0} per year unless it is canceled at least 24 hours before the end of the trial period" = "Au terme de la période d'essai gratuit de 1 mois, cet abonnement sera renouvelé pour {0} par an, sauf s'il est résilié au moins 24 heures avant la fin de la période d'essai";
+
+/* Text informing the user of what is included in a yearly Videoleap VIP subscription. */
+"with a yearly subscription" = "avec un abonnement annuel";
+
+/* Toolbar button. Type of transition between clips. */
+"TransitionType.None" = "Aucune";
+"TransitionType.Dissolve" = "Dilution";
+"TransitionType.Fade" = "Fondu";
+"TransitionType.SlideRight" = "Glissé →";
+"TransitionType.SlideLeft" = "Glissé ←";
+"TransitionType.SlideUp" = "Glissé ↑";
+"TransitionType.SlideDown" = "Glissé ↓";
+"TransitionType.WipeRight" = "Balayage →";
+"TransitionType.WipeLeft" = "Balayage ←";
+"TransitionType.WipeUp" = "Balayage ↑";
+"TransitionType.WipeDown" = "Balayage ↓";
+"TransitionType.IrisIn" = "Fermeture";
+"TransitionType.IrisOut" = "Ouverture";
+"TransitionType.Glitch1" = "Glitch 01";
+"TransitionType.Glitch2" = "Glitch 02";
+"TransitionType.Glitch3" = "Glitch 03";
+"TransitionType.Glitch4" = "Glitch 04";
+"TransitionType.Glitch5" = "Glitch 05";
+"TransitionType.Glitch6" = "Glitch 06";
+"TransitionType.LensFlare1" = "Reflet 01";
+"TransitionType.LensFlare2" = "Reflet 02";
+"TransitionType.LensFlare3" = "Reflet 03";
+"TransitionType.LightLeak1" = "Lumière 01";
+"TransitionType.LightLeak2" = "Lumière 02";
+"TransitionType.LightLeak3" = "Lumière 03";
+"TransitionType.Film" = "Lumière 04";
+"TransitionType.Film2" = "Film 01";
+"TransitionType.Film3" = "Film 02";
+"TransitionType.Film4" = "Film 03";
+"TransitionType.Blur" = "Flou";
+"TransitionType.BlurWithExposure" = "Clignement";
+"TransitionType.PrismAndZoom" = "Zoom";
+"TransitionType.ScanLinesRight" = "Scanner →";
+"TransitionType.ScanLinesLeft" = "Scanner ←";
+"TransitionType.ScanLinesUp" = "Scanner ↑";
+"TransitionType.ScanLinesDown" = "Scanner ↓";
+"TransitionType.Pixelate" = "Pixéliser";
+"TransitionType.KaleidoscopeKaleido" = "Kaléido";
+"TransitionType.KaleidoscopeGrid" = "Grille";
+"TransitionType.KaleidoscopeRotation" = "Fractale";
+"TransitionType.Brush1" = "Pinceau 01";
+"TransitionType.Brush2" = "Pinceau 02";
+"TransitionType.Brush3" = "Pinceau 03";
+"TransitionType.Brush4" = "Pinceau 04";
+"TransitionType.Brush5" = "Pinceau 05";
+"TransitionType.Ink1" = "Encre 01";
+"TransitionType.Ink2" = "Encre 02";
+"TransitionType.Ink3" = "Encre 03";
+"TransitionType.Smoke1" = "Fumée 01";
+"TransitionType.Smoke2" = "Fumée 02";
+"TransitionType.Smoke3" = "Fumée 03";
+"TransitionType.Smoke4" = "Fumée 04";
+"TransitionType.Vector1" = "Vecteur 01";
+"TransitionType.Vector2" = "Vecteur 02";
+"TransitionType.Vector3" = "Vecteur 03";
+"TransitionType.Vector4" = "Vecteur 04";
+"TransitionType.Vector5" = "Vecteur 05";
+"TransitionType.Vector6" = "Vecteur 06";
+"TransitionType.Love1" = "Amour 01";
+"TransitionType.Love2" = "Amour 02";
+"TransitionType.Love3" = "Amour 03";
+
+/* Title of an alert shown after failed purchase */
+"Purchase Failed" = "Échec de l’achat";
+
+/* Message shown after a failing operation, giving the user 3 options: retry the failing operation, send a feedback email or cancel the operation */
+"Please try again. If the problem persists, let us know and we'll get right on it." = "Veuillez réessayer. Si le problème persiste, signalez-le-nous afin que nous trouvions une solution.";
+
+/* Title for the button that allows the user to save a video for a certain amount of money. The %@ should remain in the translated string, and will be replaced by amount of money, for example: "Save this video for 1$". */
+"Save this video for %@" = "Enregistrer cette vidéo pour %@";
+
+/* Message presented to the user after purchasing the video failed, asking to try again to export the video and contact us if problem is not solved. */
+"Try again to export the video or contact us if the problem persists." = "Essayez de nouveau d'exporter la vidéo. Si le problème persiste, contactez-nous.";
+
+/* Tooltip message presented to a user at the beginning of an interactive tutorial where he creates his first video project */
+"Hey 👋\nWelcome to your first project!\nTap the + to add a clip" = "Bonjour 👋\nBienvenue dans votre premier projet !\nAppuyez sur + pour ajouter un clip";
+
+/* Tooltip message presented to a user at the beginning of an interactive tutorial where he creates his first video project */
+"Welcome 👋 Let's create a video! Tap + to add a clip." = "Welcome 👋 Créons une vidéo ! Touchez + pour ajouter un clip.";
+
+/* Tooltip message presented to a user during an instructing tutorial directing him to choose from a selection of video clips */
+"Choose a clip" = "Choisissez un clip";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to add text to a video */
+"Let's add a Text layer" = "Ajoutons un calque Texte";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to add text to a video */
+"Let's add text" = "Ajoutons du texte";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to change a name label in a video. <NAME> is a tag that must not be changed */
+"Meet <NAME>, tap here to change its name" = "Voici <NAME>, appuyez ici pour modifier son nom";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to change a name label in a video. <NAME> is a tag that must not be changed */
+"Let's name this panda" = "Attribuons un nom à ce panda";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to change a name label in a video. <NAME> is a tag that must not be changed */
+"Meet <NAME>, tap here to change his name" = "Voici <NAME>, appuyez ici pour modifier son nom";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to change a name label in a video. <NAME> is a tag that must not be changed */
+"Let's name this cat" = "Attribuons un nom à ce chat";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to change a name label in a video. <NAME> is a tag that must not be changed */
+"Meet <NAME>, tap here to change her name" = "Voici <NAME>, appuyez ici pour modifier son nom";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to change a name label in a video. <NAME> is a tag that must not be changed */
+"Let's name this penguin" = "Attribuons un nom à ce pingouin";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to type in a new name for an animal or human in a video */
+"Type in a new name for <NAME>" = "Saisissez un nouveau nom pour <NAME>";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to type in a new name for an animal or human in a video */
+"Let's name this dog" = "Attribuons un nom à ce chien";
+
+/* Tooltip message presented to a user during an interactive tutorial asking him to type the selected animal name */
+"Type a name" = "Saisissez un nom";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to use the Animation feature to animate a text title */
+"Animate your Text to make it pop!" = "Animez votre texte pour le faire ressortir !";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to use the Animation feature to animate a text title */
+"Now animate your text!" = "Maintenant, animez votre texte !";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to choose the Overall animation type */
+"Choose Overall to animate your\nText from start to finish" = "Choisissez Générale pour animer\nle texte du début à la fin";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to choose the Overall animation type */
+"Choose an animation for the duration of your text" = "Choisissez l'animation appliquée pendant la durée d'affichage de votre texte";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to choose the Pulse animation type */
+"Try Pulse" = "Essayez Pulsation";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to press a Play button */
+"Tap the Play button to preview your project" = "Appuyez sur le bouton Lecture pour prévisualiser votre projet";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to press a Play button */
+"Tap play to see what you've created!" = "Appuyez sur Lecture pour voir votre création !";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to open the video export screen */
+"Looking good! 👌\nNow let's export" = "Parfait ! 👌\nPassons à l'exportation";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to open the video export screen */
+"Looking good 👌 Now time to export" = "Parfait 👌 Passons à l'exportation";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to tap a button to save his project to the Photos app */
+"Save your project to Photos" = "Enregistrez votre projet dans Photos";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to tap a button to save his project to the Photos app */
+"Let's save to Photos" = "Enregistrons la créaton dans Photos";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to open the Projects screen to start working on a new project */
+"Congrats! 🎉\nOpen the Projects screen to start a new project" = "Félicitations ! 🎉\nOuvrez l'écran Projets pour commencer un nouveau projet";
+
+/* Tooltip message presented to a user during an interactive tutorial instructing him to open the Projects screen to start working on a new project */
+"Congrats 🎉 Get started on more projects here" = "Félicitations 🎉 Créez ici d'autres projets";
+
+/* Title of a project that was created by the initial interactive tutorial */
+"My First Project" = "Mon premier projet";
+
+/* Title of a button on the top bar, presented durating the onboarding session, which enables the user to skip the onboarding. */
+"Onboarding.SKIP" = "PASSER";
+
+/* Text informing the user of the amount they will save with the yearly payment plan. Example: Save 50% */
+"Save %@%%" = "Économisez %@%%";
+
+/* Text informing the user of the most popular payment plan among users */
+"Most Popular" = "Le plus populaire";
+
+/* Text informing the user how much the yearly subscription will cost per year once their free trial has ended. */
+"then %@/year." = "puis %@/an.";
+
+/* A price displayed in the amount the user will pay for the item per year. Example: $34.99/year */
+"%@/year" = "%@/an";
+
+/* Text informing the user that they will receive a number of days free with a yearly subscription. Please keep this string as short as possible. */
+"Get %@ days free with yearly Pro!" = "Profitez de %@ jours gratuits avec l'abonnement annuel Pro !";
+
+/* Text informing the user that they will receive 1 month free with a yearly subscription. Please keep this string as short as possible. */
+"Get 1 month free with yearly Pro!" = "Profitez d'un mois gratuit avec l'abonnement annuel Pro !";
+
+/* Title of the error message that the user gets when trying to export to TikTok or Douyin a video that is too short or is not in the allowed aspect ratio, informing the user that the video is not in an allowed format.  */
+"Incorrect Format" = "Format incorrect";
+
+/* Content of the error message that the user gets when trying to export to TikTok a video that is too short or is not in the allowed aspect ratio, informing the user that the video is not in an allowed format. */
+"Your project must be longer than 3 seconds and in the correct aspect ratio to export to TikTok." = "Pour que l'exportation vers TikTok fonctionne, votre projet doit avoir une durée supérieure à 3 secondes et son format doit être correct.";
+
+/* Content of the error message that the user gets when trying to export to Douyin a video that is too short or is not in the allowed aspect ratio, informing the user that the video is not in an allowed format. */
+"Your project must be longer than 3 seconds and in the correct aspect ratio to export to Douyin." = "Pour que l'exportation vers Douyin fonctionne, votre projet doit avoir une durée supérieure à 3 secondes et son format doit être correct.";
+
+/* Name of the Douyin app for the title of the export button in the export window. */
+"Douyin" = "抖音";
+
+/* Name of the Kuaishou app for the title of the export button in the export window. */
+"Kuaishou" = "快手";
+
+/* Title for the button that allows the user to save a video for a certain amount of money. The %@ should remain in the translated string, and will be replaced by amount of money, for example: "Pay 1$ to export". */
+"Pay %@ to export" = "Payer %@ pour exporter";
+
+/* Message telling the users they will be charged after the export is complete  */
+"You will only be charged after export is complete." = "Vous ne serez facturé qu'une fois l'exportation terminée.";
+
+/* Toolbar button. Adds music. */
+"Toolbar.Music" = "Musique";
+
+/* Title of the music import screen, appears on the top part of it */
+"Import.Music" = "Musique";
+
+/* Subscription screen pro-feature thumbnail text, i.e, pro-feature that adds music. */
+"Music thumbnail" = "Musique";
+
+/* Toolbar button. Adds sound effects. */
+"Toolbar.SoundEffects" = "Effets sonores";
+
+/* Title of the sound effects import screen, appears on the top part of it */
+"Import.SoundEffects" = "Effets sonores";
+
+/* Subscription screen pro-feature thumbnail text, i.e, sounds effects pro-feature. */
+"Sound FX thumbnail" = "Effets\nsonores";
+
+/* Toolbar button that was removed, used to add audio that can be looped. Translation left for backward compatibility of legacy projects. */
+"Toolbar.Loops" = "Boucles";
+
+/* Title of a view that presents a list of all premium assets used in a project, with a button that approves their purchase */
+"Buy Premium Assets" = "Acheter des ressources premium";
+
+/* Title of an error message that's presented when no mail account is found to send a mail. */
+"No Mail Accounts" = "Aucun compte Mail";
+
+/* Text of an error message that's presented when no mail account is found to send a mail. */
+"Please set up a Mail account in order to send email." = "Veuillez configurer un compete Mail pour pouvoir envoyer des e-mails.";
+
+/* Title of an error message that's presented when no Mail account is found to send a mail. */
+"NoMailAccount.title" = "Pas de compte Mail";
+
+/* Content text of an error message that's presented when no Mail account is found to send a mail. */
+"NoMailAccount.contentText" = "Pour configurer votre messagerie, suivez les instructions d'Apple accessibles grâce à ce lien.";
+
+/* Button text of an error message that's presented when no Mail account is found to send a mail. Tapping the button opens a link with instructions to set up a mail account */
+"NoMailAccount.acceptButtonTitle" = "Voir les instructions";
+
+/* Title of message presented to the user telling about the purchase limit of 10 media assets. */
+"Getty Assets not Purchased" = "Ressources Getty non achetées";
+
+/* Message presented to the user telling about the purchase limit of 10 media assets */
+"There is a technical purchase limit of 10 Getty Assets. We are working on getting you a solution ASAP!" = "Une limitation technique limite les achats à 10 ressources Getty maximum. Nous allons trouver une solution à ce problème rapidement !";
+
+/* Text of alert message that appears when a non-subscriber is using pro features and recording while playing. */
+"Great job editing!" = "Beau travail de montage !";
+
+/* Text of alert message that appears when a non-subscriber is using pro features and recording while playing */
+"But why settle for screen recording quality? Be sure to get Pro to save your video without a watermark." = "Ce serait dommage de se limiter à cette qualité d'image, plus adaptée aux captures d'écran vidéo. Passez à la version Pro pour enregistrer votre vidéo sans filigrane.";
+
+/* Description of a switch to select if the exported video will contain a watermark */
+"Watermark" = "Filigrane";
+
+/* Text that is written on a designated drop region that appears when clips are dragged. Dropping clips on this region will transfer them to a new video layer */
+"Drop here to turn into a separate layer" = "Déposez un clip ici pour le transformer en un calque distinct";
+
+/* Title of an error message shown to the user when we couldn't import some of their files. */
+"Seems there are several issues with your files" = "Vos fichiers présentent plusieurs problèmes";
+
+/* Title of an error message shown to the user when the app couldn't connect to the internet */
+"Seems there's no internet" = "Pas de connexion Internet";
+
+/* Error message shown to the user when the app couldn't connect to the internet */
+"Please check your connection and try again." = "Veuillez vérifier votre connexion et réessayer.";
+
+/* Error message shown to the user when the app couldn't connect to the internet */
+"No internet connection, please reconnect and try again." = "Pas de connexion Internet. Reconnectez-vous et réessayez.";
+
+/* Error message that appears when there is not enough space on the device to save assets */
+"Insufficient storage, please free up some space and try again." = "Stockage insuffisant. Libérez de la place, puis réessayez.";
+
+/* Title of an error message shown to the user when we couldn't import their file. */
+"Seems there's an issue with this file" = "Ce fichier présente un problème";
+
+/* Title of an error message shown to the user when we couldn't import one of their files. */
+"Seems there's an issue with one of your files" = "L'un de vos fichiers présente un problème";
+
+/* Title of an error message shown to the user when we couldn't import their files. */
+"Seems there's an issue with these files" = "Ces fichiers présentent un problème";
+
+/* Title of an error message shown to the user when we couldn't import %lu files, where %lu is the number of corrupted files. */
+"Seems there's an issue with %lu of these files" = "%lu de vos fichiers présentent un problème";
+
+/* Error message shown to the user when we couldn't import their file. */
+"To avoid issues in saving your video, this file has not been imported." = "Pour éviter les erreurs d'enregistrement, ce fichier n'a pas été importé.";
+
+/* Error message shown to the user when we couldn't import their files. */
+"To avoid issues in saving your video, these files have not been imported." = "Pour éviter les erreurs d'enregistrement, ces fichiers n'ont pas été importés.";
+
+/* Error message shown to the user when we couldn't import one of their files. */
+"To avoid issues in saving your video, one of them has not been imported." = "Pour éviter les erreurs d'enregistrement, un fichier n'a pas été importé.";
+
+/* Error message shown to the user when we couldn't import %lu files, where %lu is the number of corrupted files. */
+"To avoid issues in saving your video, %lu of your files have not been imported." = "Pour éviter les erreurs d'enregistrement, %lu de ces fichiers n'ont pas été importés.";
+
+/* Title of an error message shown to the user when they try to import clips with corrupted audio. */
+"Seems there’s an audio issue" = "Un problème de son est survenu";
+
+/* Error message shown to the user when they try to import a clip with corrupted audio. We import the clip without audio and inform the user by presenting this text in an alert. */
+"We couldn't read the audio of your clip. Your clip will be imported without sound." = "Impossible de lire le son du clip. Il sera importé sans le son.";
+
+/* Error message shown to the user when they try to import a clip with corrupted audio. We import the clip without audio and inform the user by presenting this text in an alert. */
+"We couldn't read the audio of one of your clips. This clip will be imported without sound." = "Impossible de lire le son d'un des clips. Il sera importé sans le son.";
+
+/* Error message shown to the user when they try to import clips with corrupted audio. We import the clips without audio and inform the user by presenting this text in an alert. */
+"We couldn't read the audio of your clips. Your clips will be imported without sound." = "Impossible de lire le son de vos clips. Ils seront importés sans le son.";
+
+/* Error message shown to the user when they try to import %lu clips with corrupted audio, where %lu is the number of clips with corrupted audio. We import the clips without audio and inform the user by presenting this text in an alert. */
+"We couldn't read the audio of %lu of your clips. These clips will be imported without sound." = "Impossible de lire le son de %lu clips. Ils seront importés sans le son.";
+
+/* Title of an error message shown to the user when they try to import clips with corrupted video. */
+"Seems there’s a video issue" = "La vidéo présente un problème";
+
+/* Error message shown to the user when they try to import a clip with corrupted video. We import the clip without video and inform the user by presenting this text in an alert. */
+"We couldn’t read the video in your clip. We’ll import the sound, but can’t import the video." = "Impossible de lire la vidéo de votre clip. Le son sera importé, mais pas la vidéo.";
+
+/* Error message shown to the user when they try to import a clip with corrupted video. We import the clip without video and inform the user by presenting this text in an alert. */
+"We couldn't read the video in one of your clips. We’ll import the sound, but can’t import the video." = "Impossible de lire la vidéo d'un de vos clips. Le son sera importé, mais pas la vidéo.";
+
+/* Error message shown to the user when they try to import clips with corrupted video. We import the clips without video and inform the user by presenting this text in an alert. */
+"We couldn't read the video in your clips. We’ll import the sound, but can’t import the video." = "Impossible de lire la vidéo de vos clips. Le son sera importé, mais pas la vidéo.";
+
+/* Error message shown to the user when they try to import %lu clips with corrupted video, where %lu is the number of clips with corrupted video. We import the clips without video and inform the user by presenting this text in an alert. */
+"We couldn't read the video in %lu of your clips. We’ll import the sound, but can’t import the video." = "Impossible de lire la vidéo de %lu de vos clips. Le son sera importé, mais pas la vidéo.";
+
+/* Text at the end of an error message asking the user to click the "Contact Us" button that contacts our support team and sends them an email with the corrupted files */
+"To help us resolve this issue in the future, please contact us!" = "Pour nous aider à résoudre ce problème, merci de nous contacter !";
+
+/* Error title shown to the user when the file they tried to import cannot be read. */
+"There’s a problem reading this file" = "Un problème est survenu lors de la lecture de ce fichier";
+
+/* Error title shown to the user when one of several files they tried to import couldn't be read. */
+"There’s a problem reading one of your files" = "Un problème est survenu lors de la lecture d'un de vos fichiers";
+
+/* Error title shown to the user when one all the files they tried to import couldn't be read (at least 2 files). */
+"There’s a problem reading these files" = "Un problème est survenu lors de la lecture de ces fichiers";
+
+/* Error title shown to the user when some (at least 2 files) of the files they tried to import couldn't be read (at least 2 files). */
+"There’s a problem reading %lu of these files" = "Un problème est survenu lors de la lecture de %lu de ces fichiers";
+
+/* Error message shown to the user when importing their files failed and updating to iOS 13.0 or above is likely to solve it. */
+"Updating to iOS 13.0 or above is likely to fix it." = "La mise à jour vers iOS 13.0 ou version supérieure devrait résoudre le problème.";
+
+/* Error message shown to the user when one of several files they tried to import couldn't be read and updating to iOS 13.0 or above is likely to solve it. */
+"There’s a problem reading one of your files, updating to iOS 13.0 or above is likely to fix it." = "Un problème est survenu lors de la lecture d'un de vos fichiers. La mise à jour vers iOS 13.0 ou version supérieure devrait résoudre le problème.";
+
+/* Error message shown to the user when some (at least 2 files) of the files they tried to import couldn't be read (at least 2 files) and updating to iOS 13.0 or above is likely to solve it. */
+"There’s a problem reading %lu of these files, updating to iOS 13.0 or above is likely to fix it." = "Un problème est survenu lors de la lecture de %lu de ces fichiers. La mise à jour vers iOS 13.0 ou version supérieure devrait résoudre le problème.";
+
+/* Toolbar button. Replaces the footage/asset behind a clip/mixer. */
+"Toolbar.Replace" = "Remplacer";
+
+/* Title in a dialog informing the user that his attempt to replace the asset behind a timeline clip with a video asset will result in a shortened clip because the new asset's duration is shorter than the clip's duration, and as a byproduct the clips that placed after it will appear earlier in the timeline. */
+"Your new clip is shorter than the original" = "Votre nouvelle séquence est plus courte que l'original";
+
+/* Body in a dialog informing the user that his attempt to replace the asset behind a timeline clip with a video asset will result in a shortened clip because the new asset's duration is shorter than the clip's duration, and as a byproduct the clips that placed after it will appear earlier in the timeline. */
+"Your video will be shortened and the timeline will be adjusted accordingly" = "La vidéo sera raccourcie et la timeline sera ajustée en conséquence";
+
+/* Title in a dialog informing the user that his attempt to replace the asset behind a timeline clip with a video asset will result in a slightly longer clip because the new asset's time scale does not match the clip's time scale, and as a byproduct the clips that placed after it will appear later in the timeline. */
+"Your new clip has a different time scale from the original" = "Votre nouveau clip n'a pas la même échelle temporelle que le clip d'origine";
+
+/* Body in a dialog informing the user that his attempt to replace the asset behind a timeline clip with a video asset will result in a slightly longer clip because the new asset's time scale does not match the clip's time scale, and as a byproduct the clips that placed after it will appear later in the timeline. */
+"There's not much to do about it, but your video will be a few frames longer and the timeline will be adjusted accordingly" = "Vous ne pouvez pas y faire grand-chose, mais la vidéo contiendra quelques images de plus et la timeline sera ajustée en conséquence";
+
+/* Message in a dialog informing the user that it is not possible to replace the asset behind a clip with an audio asset. */
+"Audio track cannot replace a video clip" = "La piste audio ne peut pas remplacer une séquence vidéo";
+
+/* Description that appears on the Undo/Redo caption which describes the action of pinning a layer to a clip. The meaning of pinning is that the layer gets linked to the clip at the start time of the layer, so that if the start time of the clip changes, the start time of the layer will change accordingly (e.g. there's a layer that starts the same time as a clip, and the layer gets pinned. Now if you move the clip to a new start time, the layer will also be moved to start at the new start time). */
+"Layer Pinned" = "Calque épinglé";
+
+/* Description that appears on the Undo/Redo caption which describes the action of removing the pinning from a layer. The meaning of pinning is that the layer gets linked to the clip at the start time of the layer, so that if the start time of the clip changes, the start time of the layer will change accordingly (e.g. there's a layer that starts the same time as a clip, and the layer gets pinned. Now if you move the clip to a new start time, the layer will also be moved to start at the new start time). When the pin is removed, this link is broken, and changing the start time of the clip will not affect the start time of the layer */
+"Layer Unpinned" = "Épinglage du calque désactivé";
+
+/* Toolbar button. Controls magnitude of an effect. */
+"Magnitude" = "Intensité";
+
+/* Toolbar button. Controls the number of reflections in a kaleidoscope processor. */
+"Reflections" = "Reflets";
+
+/* Subheadline of the 2021 Chinese New Year Subscription Promotion Overlay. */
+"CNY2021Overlay.subheadline" = "Promo du Nouvel An";
+
+/* Subtitle of the 2021 Chinese New Year Subscription Promotion Overlay */
+"CNY2021Overlay.subtitle" = "Ne ratez pas notre offre spéciale";
+
+/* Manage settings section in backstage menu, */
+"MANAGE" = "GÉRER";
+
+/* About section in backstage menu, */
+"ABOUT" = "À PROPOS";
+
+/* More section in backstage menu, */
+"MORE" = "PLUS";
+
+/* Backstage option leading to seeing user subscription plan. */
+"Your Membership" = "Votre adhésion";
+
+/* Backstage option leading to subscription screen. */
+"Get Videoleap Pro" = "Obtenir Videoleap Pro";
+
+/* Backstage option leading user to log in screen. */
+"Log In" = "Se connecter";
+
+/* Backstage option leading user to log out. */
+"Log Out" = "Se déconnecter";
+
+/* Login screen error message title */
+"Oops!" = "Oups !";
+
+/* Login screen error message body */
+"There was a problem logging you in.\nPlease try again later." = "Un problème est survenu lors de votre connexion.\nVeuillez réessayer plus tard.";
+
+/* Log out message body */
+"You’re now logged out" = "Vous êtes déconnecté";
+
+/* Title of a button prompting users to select more media (photos, videos, etc.) from their camera roll */
+"Select More Media" = "Sélectionner plus de médias";
+
+/* Title of an alert presented to the users when a project can not be accessed */
+"Sorry, this project can't be accessed" = "Désolé, ce projet n'est pas accessible";
+
+/* Body of an alert presented to the users when a project can not be accessed */
+"Please contact us to take a look under the hood." = "Veuillez nous contacter pour jeter un coup d'œil sous le capot.";
+
+/* Title of alert notifying the user that iCloud Drive should be enabled to continue */
+"iCloudDriveRequiredAlert.Title" = "Un pas de plus";
+
+/* Message of alert notifying the user that iCloud Drive should be enabled to continue, and refers them to a link for instructions */
+"iCloudDriveRequiredAlert.Message" = "Activez iCloud Drive dans les paramètres de l'appareil pour acheter et exporter vos supports Premium Getty.\n\nSuivez les instructions pour obtenir de l'aide.";
+
+/* Button text of alert notifying the user that iCloud Drive should be enabled to continue. Tapping this button opens a link with instructions to set up iCloud Drive */
+"iCloudDriveRequiredAlert.instructionsButtonTitle" = "Voir les instructions";
