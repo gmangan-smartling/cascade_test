@@ -1,1 +1,14 @@
-
+---
+en-GB:
+  yaml_file_version: 1.0.12
+  translations_beta_information: Post multiple versions of the same content in different languages. Users automatically see content in their language if a translation is available.
+  translations_beta_introduction: Introducing Universal Content
+  translations_dialog_hint_body: are very important and make notifications readable so please ensure that if you customize these strings that they remain.
+  translations_dialog_hint_title: Sentences which you see using
+  translations_dialog_note: Notifications you edit will not be translated, only the master is fully translated.
+  translations_dialog_revert_body: The default text will overwrite any custom text, all changes to this field will be lost.
+  translations_dialog_revert_title: Revert to default
+  translations_warning_message: Please note that translations will be available to the user as soon as you create them
+  translations_warning_message_for_new_translation: Please note that new translations will only be applied when you Save your changes, otherwise translated versions will be lost.
+  trending: Trending
+  'true': true
