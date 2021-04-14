@@ -1,0 +1,15 @@
+---
+de-DE: 
+    yaml_file_version: "1.0.12"
+    translations_beta_information: "Veröffentlichen Sie mehrere Versionen desselben Inhalts in verschiedenen Sprachen. Benutzer sehen automatisch Inhalte in ihrer Sprache, wenn eine Übersetzung verfügbar ist."
+    translations_beta_introduction: "Einführung von Universal Content"
+    translations_dialog_hint_body: "sind sehr wichtig und machen Benachrichtigungen lesbar. Stellen Sie daher sicher, dass diese Zeichenketten erhalten bleiben, wenn Sie sie anpassen."
+    translations_dialog_hint_title: "Sätze, die Sie sehen, indem Sie"
+    translations_dialog_note: "Benachrichtigungen, die Sie bearbeiten, werden nicht übersetzt, nur der Master wird vollständig übersetzt."
+    translations_dialog_revert_body: "Der Standardtext überschreibt jeden benutzerdefinierten Text, alle Änderungen an diesem Feld gehen verloren."
+    translations_dialog_revert_title: "Zum Standard zurückkehren"
+    translations_warning_message: "Bitte beachten Sie, dass die Übersetzungen dem Benutzer zur Verfügung stehen, sobald Sie sie erstellen"
+    translations_warning_message_for_new_translation: "Bitte beachten Sie, dass neue Übersetzungen nur übernommen werden, wenn Sie Ihre Änderungen speichern, andernfalls gehen die übersetzten Versionen verloren."
+    trending: "Trending"
+    "true": true
+    anewkey: "etwas Text"

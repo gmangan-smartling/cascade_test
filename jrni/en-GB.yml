@@ -12,3 +12,4 @@ en-GB:
   translations_warning_message_for_new_translation: Please note that new translations will only be applied when you Save your changes, otherwise translated versions will be lost.
   trending: Trending
   'true': true
+  anewkey: some text
