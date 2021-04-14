@@ -1,0 +1,15 @@
+---
+fr-FR: 
+    yaml_file_version: "1.0.12"
+    translations_beta_information: "Publiez plusieurs versions du même contenu dans différentes langues. Les utilisateurs voient automatiquement le contenu dans leur langue si une traduction est disponible."
+    translations_beta_introduction: "Présentation du contenu universel"
+    translations_dialog_hint_body: "sont très importantes et rendent les notifications lisibles. Veillez donc à ce que ces chaînes soient conservées si vous les personnalisez."
+    translations_dialog_hint_title: "Phrases que vous voyez utiliser"
+    translations_dialog_note: "Les notifications que vous modifiez ne seront pas traduites, seul le master est entièrement traduit."
+    translations_dialog_revert_body: "Le texte par défaut écrasera tout texte personnalisé, toutes les modifications apportées à ce champ seront perdues."
+    translations_dialog_revert_title: "Revenir aux valeurs par défaut"
+    translations_warning_message: "Veuillez noter que les traductions seront disponibles pour l'utilisateur dès que vous les aurez créées."
+    translations_warning_message_for_new_translation: "Veuillez noter que les nouvelles traductions ne seront appliquées que lorsque vous aurez enregistré vos modifications, sinon les versions traduites seront perdues."
+    trending: "Tendance"
+    "true": true
+    anewkey: "du texte"
