@@ -1,5 +1,8 @@
 "Device language" = "de";
 
+/* Some test content */
+"Some test content" = "Einige Testinhalte";
+
 /* Time in seconds, e.g. 0.50s which means half a second (the s is abbreviation for seconds). The %.2f should remain in the translated string */
 "%.2fs" = "%.2fs";
 
