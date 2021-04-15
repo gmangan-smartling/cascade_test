@@ -2208,3 +2208,5 @@
 "iCloudDriveRequiredAlert.instructionsButtonTitle" = "지침서로 이동";
 
 "Smartling Tips" = "Smartling 팁";
+
+"settings_account_type_partner" = "Your subscription is handled by %1$s.";
