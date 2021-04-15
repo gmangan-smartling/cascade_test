@@ -1,5 +1,7 @@
 "Device language" = "ko";
 
+"settings_account_type_partner" = "등록은 %1$s으로 처리됩니다.";
+
 /* Some test content */
 "Some test content" = "일부 테스트 컨텐츠";
 
