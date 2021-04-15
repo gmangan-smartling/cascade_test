@@ -1,5 +1,7 @@
 "Device language" = "de";
 
+"settings_account_type_partner" = "Ihr Abonnement wird von %1$s verwaltet.";
+
 /* Some test content */
 "Some test content" = "Einige Testinhalte";
 
