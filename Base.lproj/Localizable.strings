@@ -1,5 +1,7 @@
 "Device language" = "Base";
 
+"settings_account_type_partner" = "Your subscription is handled by %1$s.";
+
 /* Some test content */
 "Some test content" = "Some test content";
 
