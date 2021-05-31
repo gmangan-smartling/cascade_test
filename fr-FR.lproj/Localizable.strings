@@ -8,10 +8,10 @@
 "%@: Move" = "%@: Déplacer";
 
 /* Label on a button for purchasing subscription that renews every one month */
-"Month" = "mois";
+"Month" = "Mois";
 
 /* Label on a button for purchasing subscription that renews every x months */
-"Months" = "mois";
+"Months" = "Mois";
 
 /* Label on a button for purchasing the product at a single one-time price, instead of a renewable subscription plan */
 "One-Time\nPurchase" = "Achat en\nune fois";
@@ -29,7 +29,7 @@
 "/mo" = "/m";
 
 /* Label on a button for purchasing subscription that renews every month. Text shown when 1 month of free trial is offered for new subscribers */
-"1 Month" = "1 mois";
+"1 Month" = "1 Mois";
 
 /* Button appearing in the subscription screen, notifying users that by pressing this button they are choosing an anual subscription plan - 12 months */
 "12 Months" = "12 mois";
